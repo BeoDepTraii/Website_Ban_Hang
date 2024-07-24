@@ -1,0 +1,139 @@
+[22-Jul-2024 00:07:19 Asia/Ho_Chi_Minh] PHP Warning:  Array to string conversion in /Users/x/Downloads/chithl_duanmau_source/App/Validations/AuthValidation.php on line 27
+[22-Jul-2024 00:07:19 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $Array in /Users/x/Downloads/chithl_duanmau_source/App/Validations/AuthValidation.php on line 27
+[22-Jul-2024 00:07:19 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on null in /Users/x/Downloads/chithl_duanmau_source/App/Validations/AuthValidation.php on line 27
+[22-Jul-2024 00:07:19 Asia/Ho_Chi_Minh] PHP Deprecated:  strlen(): Passing null to parameter #1 ($string) of type string is deprecated in /Users/x/Downloads/chithl_duanmau_source/App/Validations/AuthValidation.php on line 27
+[22-Jul-2024 00:08:44 Asia/Ho_Chi_Minh] PHP Warning:  Array to string conversion in /Users/x/Downloads/chithl_duanmau_source/App/Validations/AuthValidation.php on line 27
+[22-Jul-2024 00:08:44 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $Array in /Users/x/Downloads/chithl_duanmau_source/App/Validations/AuthValidation.php on line 27
+[22-Jul-2024 00:08:44 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on null in /Users/x/Downloads/chithl_duanmau_source/App/Validations/AuthValidation.php on line 27
+[22-Jul-2024 00:08:44 Asia/Ho_Chi_Minh] PHP Deprecated:  strlen(): Passing null to parameter #1 ($string) of type string is deprecated in /Users/x/Downloads/chithl_duanmau_source/App/Validations/AuthValidation.php on line 27
+[22-Jul-2024 00:56:45 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Call to undefined method App\Validations\AuthValidation::login() in /Users/x/Downloads/chithl_duanmau_source/App/Controllers/Client/AuthController.php:91
+Stack trace:
+#0 /Users/x/Downloads/chithl_duanmau_source/App/Route.php(82): App\Controllers\Client\AuthController::loginAction()
+#1 /Users/x/Downloads/chithl_duanmau_source/index.php(63): App\Route::dispatch('/login')
+#2 {main}
+  thrown in /Users/x/Downloads/chithl_duanmau_source/App/Controllers/Client/AuthController.php on line 91
+[22-Jul-2024 01:03:17 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Call to undefined method App\Controllers\Client\AuthController::loginAction() in /Users/x/Downloads/chithl_duanmau_source/App/Route.php:82
+Stack trace:
+#0 /Users/x/Downloads/chithl_duanmau_source/index.php(63): App\Route::dispatch('/login')
+#1 {main}
+  thrown in /Users/x/Downloads/chithl_duanmau_source/App/Route.php on line 82
+[22-Jul-2024 01:03:31 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Call to undefined method App\Controllers\Client\AuthController::loginAction() in /Users/x/Downloads/chithl_duanmau_source/App/Route.php:82
+Stack trace:
+#0 /Users/x/Downloads/chithl_duanmau_source/index.php(63): App\Route::dispatch('/login')
+#1 {main}
+  thrown in /Users/x/Downloads/chithl_duanmau_source/App/Route.php on line 82
+[22-Jul-2024 01:03:31 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Call to undefined method App\Controllers\Client\AuthController::loginAction() in /Users/x/Downloads/chithl_duanmau_source/App/Route.php:82
+Stack trace:
+#0 /Users/x/Downloads/chithl_duanmau_source/index.php(63): App\Route::dispatch('/login')
+#1 {main}
+  thrown in /Users/x/Downloads/chithl_duanmau_source/App/Route.php on line 82
+[22-Jul-2024 01:03:32 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Call to undefined method App\Controllers\Client\AuthController::loginAction() in /Users/x/Downloads/chithl_duanmau_source/App/Route.php:82
+Stack trace:
+#0 /Users/x/Downloads/chithl_duanmau_source/index.php(63): App\Route::dispatch('/login')
+#1 {main}
+  thrown in /Users/x/Downloads/chithl_duanmau_source/App/Route.php on line 82
+[22-Jul-2024 01:03:32 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Call to undefined method App\Controllers\Client\AuthController::loginAction() in /Users/x/Downloads/chithl_duanmau_source/App/Route.php:82
+Stack trace:
+#0 /Users/x/Downloads/chithl_duanmau_source/index.php(63): App\Route::dispatch('/login')
+#1 {main}
+  thrown in /Users/x/Downloads/chithl_duanmau_source/App/Route.php on line 82
+[22-Jul-2024 01:03:32 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Call to undefined method App\Controllers\Client\AuthController::loginAction() in /Users/x/Downloads/chithl_duanmau_source/App/Route.php:82
+Stack trace:
+#0 /Users/x/Downloads/chithl_duanmau_source/index.php(63): App\Route::dispatch('/login')
+#1 {main}
+  thrown in /Users/x/Downloads/chithl_duanmau_source/App/Route.php on line 82
+[22-Jul-2024 01:03:32 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Call to undefined method App\Controllers\Client\AuthController::loginAction() in /Users/x/Downloads/chithl_duanmau_source/App/Route.php:82
+Stack trace:
+#0 /Users/x/Downloads/chithl_duanmau_source/index.php(63): App\Route::dispatch('/login')
+#1 {main}
+  thrown in /Users/x/Downloads/chithl_duanmau_source/App/Route.php on line 82
+[22-Jul-2024 01:03:33 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Call to undefined method App\Controllers\Client\AuthController::loginAction() in /Users/x/Downloads/chithl_duanmau_source/App/Route.php:82
+Stack trace:
+#0 /Users/x/Downloads/chithl_duanmau_source/index.php(63): App\Route::dispatch('/login')
+#1 {main}
+  thrown in /Users/x/Downloads/chithl_duanmau_source/App/Route.php on line 82
+[22-Jul-2024 01:03:33 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Call to undefined method App\Controllers\Client\AuthController::loginAction() in /Users/x/Downloads/chithl_duanmau_source/App/Route.php:82
+Stack trace:
+#0 /Users/x/Downloads/chithl_duanmau_source/index.php(63): App\Route::dispatch('/login')
+#1 {main}
+  thrown in /Users/x/Downloads/chithl_duanmau_source/App/Route.php on line 82
+[22-Jul-2024 01:03:33 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Call to undefined method App\Controllers\Client\AuthController::loginAction() in /Users/x/Downloads/chithl_duanmau_source/App/Route.php:82
+Stack trace:
+#0 /Users/x/Downloads/chithl_duanmau_source/index.php(63): App\Route::dispatch('/login')
+#1 {main}
+  thrown in /Users/x/Downloads/chithl_duanmau_source/App/Route.php on line 82
+[22-Jul-2024 01:03:34 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Call to undefined method App\Controllers\Client\AuthController::loginAction() in /Users/x/Downloads/chithl_duanmau_source/App/Route.php:82
+Stack trace:
+#0 /Users/x/Downloads/chithl_duanmau_source/index.php(63): App\Route::dispatch('/login')
+#1 {main}
+  thrown in /Users/x/Downloads/chithl_duanmau_source/App/Route.php on line 82
+[22-Jul-2024 01:15:35 Asia/Ho_Chi_Minh] PHP Warning:  Array to string conversion in /Users/x/Downloads/chithl_duanmau_source/App/Validations/AuthValidation.php on line 31
+[22-Jul-2024 01:15:35 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $Array in /Users/x/Downloads/chithl_duanmau_source/App/Validations/AuthValidation.php on line 31
+[22-Jul-2024 01:15:35 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on null in /Users/x/Downloads/chithl_duanmau_source/App/Validations/AuthValidation.php on line 31
+[22-Jul-2024 01:15:35 Asia/Ho_Chi_Minh] PHP Deprecated:  strlen(): Passing null to parameter #1 ($string) of type string is deprecated in /Users/x/Downloads/chithl_duanmau_source/App/Validations/AuthValidation.php on line 31
+[22-Jul-2024 01:15:50 Asia/Ho_Chi_Minh] PHP Warning:  Array to string conversion in /Users/x/Downloads/chithl_duanmau_source/App/Validations/AuthValidation.php on line 31
+[22-Jul-2024 01:15:50 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $Array in /Users/x/Downloads/chithl_duanmau_source/App/Validations/AuthValidation.php on line 31
+[22-Jul-2024 01:15:50 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on null in /Users/x/Downloads/chithl_duanmau_source/App/Validations/AuthValidation.php on line 31
+[22-Jul-2024 01:15:50 Asia/Ho_Chi_Minh] PHP Deprecated:  strlen(): Passing null to parameter #1 ($string) of type string is deprecated in /Users/x/Downloads/chithl_duanmau_source/App/Validations/AuthValidation.php on line 31
+[22-Jul-2024 01:17:31 Asia/Ho_Chi_Minh] PHP Warning:  Array to string conversion in /Users/x/Downloads/chithl_duanmau_source/App/Validations/AuthValidation.php on line 31
+[22-Jul-2024 01:17:31 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $Array in /Users/x/Downloads/chithl_duanmau_source/App/Validations/AuthValidation.php on line 31
+[22-Jul-2024 01:17:31 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on null in /Users/x/Downloads/chithl_duanmau_source/App/Validations/AuthValidation.php on line 31
+[22-Jul-2024 01:17:31 Asia/Ho_Chi_Minh] PHP Deprecated:  strlen(): Passing null to parameter #1 ($string) of type string is deprecated in /Users/x/Downloads/chithl_duanmau_source/App/Validations/AuthValidation.php on line 31
+[22-Jul-2024 01:17:47 Asia/Ho_Chi_Minh] PHP Warning:  Array to string conversion in /Users/x/Downloads/chithl_duanmau_source/App/Validations/AuthValidation.php on line 31
+[22-Jul-2024 01:17:47 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $Array in /Users/x/Downloads/chithl_duanmau_source/App/Validations/AuthValidation.php on line 31
+[22-Jul-2024 01:17:47 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on null in /Users/x/Downloads/chithl_duanmau_source/App/Validations/AuthValidation.php on line 31
+[22-Jul-2024 01:17:47 Asia/Ho_Chi_Minh] PHP Deprecated:  strlen(): Passing null to parameter #1 ($string) of type string is deprecated in /Users/x/Downloads/chithl_duanmau_source/App/Validations/AuthValidation.php on line 31
+[22-Jul-2024 01:18:12 Asia/Ho_Chi_Minh] PHP Warning:  Array to string conversion in /Users/x/Downloads/chithl_duanmau_source/App/Validations/AuthValidation.php on line 31
+[22-Jul-2024 01:18:12 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $Array in /Users/x/Downloads/chithl_duanmau_source/App/Validations/AuthValidation.php on line 31
+[22-Jul-2024 01:18:12 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on null in /Users/x/Downloads/chithl_duanmau_source/App/Validations/AuthValidation.php on line 31
+[22-Jul-2024 01:18:12 Asia/Ho_Chi_Minh] PHP Deprecated:  strlen(): Passing null to parameter #1 ($string) of type string is deprecated in /Users/x/Downloads/chithl_duanmau_source/App/Validations/AuthValidation.php on line 31
+[22-Jul-2024 01:18:23 Asia/Ho_Chi_Minh] PHP Warning:  Array to string conversion in /Users/x/Downloads/chithl_duanmau_source/App/Validations/AuthValidation.php on line 31
+[22-Jul-2024 01:18:23 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $Array in /Users/x/Downloads/chithl_duanmau_source/App/Validations/AuthValidation.php on line 31
+[22-Jul-2024 01:18:23 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on null in /Users/x/Downloads/chithl_duanmau_source/App/Validations/AuthValidation.php on line 31
+[22-Jul-2024 01:18:23 Asia/Ho_Chi_Minh] PHP Deprecated:  strlen(): Passing null to parameter #1 ($string) of type string is deprecated in /Users/x/Downloads/chithl_duanmau_source/App/Validations/AuthValidation.php on line 31
+[22-Jul-2024 01:18:36 Asia/Ho_Chi_Minh] PHP Warning:  Array to string conversion in /Users/x/Downloads/chithl_duanmau_source/App/Validations/AuthValidation.php on line 31
+[22-Jul-2024 01:18:36 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $Array in /Users/x/Downloads/chithl_duanmau_source/App/Validations/AuthValidation.php on line 31
+[22-Jul-2024 01:18:36 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on null in /Users/x/Downloads/chithl_duanmau_source/App/Validations/AuthValidation.php on line 31
+[22-Jul-2024 01:18:36 Asia/Ho_Chi_Minh] PHP Deprecated:  strlen(): Passing null to parameter #1 ($string) of type string is deprecated in /Users/x/Downloads/chithl_duanmau_source/App/Validations/AuthValidation.php on line 31
+[22-Jul-2024 01:19:10 Asia/Ho_Chi_Minh] PHP Warning:  Array to string conversion in /Users/x/Downloads/chithl_duanmau_source/App/Validations/AuthValidation.php on line 31
+[22-Jul-2024 01:19:10 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $Array in /Users/x/Downloads/chithl_duanmau_source/App/Validations/AuthValidation.php on line 31
+[22-Jul-2024 01:19:10 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on null in /Users/x/Downloads/chithl_duanmau_source/App/Validations/AuthValidation.php on line 31
+[22-Jul-2024 01:19:10 Asia/Ho_Chi_Minh] PHP Deprecated:  strlen(): Passing null to parameter #1 ($string) of type string is deprecated in /Users/x/Downloads/chithl_duanmau_source/App/Validations/AuthValidation.php on line 31
+[22-Jul-2024 01:19:42 Asia/Ho_Chi_Minh] PHP Warning:  Array to string conversion in /Users/x/Downloads/chithl_duanmau_source/App/Validations/AuthValidation.php on line 31
+[22-Jul-2024 01:19:42 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $Array in /Users/x/Downloads/chithl_duanmau_source/App/Validations/AuthValidation.php on line 31
+[22-Jul-2024 01:19:42 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on null in /Users/x/Downloads/chithl_duanmau_source/App/Validations/AuthValidation.php on line 31
+[22-Jul-2024 01:19:42 Asia/Ho_Chi_Minh] PHP Deprecated:  strlen(): Passing null to parameter #1 ($string) of type string is deprecated in /Users/x/Downloads/chithl_duanmau_source/App/Validations/AuthValidation.php on line 31
+[22-Jul-2024 01:19:53 Asia/Ho_Chi_Minh] PHP Warning:  Array to string conversion in /Users/x/Downloads/chithl_duanmau_source/App/Validations/AuthValidation.php on line 31
+[22-Jul-2024 01:19:53 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $Array in /Users/x/Downloads/chithl_duanmau_source/App/Validations/AuthValidation.php on line 31
+[22-Jul-2024 01:19:53 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on null in /Users/x/Downloads/chithl_duanmau_source/App/Validations/AuthValidation.php on line 31
+[22-Jul-2024 01:19:53 Asia/Ho_Chi_Minh] PHP Deprecated:  strlen(): Passing null to parameter #1 ($string) of type string is deprecated in /Users/x/Downloads/chithl_duanmau_source/App/Validations/AuthValidation.php on line 31
+[22-Jul-2024 01:48:40 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "user" in /Users/x/Downloads/chithl_duanmau_source/App/Views/Client/Layouts/Header.php on line 13
+[22-Jul-2024 01:48:40 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "user" in /Users/x/Downloads/chithl_duanmau_source/App/Views/Client/Layouts/Header.php on line 14
+[22-Jul-2024 01:48:40 Asia/Ho_Chi_Minh] PHP Deprecated:  json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in /Users/x/Downloads/chithl_duanmau_source/App/Views/Client/Layouts/Header.php on line 14
+[22-Jul-2024 01:49:13 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "user" in /Users/x/Downloads/chithl_duanmau_source/App/Views/Client/Layouts/Header.php on line 13
+[22-Jul-2024 01:49:13 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "user" in /Users/x/Downloads/chithl_duanmau_source/App/Views/Client/Layouts/Header.php on line 14
+[22-Jul-2024 01:49:13 Asia/Ho_Chi_Minh] PHP Deprecated:  json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in /Users/x/Downloads/chithl_duanmau_source/App/Views/Client/Layouts/Header.php on line 14
+[22-Jul-2024 01:49:30 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "user" in /Users/x/Downloads/chithl_duanmau_source/App/Views/Client/Layouts/Header.php on line 13
+[22-Jul-2024 01:49:30 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "user" in /Users/x/Downloads/chithl_duanmau_source/App/Views/Client/Layouts/Header.php on line 14
+[22-Jul-2024 01:49:30 Asia/Ho_Chi_Minh] PHP Deprecated:  json_decode(): Passing null to parameter #1 ($json) of type string is deprecated in /Users/x/Downloads/chithl_duanmau_source/App/Views/Client/Layouts/Header.php on line 14
+[22-Jul-2024 02:05:24 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "user" in /Users/x/Downloads/chithl_duanmau_source/App/Views/Client/Layouts/Header.php on line 14
+[22-Jul-2024 02:05:48 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "user" in /Users/x/Downloads/chithl_duanmau_source/App/Views/Client/Layouts/Header.php on line 14
+[22-Jul-2024 07:30:10 Asia/Ho_Chi_Minh] PHP Warning:  Array to string conversion in /Users/x/Downloads/chithl_duanmau_source/App/Validations/AuthValidation.php on line 31
+[22-Jul-2024 07:30:10 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $Array in /Users/x/Downloads/chithl_duanmau_source/App/Validations/AuthValidation.php on line 31
+[22-Jul-2024 07:30:10 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on null in /Users/x/Downloads/chithl_duanmau_source/App/Validations/AuthValidation.php on line 31
+[22-Jul-2024 07:30:10 Asia/Ho_Chi_Minh] PHP Deprecated:  strlen(): Passing null to parameter #1 ($string) of type string is deprecated in /Users/x/Downloads/chithl_duanmau_source/App/Validations/AuthValidation.php on line 31
+[22-Jul-2024 08:38:39 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "tpm_name" in /Users/x/Downloads/chithl_duanmau_source/App/Validations/AuthValidation.php on line 178
+[22-Jul-2024 08:38:39 Asia/Ho_Chi_Minh] PHP Deprecated:  move_uploaded_file(): Passing null to parameter #1 ($from) of type string is deprecated in /Users/x/Downloads/chithl_duanmau_source/App/Validations/AuthValidation.php on line 178
+[22-Jul-2024 08:38:47 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "tpm_name" in /Users/x/Downloads/chithl_duanmau_source/App/Validations/AuthValidation.php on line 178
+[22-Jul-2024 08:38:47 Asia/Ho_Chi_Minh] PHP Deprecated:  move_uploaded_file(): Passing null to parameter #1 ($from) of type string is deprecated in /Users/x/Downloads/chithl_duanmau_source/App/Validations/AuthValidation.php on line 178
+[22-Jul-2024 14:24:48 Asia/Ho_Chi_Minh] PHP Warning:  Array to string conversion in /Users/x/Downloads/chithl_duanmau_source/App/Validations/AuthValidation.php on line 31
+[22-Jul-2024 14:24:48 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $Array in /Users/x/Downloads/chithl_duanmau_source/App/Validations/AuthValidation.php on line 31
+[22-Jul-2024 14:24:48 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on null in /Users/x/Downloads/chithl_duanmau_source/App/Validations/AuthValidation.php on line 31
+[22-Jul-2024 14:24:48 Asia/Ho_Chi_Minh] PHP Deprecated:  strlen(): Passing null to parameter #1 ($string) of type string is deprecated in /Users/x/Downloads/chithl_duanmau_source/App/Validations/AuthValidation.php on line 31
+[22-Jul-2024 14:25:09 Asia/Ho_Chi_Minh] PHP Warning:  Array to string conversion in /Users/x/Downloads/chithl_duanmau_source/App/Validations/AuthValidation.php on line 31
+[22-Jul-2024 14:25:09 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $Array in /Users/x/Downloads/chithl_duanmau_source/App/Validations/AuthValidation.php on line 31
+[22-Jul-2024 14:25:09 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on null in /Users/x/Downloads/chithl_duanmau_source/App/Validations/AuthValidation.php on line 31
+[22-Jul-2024 14:25:09 Asia/Ho_Chi_Minh] PHP Deprecated:  strlen(): Passing null to parameter #1 ($string) of type string is deprecated in /Users/x/Downloads/chithl_duanmau_source/App/Validations/AuthValidation.php on line 31
+[22-Jul-2024 14:29:51 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "user" in /Users/x/Downloads/chithl_duanmau_source/App/Helpers/AuthHelper.php on line 195
+[22-Jul-2024 14:30:13 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "user" in /Users/x/Downloads/chithl_duanmau_source/App/Helpers/AuthHelper.php on line 195
+[22-Jul-2024 14:49:08 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "user" in /Users/x/Downloads/chithl_duanmau_source/App/Helpers/AuthHelper.php on line 196
