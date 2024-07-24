@@ -82,12 +82,12 @@ class Header extends BaseView
                         <?php
                         else:
                         ?>
-                            <li class="nav-item">
+                            <div class="nav-item">
                                 <a class="nav-link" href="/login">Đăng nhập</a>
-                            </li>
-                            <li class="nav-item">
+                            </div>
+                            <div class="nav-item">
                                 <a class="nav-link" href="/register">Đăng ký</a>
-                            </li>
+                            </div>
                         <?php
                         endif;
                         ?>
@@ -98,6 +98,8 @@ class Header extends BaseView
         </div>
         </nav>
         <!-- Navbar End -->
+
+        <div class="space" style="height: 100px;"></div>
 
     <?php
 
