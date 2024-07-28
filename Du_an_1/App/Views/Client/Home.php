@@ -10,7 +10,10 @@ class Home extends BaseView
     {
 ?>
 
-        <h1>Home Client</h1>
+
+
+
+        
 <?php
     }
 }

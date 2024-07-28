@@ -27,9 +27,23 @@ class Header extends BaseView
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <title>Document</title>
+
+                    <!-- Google Web Fonts -->
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Raleway:wght@600;800&display=swap" rel="stylesheet"> 
+
+            <!-- Icon Font Stylesheet -->
+            <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+            <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+            <!-- Libraries Stylesheet -->
+            <link href="<?= APP_URL ?>/public/assets/client/css/lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+            <link href="<?= APP_URL ?>/public/assets/client/css/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
             <!-- Bootstrap CSS -->
             <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
             <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+            <link rel="stylesheet" href="/public/assets/font-awesome-4.7.0/css/font-awesome.min.css">
             <!-- <link rel="stylesheet" href="<?= APP_URL ?>/public/assets/client/css/style.css"> -->
             <link rel="stylesheet" href="<?= APP_URL ?>/public/assets/client/css/style2.css">
             <link rel="stylesheet" href="<?= APP_URL ?>/public/assets/client/css/bootstrap.min.css">
@@ -40,10 +54,10 @@ class Header extends BaseView
 
             <!-- Navbar start -->
             <nav>
-        <div class="container-fluid fixed-top">
+        <div class="container-fluid fixed-top" style="box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
             <div class="container px-0">
                 <nav class="navbar navbar-light bg-white navbar-expand-xl">
-                    <a href="index.html" class="navbar-brand"><h1 class="text-primary display-6">Fruitables</h1></a>
+                    <a href="index.html" class="navbar-brand"><h1 class="text-primary display-6">NMC Store</h1></a>
                     <button class="navbar-toggler py-2 px-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                         <span class="fa fa-bars text-primary"></span>
                     </button>
@@ -98,8 +112,6 @@ class Header extends BaseView
         </div>
         </nav>
         <!-- Navbar End -->
-
-        <div class="space" style="height: 100px;"></div>
 
     <?php
 
