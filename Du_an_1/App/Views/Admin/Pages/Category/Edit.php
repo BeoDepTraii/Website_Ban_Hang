@@ -54,11 +54,12 @@ class Edit extends BaseView
                                     </div>
                                     <div class="form-group">
                                         <label for="name">Tên*</label>
-                                        <input type="text" class="form-control" id="name" placeholder="Nhập tên loại sản phẩm..." name="name" value="<?= $data['name'] ?>" required>
+                                        <input type="text" class="form-control" id="name" placeholder="Nhập tên loại sản phẩm..." name="name" value="<?= $data['name'] ?>" >
+
                                     </div>
                                     <div class="form-group">
                                         <label for="status">Trạng thái*</label>
-                                        <select class="select2 form-select shadow-none" style="width: 100%; height:36px;" id="status" name="status" value="<?= $data['status'] ?>" required>
+                                        <select class="select2 form-select shadow-none" style="width: 100%; height:36px;" id="status" name="status" value="<?= $data['status'] ?>" >
                                             <option value="" selected disabled>Vui lòng chọn...</option>
                                             <option value="1" <?= ($data['status'] == 1 ? 'selected' : '') ?>>Hiển thị</option>
                                             <option value="0" <?= ($data['status'] == 0 ? 'selected' : '') ?>>Ẩn</option>
