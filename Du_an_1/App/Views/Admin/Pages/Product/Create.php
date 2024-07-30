@@ -10,9 +10,7 @@ class Create extends BaseView
     {
 ?>
 
-        <!-- Page wrapper  -->
-        <!-- ============================================================== -->
-        <div class="page-wrapper">
+<div class="page-wrapper">
             <!-- ============================================================== -->
             <!-- Bread crumb and right sidebar toggle -->
             <!-- ============================================================== -->
@@ -44,13 +42,24 @@ class Create extends BaseView
                 <div class="row">
                     <div class="col-md-12">
                         <div class="card">
-                            <form class="form-horizontal" action="/admin/categories" method="POST">
+                            <form class="form-horizontal" action="/admin/products" method="POST" enctype="multipart/form-data">
                                 <div class="card-body">
-                                    <h4 class="card-title">Thêm sản phẩm</h4>
-                                    <input type="hidden" name="method" id="" value="POST">
+                                    <h4 class="card-title">Thêm sản phẩm mới</h4>
                                     <div class="form-group">
                                         <label for="name">Tên*</label>
-                                        <input type="text" class="form-control" id="name" placeholder="Nhập tên loại sản phẩm..." name="name" required>
+                                        <input type="text" class="form-control" id="name" placeholder="Nhập tên sản phẩm..." name="name" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="description">Mô tả*</label>
+                                        <textarea class="form-control" id="description" placeholder="Nhập mô tả sản phẩm..." name="description" required></textarea>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="price">Giá*</label>
+                                        <input type="number" class="form-control" id="price" placeholder="Nhập giá sản phẩm..." name="price" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="image">Hình ảnh*</label>
+                                        <input type="file" class="form-control" id="image" name="image" required>
                                     </div>
                                     <div class="form-group">
                                         <label for="status">Trạng thái*</label>
@@ -58,14 +67,13 @@ class Create extends BaseView
                                             <option value="" selected disabled>Vui lòng chọn...</option>
                                             <option value="1">Hiển thị</option>
                                             <option value="0">Ẩn</option>
-
                                         </select>
                                     </div>
                                 </div>
                                 <div class="border-top">
                                     <div class="card-body">
                                         <button type="reset" class="btn btn-danger text-white" name="">Làm lại</button>
-                                        <button type="submit" class="btn btn-primary" name="">Thêm</button>
+                                        <button type="submit" class="btn btn-primary" name="">Thêm sản phẩm</button>
                                     </div>
                                 </div>
                             </form>
@@ -74,7 +82,6 @@ class Create extends BaseView
                     </div>
 
                 </div>
-
                 <!-- ============================================================== -->
                 <!-- End PAge Content -->
                 <!-- ============================================================== -->

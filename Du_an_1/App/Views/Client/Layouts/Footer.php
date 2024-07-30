@@ -237,6 +237,7 @@ class Footer extends BaseView
     });
 
 })(jQuery);
+
         </script>
         </body>
 

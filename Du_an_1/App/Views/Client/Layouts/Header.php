@@ -38,8 +38,8 @@ class Header extends BaseView
             <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
 
             <!-- Libraries Stylesheet -->
-            <link href="<?= APP_URL ?>/public/assets/client/css/lib/lightbox/css/lightbox.min.css" rel="stylesheet">
-            <link href="<?= APP_URL ?>/public/assets/client/css/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+            <link href="<?= APP_URL ?>/public/assets/client/lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+            <link href="<?= APP_URL ?>/public/assets/client/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
             <!-- Bootstrap CSS -->
             <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
             <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
@@ -86,7 +86,7 @@ class Header extends BaseView
                             <div class="nav-item">
                                 <div class="dropdown show">
                                         <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    Tài khoản
+                                        <i class="fas fa-user fa-2x"></i>
                                         </a>
 
                                     <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
@@ -119,6 +119,25 @@ class Header extends BaseView
         </div>
         </nav>
         <!-- Navbar End -->
+
+        <!-- Modal Search Start -->
+        <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+                <div class="modal-content rounded-3">
+                    <div class="modal-header justify-content-center">
+                        <h5 class="modal-title" id="exampleModalLabel">Tìm kiếm</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" style="position: absolute; right: 1rem;"></button>
+                    </div>
+                    <div class="modal-body d-flex align-items-center">
+                        <div class="input-group w-75 mx-auto d-flex rounded-3">
+                            <input type="search" class="form-control p-3" placeholder="Nhập từ khóa bạn cần tìm" aria-describedby="search-icon-1" style="border-radius: 0.5rem; height: 50px;">
+                            <span id="search-icon-1" class="input-group-text p-3" style="border-radius: 0.5rem;"><i class="fa fa-search"></i></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal Search End -->
 
     <?php
 
