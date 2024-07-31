@@ -137,6 +137,9 @@ Stack trace:
 [22-Jul-2024 14:29:51 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "user" in /Users/x/Downloads/chithl_duanmau_source/App/Helpers/AuthHelper.php on line 195
 [22-Jul-2024 14:30:13 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "user" in /Users/x/Downloads/chithl_duanmau_source/App/Helpers/AuthHelper.php on line 195
 [22-Jul-2024 14:49:08 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "user" in /Users/x/Downloads/chithl_duanmau_source/App/Helpers/AuthHelper.php on line 196
+<<<<<<< HEAD
+[29-Jul-2024 08:17:37 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "image" in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Views/Client/Pages/Product/Detail.php on line 509
+=======
 [29-Jul-2024 07:33:07 Asia/Ho_Chi_Minh] Lỗi khi hiển thị chi tiết dữ liệu: No connection could be made because the target machine actively refused it
 [29-Jul-2024 07:33:57 Asia/Ho_Chi_Minh] Lỗi khi hiển thị chi tiết dữ liệu: No connection could be made because the target machine actively refused it
 [29-Jul-2024 07:33:59 Asia/Ho_Chi_Minh] Lỗi khi hiển thị chi tiết dữ liệu: No connection could be made because the target machine actively refused it
@@ -298,6 +301,7 @@ Stack trace:
 [31-Jul-2024 07:31:45 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on value of type null in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Client\Layouts\Header.php on line 94
 [31-Jul-2024 07:31:45 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "user" in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Client\Layouts\Header.php on line 94
 [31-Jul-2024 07:31:45 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on value of type null in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Client\Layouts\Header.php on line 94
+<<<<<<< HEAD
 [31-Jul-2024 07:46:48 Asia/Ho_Chi_Minh] Lỗi khi hiển thị chi tiết dữ liệu: No connection could be made because the target machine actively refused it
 [31-Jul-2024 07:46:48 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "user" in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Client\Layouts\Header.php on line 94
 [31-Jul-2024 07:46:48 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on value of type null in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Client\Layouts\Header.php on line 94
@@ -317,3 +321,206 @@ Stack trace:
 [31-Jul-2024 07:49:52 Asia/Ho_Chi_Minh] Lỗi khi thêm dữ liệu: No connection could be made because the target machine actively refused it
 [31-Jul-2024 07:51:08 Asia/Ho_Chi_Minh] Lỗi khi hiển thị tất cả dữ liệu: No connection could be made because the target machine actively refused it
 [31-Jul-2024 07:52:12 Asia/Ho_Chi_Minh] Lỗi khi xóa dữ liệu: Cannot delete or update a parent row: a foreign key constraint fails (`mau`.`products`, CONSTRAINT `products_ibfk_1` FOREIGN KEY (`category_id`) REFERENCES `categories` (`id`))
+=======
+>>>>>>> origin/minh
+[31-Jul-2024 07:46:45 Asia/Ho_Chi_Minh] Lỗi khi hiển thị chi tiết dữ liệu: Access denied for user 'root'@'localhost' (using password: YES)
+[31-Jul-2024 07:46:51 Asia/Ho_Chi_Minh] Lỗi khi hiển thị chi tiết dữ liệu: Access denied for user 'root'@'localhost' (using password: YES)
+[31-Jul-2024 07:46:54 Asia/Ho_Chi_Minh] Lỗi khi hiển thị chi tiết dữ liệu: Access denied for user 'root'@'localhost' (using password: YES)
+[31-Jul-2024 07:46:55 Asia/Ho_Chi_Minh] Lỗi khi hiển thị chi tiết dữ liệu: Access denied for user 'root'@'localhost' (using password: YES)
+[31-Jul-2024 07:46:58 Asia/Ho_Chi_Minh] Lỗi khi hiển thị chi tiết dữ liệu: Access denied for user 'root'@'localhost' (using password: YES)
+[31-Jul-2024 07:47:18 Asia/Ho_Chi_Minh] Lỗi khi hiển thị chi tiết dữ liệu: Access denied for user 'root'@'localhost' (using password: YES)
+[31-Jul-2024 07:47:18 Asia/Ho_Chi_Minh] Lỗi khi hiển thị chi tiết dữ liệu: Access denied for user 'root'@'localhost' (using password: YES)
+[31-Jul-2024 07:47:18 Asia/Ho_Chi_Minh] Lỗi khi hiển thị chi tiết dữ liệu: Access denied for user 'root'@'localhost' (using password: YES)
+[31-Jul-2024 07:47:18 Asia/Ho_Chi_Minh] Lỗi khi hiển thị chi tiết dữ liệu: Access denied for user 'root'@'localhost' (using password: YES)
+[31-Jul-2024 07:47:20 Asia/Ho_Chi_Minh] Lỗi khi hiển thị chi tiết dữ liệu: Access denied for user 'root'@'localhost' (using password: YES)
+[31-Jul-2024 07:47:20 Asia/Ho_Chi_Minh] Lỗi khi hiển thị chi tiết dữ liệu: Access denied for user 'root'@'localhost' (using password: YES)
+[31-Jul-2024 07:47:35 Asia/Ho_Chi_Minh] Lỗi khi hiển thị chi tiết dữ liệu: Access denied for user 'root'@'localhost' (using password: YES)
+[31-Jul-2024 07:47:35 Asia/Ho_Chi_Minh] Lỗi khi hiển thị chi tiết dữ liệu: Access denied for user 'root'@'localhost' (using password: YES)
+[31-Jul-2024 07:48:55 Asia/Ho_Chi_Minh] Lỗi khi hiển thị tất cả dữ liệu: Access denied for user 'root'@'localhost' (using password: YES)
+[31-Jul-2024 07:49:04 Asia/Ho_Chi_Minh] Lỗi khi lấy loại sản phẩm bằng tên: Access denied for user 'root'@'localhost' (using password: YES)
+[31-Jul-2024 07:49:04 Asia/Ho_Chi_Minh] Lỗi khi thêm dữ liệu: Access denied for user 'root'@'localhost' (using password: YES)
+[31-Jul-2024 07:49:18 Asia/Ho_Chi_Minh] Lỗi khi lấy loại sản phẩm bằng tên: Access denied for user 'root'@'localhost' (using password: YES)
+[31-Jul-2024 07:49:18 Asia/Ho_Chi_Minh] Lỗi khi thêm dữ liệu: Access denied for user 'root'@'localhost' (using password: YES)
+[31-Jul-2024 07:50:27 Asia/Ho_Chi_Minh] Lỗi khi hiển thị tất cả dữ liệu: Access denied for user 'root'@'localhost' (using password: YES)
+[31-Jul-2024 07:51:36 Asia/Ho_Chi_Minh] Lỗi khi hiển thị tất cả dữ liệu: Access denied for user 'root'@'localhost' (using password: YES)
+[31-Jul-2024 07:51:49 Asia/Ho_Chi_Minh] Lỗi khi hiển thị tất cả dữ liệu: Access denied for user 'root'@'localhost' (using password: YES)
+[31-Jul-2024 07:52:31 Asia/Ho_Chi_Minh] Lỗi khi hiển thị tất cả dữ liệu: Access denied for user 'root'@'localhost' (using password: YES)
+[31-Jul-2024 07:52:32 Asia/Ho_Chi_Minh] Lỗi khi hiển thị tất cả dữ liệu: Access denied for user 'root'@'localhost' (using password: YES)
+[31-Jul-2024 07:52:33 Asia/Ho_Chi_Minh] Lỗi khi hiển thị tất cả dữ liệu: Access denied for user 'root'@'localhost' (using password: YES)
+[31-Jul-2024 07:52:34 Asia/Ho_Chi_Minh] Lỗi khi hiển thị tất cả dữ liệu: Access denied for user 'root'@'localhost' (using password: YES)
+[31-Jul-2024 07:52:35 Asia/Ho_Chi_Minh] Lỗi khi hiển thị tất cả dữ liệu: Access denied for user 'root'@'localhost' (using password: YES)
+[31-Jul-2024 07:52:36 Asia/Ho_Chi_Minh] Lỗi khi hiển thị tất cả dữ liệu: Access denied for user 'root'@'localhost' (using password: YES)
+[31-Jul-2024 07:52:54 Asia/Ho_Chi_Minh] Lỗi khi hiển thị tất cả dữ liệu: Access denied for user 'root'@'localhost' (using password: YES)
+[31-Jul-2024 07:52:55 Asia/Ho_Chi_Minh] Lỗi khi hiển thị tất cả dữ liệu: Access denied for user 'root'@'localhost' (using password: YES)
+[31-Jul-2024 07:52:55 Asia/Ho_Chi_Minh] Lỗi khi hiển thị tất cả dữ liệu: Access denied for user 'root'@'localhost' (using password: YES)
+[31-Jul-2024 07:54:16 Asia/Ho_Chi_Minh] Lỗi khi hiển thị tất cả dữ liệu: Access denied for user 'root'@'localhost' (using password: YES)
+[31-Jul-2024 07:54:22 Asia/Ho_Chi_Minh] Lỗi khi hiển thị tất cả dữ liệu: Access denied for user 'root'@'localhost' (using password: YES)
+[31-Jul-2024 07:54:27 Asia/Ho_Chi_Minh] Lỗi khi hiển thị tất cả dữ liệu: Access denied for user 'root'@'localhost' (using password: YES)
+>>>>>>> origin/nhatlmpc09537
+[31-Jul-2024 08:31:54 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "image" in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 71
+[31-Jul-2024 08:31:54 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "price" in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 74
+[31-Jul-2024 08:31:54 Asia/Ho_Chi_Minh] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 74
+[31-Jul-2024 08:31:54 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "discount_price" in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 75
+[31-Jul-2024 08:31:54 Asia/Ho_Chi_Minh] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 75
+[31-Jul-2024 08:31:54 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "category_name" in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 76
+[31-Jul-2024 08:31:54 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "image" in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 71
+[31-Jul-2024 08:31:54 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "price" in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 74
+[31-Jul-2024 08:31:54 Asia/Ho_Chi_Minh] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 74
+[31-Jul-2024 08:31:54 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "discount_price" in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 75
+[31-Jul-2024 08:31:54 Asia/Ho_Chi_Minh] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 75
+[31-Jul-2024 08:31:54 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "category_name" in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 76
+[31-Jul-2024 08:31:54 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "image" in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 71
+[31-Jul-2024 08:31:54 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "price" in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 74
+[31-Jul-2024 08:31:54 Asia/Ho_Chi_Minh] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 74
+[31-Jul-2024 08:31:54 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "discount_price" in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 75
+[31-Jul-2024 08:31:54 Asia/Ho_Chi_Minh] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 75
+[31-Jul-2024 08:31:54 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "category_name" in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 76
+[31-Jul-2024 08:58:57 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Class "App\Controllers\Admin\ProductsController" not found in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Route.php:79
+Stack trace:
+#0 C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\index.php(96): App\Route::dispatch()
+#1 {main}
+  thrown in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Route.php on line 79
+[31-Jul-2024 08:59:58 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Class "App\Controllers\Admin\ProductsController" not found in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Route.php:79
+Stack trace:
+#0 C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\index.php(96): App\Route::dispatch()
+#1 {main}
+  thrown in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Route.php on line 79
+[31-Jul-2024 09:00:03 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Class "App\Controllers\Admin\ProductsController" not found in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Route.php:79
+Stack trace:
+#0 C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\index.php(96): App\Route::dispatch()
+#1 {main}
+  thrown in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Route.php on line 79
+[31-Jul-2024 09:02:01 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Class "App\Controllers\Admin\ProductsController" not found in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Route.php:79
+Stack trace:
+#0 C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\index.php(96): App\Route::dispatch()
+#1 {main}
+  thrown in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Route.php on line 79
+[31-Jul-2024 09:03:35 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "image" in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 71
+[31-Jul-2024 09:03:35 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "price" in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 74
+[31-Jul-2024 09:03:35 Asia/Ho_Chi_Minh] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 74
+[31-Jul-2024 09:03:35 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "discount_price" in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 75
+[31-Jul-2024 09:03:35 Asia/Ho_Chi_Minh] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 75
+[31-Jul-2024 09:03:35 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "category_name" in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 76
+[31-Jul-2024 09:03:35 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "image" in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 71
+[31-Jul-2024 09:03:35 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "price" in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 74
+[31-Jul-2024 09:03:35 Asia/Ho_Chi_Minh] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 74
+[31-Jul-2024 09:03:35 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "discount_price" in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 75
+[31-Jul-2024 09:03:35 Asia/Ho_Chi_Minh] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 75
+[31-Jul-2024 09:03:35 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "category_name" in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 76
+[31-Jul-2024 09:03:35 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "image" in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 71
+[31-Jul-2024 09:03:35 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "price" in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 74
+[31-Jul-2024 09:03:35 Asia/Ho_Chi_Minh] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 74
+[31-Jul-2024 09:03:35 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "discount_price" in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 75
+[31-Jul-2024 09:03:35 Asia/Ho_Chi_Minh] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 75
+[31-Jul-2024 09:03:35 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "category_name" in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 76
+[31-Jul-2024 09:06:48 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "image" in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 71
+[31-Jul-2024 09:06:48 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "price" in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 74
+[31-Jul-2024 09:06:48 Asia/Ho_Chi_Minh] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 74
+[31-Jul-2024 09:06:48 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "discount_price" in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 75
+[31-Jul-2024 09:06:48 Asia/Ho_Chi_Minh] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 75
+[31-Jul-2024 09:06:48 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "category_name" in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 76
+[31-Jul-2024 09:06:48 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "image" in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 71
+[31-Jul-2024 09:06:48 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "price" in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 74
+[31-Jul-2024 09:06:48 Asia/Ho_Chi_Minh] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 74
+[31-Jul-2024 09:06:48 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "discount_price" in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 75
+[31-Jul-2024 09:06:48 Asia/Ho_Chi_Minh] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 75
+[31-Jul-2024 09:06:48 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "category_name" in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 76
+[31-Jul-2024 09:06:48 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "image" in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 71
+[31-Jul-2024 09:06:48 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "price" in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 74
+[31-Jul-2024 09:06:48 Asia/Ho_Chi_Minh] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 74
+[31-Jul-2024 09:06:48 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "discount_price" in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 75
+[31-Jul-2024 09:06:48 Asia/Ho_Chi_Minh] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 75
+[31-Jul-2024 09:06:48 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "category_name" in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 76
+[31-Jul-2024 09:14:24 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "image" in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 71
+[31-Jul-2024 09:14:24 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "price" in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 74
+[31-Jul-2024 09:14:24 Asia/Ho_Chi_Minh] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 74
+[31-Jul-2024 09:14:24 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "discount_price" in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 75
+[31-Jul-2024 09:14:24 Asia/Ho_Chi_Minh] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 75
+[31-Jul-2024 09:14:24 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "category_name" in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 76
+[31-Jul-2024 09:14:24 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "image" in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 71
+[31-Jul-2024 09:14:24 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "price" in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 74
+[31-Jul-2024 09:14:24 Asia/Ho_Chi_Minh] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 74
+[31-Jul-2024 09:14:24 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "discount_price" in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 75
+[31-Jul-2024 09:14:24 Asia/Ho_Chi_Minh] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 75
+[31-Jul-2024 09:14:24 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "category_name" in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 76
+[31-Jul-2024 09:14:24 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "image" in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 71
+[31-Jul-2024 09:14:24 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "price" in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 74
+[31-Jul-2024 09:14:24 Asia/Ho_Chi_Minh] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 74
+[31-Jul-2024 09:14:24 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "discount_price" in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 75
+[31-Jul-2024 09:14:24 Asia/Ho_Chi_Minh] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 75
+[31-Jul-2024 09:14:24 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "category_name" in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 76
+[31-Jul-2024 09:17:39 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "image" in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 71
+[31-Jul-2024 09:17:39 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "price" in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 74
+[31-Jul-2024 09:17:39 Asia/Ho_Chi_Minh] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 74
+[31-Jul-2024 09:17:39 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "discount_price" in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 75
+[31-Jul-2024 09:17:39 Asia/Ho_Chi_Minh] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 75
+[31-Jul-2024 09:17:39 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "category_name" in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 76
+[31-Jul-2024 09:17:39 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "image" in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 71
+[31-Jul-2024 09:17:39 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "price" in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 74
+[31-Jul-2024 09:17:39 Asia/Ho_Chi_Minh] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 74
+[31-Jul-2024 09:17:39 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "discount_price" in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 75
+[31-Jul-2024 09:17:39 Asia/Ho_Chi_Minh] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 75
+[31-Jul-2024 09:17:39 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "category_name" in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 76
+[31-Jul-2024 09:17:39 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "image" in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 71
+[31-Jul-2024 09:17:39 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "price" in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 74
+[31-Jul-2024 09:17:39 Asia/Ho_Chi_Minh] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 74
+[31-Jul-2024 09:17:39 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "discount_price" in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 75
+[31-Jul-2024 09:17:39 Asia/Ho_Chi_Minh] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 75
+[31-Jul-2024 09:17:39 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "category_name" in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 76
+[31-Jul-2024 09:17:41 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "image" in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 71
+[31-Jul-2024 09:17:41 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "price" in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 74
+[31-Jul-2024 09:17:41 Asia/Ho_Chi_Minh] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 74
+[31-Jul-2024 09:17:41 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "discount_price" in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 75
+[31-Jul-2024 09:17:41 Asia/Ho_Chi_Minh] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 75
+[31-Jul-2024 09:17:41 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "category_name" in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 76
+[31-Jul-2024 09:17:41 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "image" in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 71
+[31-Jul-2024 09:17:41 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "price" in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 74
+[31-Jul-2024 09:17:41 Asia/Ho_Chi_Minh] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 74
+[31-Jul-2024 09:17:41 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "discount_price" in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 75
+[31-Jul-2024 09:17:41 Asia/Ho_Chi_Minh] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 75
+[31-Jul-2024 09:17:41 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "category_name" in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 76
+[31-Jul-2024 09:17:41 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "image" in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 71
+[31-Jul-2024 09:17:41 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "price" in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 74
+[31-Jul-2024 09:17:41 Asia/Ho_Chi_Minh] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 74
+[31-Jul-2024 09:17:41 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "discount_price" in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 75
+[31-Jul-2024 09:17:41 Asia/Ho_Chi_Minh] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 75
+[31-Jul-2024 09:17:41 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "category_name" in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 76
+[31-Jul-2024 09:20:04 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "image" in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 71
+[31-Jul-2024 09:20:04 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "price" in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 74
+[31-Jul-2024 09:20:04 Asia/Ho_Chi_Minh] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 74
+[31-Jul-2024 09:20:04 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "discount_price" in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 75
+[31-Jul-2024 09:20:04 Asia/Ho_Chi_Minh] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 75
+[31-Jul-2024 09:20:04 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "category_name" in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 76
+[31-Jul-2024 09:20:04 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "image" in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 71
+[31-Jul-2024 09:20:04 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "price" in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 74
+[31-Jul-2024 09:20:04 Asia/Ho_Chi_Minh] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 74
+[31-Jul-2024 09:20:04 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "discount_price" in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 75
+[31-Jul-2024 09:20:04 Asia/Ho_Chi_Minh] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 75
+[31-Jul-2024 09:20:04 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "category_name" in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 76
+[31-Jul-2024 09:20:04 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "image" in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 71
+[31-Jul-2024 09:20:04 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "price" in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 74
+[31-Jul-2024 09:20:04 Asia/Ho_Chi_Minh] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 74
+[31-Jul-2024 09:20:04 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "discount_price" in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 75
+[31-Jul-2024 09:20:04 Asia/Ho_Chi_Minh] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 75
+[31-Jul-2024 09:20:04 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "category_name" in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 76
+[31-Jul-2024 09:20:56 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "price" in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 74
+[31-Jul-2024 09:20:56 Asia/Ho_Chi_Minh] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 74
+[31-Jul-2024 09:20:56 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "discount_price" in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 75
+[31-Jul-2024 09:20:56 Asia/Ho_Chi_Minh] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 75
+[31-Jul-2024 09:20:56 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "category_name" in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 76
+[31-Jul-2024 09:20:56 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "price" in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 74
+[31-Jul-2024 09:20:56 Asia/Ho_Chi_Minh] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 74
+[31-Jul-2024 09:20:56 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "discount_price" in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 75
+[31-Jul-2024 09:20:56 Asia/Ho_Chi_Minh] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 75
+[31-Jul-2024 09:20:56 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "category_name" in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 76
+[31-Jul-2024 09:20:56 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "price" in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 74
+[31-Jul-2024 09:20:56 Asia/Ho_Chi_Minh] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 74
+[31-Jul-2024 09:20:56 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "discount_price" in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 75
+[31-Jul-2024 09:20:56 Asia/Ho_Chi_Minh] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 75
+[31-Jul-2024 09:20:56 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "category_name" in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 76
+[31-Jul-2024 09:21:42 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "category_name" in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 76
+[31-Jul-2024 09:21:42 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "category_name" in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 76
+[31-Jul-2024 09:21:42 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "category_name" in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 76
+[31-Jul-2024 09:21:46 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "category_name" in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 76
+[31-Jul-2024 09:21:46 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "category_name" in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 76
+[31-Jul-2024 09:21:46 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "category_name" in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 76
