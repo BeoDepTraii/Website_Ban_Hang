@@ -137,4 +137,168 @@ Stack trace:
 [22-Jul-2024 14:29:51 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "user" in /Users/x/Downloads/chithl_duanmau_source/App/Helpers/AuthHelper.php on line 195
 [22-Jul-2024 14:30:13 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "user" in /Users/x/Downloads/chithl_duanmau_source/App/Helpers/AuthHelper.php on line 195
 [22-Jul-2024 14:49:08 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "user" in /Users/x/Downloads/chithl_duanmau_source/App/Helpers/AuthHelper.php on line 196
+<<<<<<< HEAD
 [29-Jul-2024 08:17:37 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "image" in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Views/Client/Pages/Product/Detail.php on line 509
+=======
+[29-Jul-2024 07:33:07 Asia/Ho_Chi_Minh] Lỗi khi hiển thị chi tiết dữ liệu: No connection could be made because the target machine actively refused it
+[29-Jul-2024 07:33:57 Asia/Ho_Chi_Minh] Lỗi khi hiển thị chi tiết dữ liệu: No connection could be made because the target machine actively refused it
+[29-Jul-2024 07:33:59 Asia/Ho_Chi_Minh] Lỗi khi hiển thị chi tiết dữ liệu: No connection could be made because the target machine actively refused it
+[29-Jul-2024 07:34:01 Asia/Ho_Chi_Minh] Lỗi khi hiển thị chi tiết dữ liệu: No connection could be made because the target machine actively refused it
+[29-Jul-2024 07:34:03 Asia/Ho_Chi_Minh] Lỗi khi hiển thị chi tiết dữ liệu: No connection could be made because the target machine actively refused it
+[29-Jul-2024 07:34:08 Asia/Ho_Chi_Minh] Lỗi khi hiển thị chi tiết dữ liệu: No connection could be made because the target machine actively refused it
+[29-Jul-2024 07:34:10 Asia/Ho_Chi_Minh] Lỗi khi hiển thị chi tiết dữ liệu: No connection could be made because the target machine actively refused it
+[29-Jul-2024 07:34:17 Asia/Ho_Chi_Minh] Lỗi khi hiển thị chi tiết dữ liệu: No connection could be made because the target machine actively refused it
+[29-Jul-2024 07:34:19 Asia/Ho_Chi_Minh] Lỗi khi hiển thị chi tiết dữ liệu: No connection could be made because the target machine actively refused it
+[29-Jul-2024 07:34:24 Asia/Ho_Chi_Minh] Lỗi khi hiển thị chi tiết dữ liệu: No connection could be made because the target machine actively refused it
+[29-Jul-2024 07:34:26 Asia/Ho_Chi_Minh] Lỗi khi hiển thị chi tiết dữ liệu: No connection could be made because the target machine actively refused it
+[29-Jul-2024 07:34:32 Asia/Ho_Chi_Minh] Lỗi khi hiển thị chi tiết dữ liệu: No connection could be made because the target machine actively refused it
+[29-Jul-2024 07:34:34 Asia/Ho_Chi_Minh] Lỗi khi hiển thị chi tiết dữ liệu: No connection could be made because the target machine actively refused it
+[29-Jul-2024 07:34:36 Asia/Ho_Chi_Minh] Lỗi khi hiển thị chi tiết dữ liệu: No connection could be made because the target machine actively refused it
+[29-Jul-2024 07:34:38 Asia/Ho_Chi_Minh] Lỗi khi hiển thị chi tiết dữ liệu: No connection could be made because the target machine actively refused it
+[29-Jul-2024 07:50:06 Asia/Ho_Chi_Minh] Lỗi khi hiển thị chi tiết dữ liệu: No connection could be made because the target machine actively refused it
+[29-Jul-2024 07:50:12 Asia/Ho_Chi_Minh] Lỗi khi hiển thị chi tiết dữ liệu: No connection could be made because the target machine actively refused it
+[29-Jul-2024 07:50:16 Asia/Ho_Chi_Minh] Lỗi khi hiển thị chi tiết dữ liệu: No connection could be made because the target machine actively refused it
+[29-Jul-2024 07:50:35 Asia/Ho_Chi_Minh] Lỗi khi hiển thị chi tiết dữ liệu: No connection could be made because the target machine actively refused it
+[29-Jul-2024 07:50:37 Asia/Ho_Chi_Minh] Lỗi khi hiển thị chi tiết dữ liệu: No connection could be made because the target machine actively refused it
+[29-Jul-2024 07:50:44 Asia/Ho_Chi_Minh] Lỗi khi hiển thị chi tiết dữ liệu: No connection could be made because the target machine actively refused it
+[29-Jul-2024 07:50:46 Asia/Ho_Chi_Minh] Lỗi khi hiển thị chi tiết dữ liệu: No connection could be made because the target machine actively refused it
+[29-Jul-2024 07:50:48 Asia/Ho_Chi_Minh] Lỗi khi hiển thị chi tiết dữ liệu: No connection could be made because the target machine actively refused it
+[29-Jul-2024 07:50:50 Asia/Ho_Chi_Minh] Lỗi khi hiển thị chi tiết dữ liệu: No connection could be made because the target machine actively refused it
+[29-Jul-2024 07:51:02 Asia/Ho_Chi_Minh] Lỗi khi hiển thị chi tiết dữ liệu: No connection could be made because the target machine actively refused it
+[29-Jul-2024 08:01:46 Asia/Ho_Chi_Minh] Lỗi khi hiển thị tất cả dữ liệu: No connection could be made because the target machine actively refused it
+[29-Jul-2024 08:16:13 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Class "Du_an_1\App\Validations\CategoryValidation" not found in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Controllers\Admin\CategoryController.php:67
+Stack trace:
+#0 C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Route.php(82): App\Controllers\Admin\CategoryController::store()
+#1 C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\index.php(96): App\Route::dispatch()
+#2 {main}
+  thrown in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Controllers\Admin\CategoryController.php on line 67
+[29-Jul-2024 08:17:43 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Class "Du_an_1\App\Validations\CategoryValidation" not found in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Controllers\Admin\CategoryController.php:67
+Stack trace:
+#0 C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Route.php(82): App\Controllers\Admin\CategoryController::store()
+#1 C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\index.php(96): App\Route::dispatch()
+#2 {main}
+  thrown in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Controllers\Admin\CategoryController.php on line 67
+[29-Jul-2024 08:20:03 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Class "Du_an_1\App\Validations\CategoryValidation" not found in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Controllers\Admin\CategoryController.php:67
+Stack trace:
+#0 C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Route.php(82): App\Controllers\Admin\CategoryController::store()
+#1 C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\index.php(96): App\Route::dispatch()
+#2 {main}
+  thrown in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Controllers\Admin\CategoryController.php on line 67
+[29-Jul-2024 08:30:57 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Class "App\Views\Admin\Components\Notification" not found in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Controllers\Admin\CategoryController.php:56
+Stack trace:
+#0 C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Route.php(82): App\Controllers\Admin\CategoryController::create()
+#1 C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\index.php(96): App\Route::dispatch()
+#2 {main}
+  thrown in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Controllers\Admin\CategoryController.php on line 56
+[29-Jul-2024 08:30:58 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Class "App\Views\Admin\Components\Notification" not found in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Controllers\Admin\CategoryController.php:56
+Stack trace:
+#0 C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Route.php(82): App\Controllers\Admin\CategoryController::create()
+#1 C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\index.php(96): App\Route::dispatch()
+#2 {main}
+  thrown in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Controllers\Admin\CategoryController.php on line 56
+[29-Jul-2024 08:35:01 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Class "App\Views\Admin\Components\Notification" not found in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Controllers\Admin\CategoryController.php:56
+Stack trace:
+#0 C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Route.php(82): App\Controllers\Admin\CategoryController::create()
+#1 C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\index.php(96): App\Route::dispatch()
+#2 {main}
+  thrown in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Controllers\Admin\CategoryController.php on line 56
+[29-Jul-2024 08:35:02 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Class "App\Views\Admin\Components\Notification" not found in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Controllers\Admin\CategoryController.php:56
+Stack trace:
+#0 C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Route.php(82): App\Controllers\Admin\CategoryController::create()
+#1 C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\index.php(96): App\Route::dispatch()
+#2 {main}
+  thrown in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Controllers\Admin\CategoryController.php on line 56
+[29-Jul-2024 08:35:02 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Class "App\Views\Admin\Components\Notification" not found in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Controllers\Admin\CategoryController.php:56
+Stack trace:
+#0 C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Route.php(82): App\Controllers\Admin\CategoryController::create()
+#1 C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\index.php(96): App\Route::dispatch()
+#2 {main}
+  thrown in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Controllers\Admin\CategoryController.php on line 56
+[29-Jul-2024 08:35:03 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Class "App\Views\Admin\Components\Notification" not found in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Controllers\Admin\CategoryController.php:56
+Stack trace:
+#0 C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Route.php(82): App\Controllers\Admin\CategoryController::create()
+#1 C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\index.php(96): App\Route::dispatch()
+#2 {main}
+  thrown in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Controllers\Admin\CategoryController.php on line 56
+[29-Jul-2024 08:35:12 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Class "App\Views\Admin\Components\Notification" not found in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Controllers\Admin\CategoryController.php:56
+Stack trace:
+#0 C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Route.php(82): App\Controllers\Admin\CategoryController::create()
+#1 C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\index.php(96): App\Route::dispatch()
+#2 {main}
+  thrown in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Controllers\Admin\CategoryController.php on line 56
+[29-Jul-2024 08:37:35 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Class "App\Views\Admin\Components\Notification" not found in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Controllers\Admin\CategoryController.php:56
+Stack trace:
+#0 C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Route.php(82): App\Controllers\Admin\CategoryController::create()
+#1 C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\index.php(96): App\Route::dispatch()
+#2 {main}
+  thrown in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Controllers\Admin\CategoryController.php on line 56
+[29-Jul-2024 08:44:03 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Class "App\Views\Admin\Components\Notification" not found in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Controllers\Admin\CategoryController.php:54
+Stack trace:
+#0 C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Route.php(82): App\Controllers\Admin\CategoryController::create()
+#1 C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\index.php(96): App\Route::dispatch()
+#2 {main}
+  thrown in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Controllers\Admin\CategoryController.php on line 54
+[29-Jul-2024 08:47:45 Asia/Ho_Chi_Minh] PHP Parse error:  syntax error, unexpected identifier "NotificationHelper" in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Controllers\Admin\CategoryController.php on line 69
+[29-Jul-2024 08:48:28 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Class "Du_an_1\App\Validations\CategoryValidation" not found in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Controllers\Admin\CategoryController.php:66
+Stack trace:
+#0 C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Route.php(82): App\Controllers\Admin\CategoryController::store()
+#1 C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\index.php(96): App\Route::dispatch()
+#2 {main}
+  thrown in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Controllers\Admin\CategoryController.php on line 66
+[29-Jul-2024 08:55:47 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Class "App\Validations\CategoryValidation" not found in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Controllers\Admin\CategoryController.php:66
+Stack trace:
+#0 C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Route.php(82): App\Controllers\Admin\CategoryController::store()
+#1 C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\index.php(96): App\Route::dispatch()
+#2 {main}
+  thrown in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Controllers\Admin\CategoryController.php on line 66
+[29-Jul-2024 08:56:25 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Class "App\Validations\CategoryValidation" not found in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Controllers\Admin\CategoryController.php:66
+Stack trace:
+#0 C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Route.php(82): App\Controllers\Admin\CategoryController::store()
+#1 C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\index.php(96): App\Route::dispatch()
+#2 {main}
+  thrown in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Controllers\Admin\CategoryController.php on line 66
+[29-Jul-2024 09:07:56 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught TypeError: App\Models\Category::getOneCategoryByName(): Argument #1 ($id) must be of type int, string given, called in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Controllers\Admin\CategoryController.php on line 78 and defined in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Models\Category.php:36
+Stack trace:
+#0 C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Controllers\Admin\CategoryController.php(78): App\Models\Category->getOneCategoryByName()
+#1 C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Route.php(82): App\Controllers\Admin\CategoryController::store()
+#2 C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\index.php(96): App\Route::dispatch()
+#3 {main}
+  thrown in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Models\Category.php on line 36
+[30-Jul-2024 16:57:18 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on value of type null in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Category\Edit.php on line 47
+[30-Jul-2024 16:57:18 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on value of type null in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Category\Edit.php on line 53
+[30-Jul-2024 16:57:18 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on value of type null in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Category\Edit.php on line 57
+[30-Jul-2024 16:57:18 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on value of type null in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Category\Edit.php on line 61
+[30-Jul-2024 16:57:18 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on value of type null in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Category\Edit.php on line 63
+[30-Jul-2024 16:57:18 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on value of type null in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Category\Edit.php on line 64
+[30-Jul-2024 17:12:57 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught TypeError: App\Models\BaseModel::create(): Argument #1 ($data) must be of type array, int given, called in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Models\Category.php on line 21 and defined in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Models\BaseModel.php:53
+Stack trace:
+#0 C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Models\Category.php(21): App\Models\BaseModel->create()
+#1 C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Controllers\Admin\CategoryController.php(184): App\Models\Category->createCategory()
+#2 C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Route.php(104): App\Controllers\Admin\CategoryController::update()
+#3 C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\index.php(96): App\Route::dispatch()
+#4 {main}
+  thrown in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Models\BaseModel.php on line 53
+[30-Jul-2024 17:13:06 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught TypeError: App\Models\BaseModel::create(): Argument #1 ($data) must be of type array, int given, called in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Models\Category.php on line 21 and defined in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Models\BaseModel.php:53
+Stack trace:
+#0 C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Models\Category.php(21): App\Models\BaseModel->create()
+#1 C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Controllers\Admin\CategoryController.php(184): App\Models\Category->createCategory()
+#2 C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Route.php(104): App\Controllers\Admin\CategoryController::update()
+#3 C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\index.php(96): App\Route::dispatch()
+#4 {main}
+  thrown in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Models\BaseModel.php on line 53
+[30-Jul-2024 17:25:01 Asia/Ho_Chi_Minh] Lỗi khi xóa dữ liệu: Cannot delete or update a parent row: a foreign key constraint fails (`mau`.`products`, CONSTRAINT `products_ibfk_1` FOREIGN KEY (`category_id`) REFERENCES `categories` (`id`))
+[30-Jul-2024 17:26:48 Asia/Ho_Chi_Minh] Lỗi khi xóa dữ liệu: Cannot delete or update a parent row: a foreign key constraint fails (`mau`.`products`, CONSTRAINT `products_ibfk_1` FOREIGN KEY (`category_id`) REFERENCES `categories` (`id`))
+[30-Jul-2024 18:16:35 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on value of type null in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Controllers\Admin\CategoryController.php on line 171
+[30-Jul-2024 18:16:43 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on value of type null in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Controllers\Admin\CategoryController.php on line 171
+[30-Jul-2024 18:17:05 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on value of type null in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Controllers\Admin\CategoryController.php on line 171
+[31-Jul-2024 02:25:39 Asia/Ho_Chi_Minh] Lỗi khi hiển thị chi tiết dữ liệu: No connection could be made because the target machine actively refused it
+[31-Jul-2024 02:25:39 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "user" in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Client\Layouts\Header.php on line 94
+[31-Jul-2024 02:25:39 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on value of type null in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Client\Layouts\Header.php on line 94
+[31-Jul-2024 02:25:39 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "user" in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Client\Layouts\Header.php on line 94
+[31-Jul-2024 02:25:39 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on value of type null in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Client\Layouts\Header.php on line 94
+[31-Jul-2024 07:31:45 Asia/Ho_Chi_Minh] Lỗi khi hiển thị chi tiết dữ liệu: No connection could be made because the target machine actively refused it
+[31-Jul-2024 07:31:45 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "user" in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Client\Layouts\Header.php on line 94
+[31-Jul-2024 07:31:45 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on value of type null in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Client\Layouts\Header.php on line 94
+[31-Jul-2024 07:31:45 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "user" in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Client\Layouts\Header.php on line 94
+[31-Jul-2024 07:31:45 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on value of type null in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Client\Layouts\Header.php on line 94
+>>>>>>> origin/minh
