@@ -13,7 +13,6 @@ class Notification extends BaseView
 ?>
             <div class="page-wrapper">
                 <div class="alert alert-success alert-dismissible">
-                    <button type="button" class="close" data-dismiss="alert">&times;</button>
                     <strong><?= $value ?></strong>
                 </div>
             </div>
@@ -28,7 +27,6 @@ class Notification extends BaseView
         ?>
             <div class="page-wrapper">
                 <div class="alert alert-danger alert-dismissible">
-                    <button type="button" class="close" data-dismiss="alert">&times;</button>
                     <strong><?= $value ?></strong>
                 </div>
             </div>
