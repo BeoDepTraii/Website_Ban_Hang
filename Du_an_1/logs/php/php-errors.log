@@ -298,3 +298,22 @@ Stack trace:
 [31-Jul-2024 07:31:45 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on value of type null in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Client\Layouts\Header.php on line 94
 [31-Jul-2024 07:31:45 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "user" in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Client\Layouts\Header.php on line 94
 [31-Jul-2024 07:31:45 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on value of type null in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Client\Layouts\Header.php on line 94
+[31-Jul-2024 07:46:48 Asia/Ho_Chi_Minh] Lỗi khi hiển thị chi tiết dữ liệu: No connection could be made because the target machine actively refused it
+[31-Jul-2024 07:46:48 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "user" in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Client\Layouts\Header.php on line 94
+[31-Jul-2024 07:46:48 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on value of type null in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Client\Layouts\Header.php on line 94
+[31-Jul-2024 07:46:48 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "user" in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Client\Layouts\Header.php on line 94
+[31-Jul-2024 07:46:48 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on value of type null in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Client\Layouts\Header.php on line 94
+[31-Jul-2024 07:47:03 Asia/Ho_Chi_Minh] Lỗi khi hiển thị chi tiết dữ liệu: No connection could be made because the target machine actively refused it
+[31-Jul-2024 07:47:03 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "user" in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Client\Layouts\Header.php on line 94
+[31-Jul-2024 07:47:03 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on value of type null in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Client\Layouts\Header.php on line 94
+[31-Jul-2024 07:47:03 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "user" in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Client\Layouts\Header.php on line 94
+[31-Jul-2024 07:47:03 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on value of type null in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Client\Layouts\Header.php on line 94
+[31-Jul-2024 07:49:22 Asia/Ho_Chi_Minh] Lỗi khi hiển thị tất cả dữ liệu: No connection could be made because the target machine actively refused it
+[31-Jul-2024 07:49:24 Asia/Ho_Chi_Minh] Lỗi khi hiển thị tất cả dữ liệu: No connection could be made because the target machine actively refused it
+[31-Jul-2024 07:49:28 Asia/Ho_Chi_Minh] Lỗi khi hiển thị tất cả dữ liệu: No connection could be made because the target machine actively refused it
+[31-Jul-2024 07:49:36 Asia/Ho_Chi_Minh] Lỗi khi lấy loại sản phẩm bằng tên: No connection could be made because the target machine actively refused it
+[31-Jul-2024 07:49:38 Asia/Ho_Chi_Minh] Lỗi khi thêm dữ liệu: No connection could be made because the target machine actively refused it
+[31-Jul-2024 07:49:50 Asia/Ho_Chi_Minh] Lỗi khi lấy loại sản phẩm bằng tên: No connection could be made because the target machine actively refused it
+[31-Jul-2024 07:49:52 Asia/Ho_Chi_Minh] Lỗi khi thêm dữ liệu: No connection could be made because the target machine actively refused it
+[31-Jul-2024 07:51:08 Asia/Ho_Chi_Minh] Lỗi khi hiển thị tất cả dữ liệu: No connection could be made because the target machine actively refused it
+[31-Jul-2024 07:52:12 Asia/Ho_Chi_Minh] Lỗi khi xóa dữ liệu: Cannot delete or update a parent row: a foreign key constraint fails (`mau`.`products`, CONSTRAINT `products_ibfk_1` FOREIGN KEY (`category_id`) REFERENCES `categories` (`id`))
