@@ -47,23 +47,49 @@ class Create extends BaseView
                                     <h4 class="card-title">Thêm sản phẩm mới</h4>
                                     <div class="form-group">
                                         <label for="name">Tên*</label>
-                                        <input type="text" class="form-control" id="name" placeholder="Nhập tên sản phẩm..." name="name" required>
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="description">Mô tả*</label>
-                                        <textarea class="form-control" id="description" placeholder="Nhập mô tả sản phẩm..." name="description" required></textarea>
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="price">Giá*</label>
-                                        <input type="number" class="form-control" id="price" placeholder="Nhập giá sản phẩm..." name="price" required>
+                                        <input type="text" class="form-control" id="name" placeholder="Nhập tên sản phẩm..." name="name" >
                                     </div>
                                     <div class="form-group">
                                         <label for="image">Hình ảnh*</label>
-                                        <input type="file" class="form-control" id="image" name="image" required>
+                                        <input type="file" class="form-control" id="image" name="image" >
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="price">Giá*</label>
+                                        <input type="number" class="form-control" id="price" placeholder="Nhập giá sản phẩm..." name="price" >
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="discount_price">Giá Giảm*</label>
+                                        <input type="number" class="form-control" id="discount_price" placeholder="Nhập giá giảm sản phẩm..." name="discount_price" >
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="description">Mô tả*</label>
+                                        <textarea class="form-control" id="description" placeholder="Nhập mô tả sản phẩm..." name="description" ></textarea>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="category_id">Loại Sản Phẩm*</label>
+                                        <select class="select2 form-select shadow-none" style="width: 100%; height:36px;" id="category_id" name="status" >
+                                            <option value="" selected disabled>Vui lòng chọn...</option>
+                                            
+                                            <?php 
+                                            foreach ($data as $item):
+                                            ?>
+                                            <option value="<?= $item['id']?>"><?= $item['name']?></option>
+                                            <?php 
+                                            endforeach;
+                                            ?>
+                                        </select>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="is_featured">Nổi Bật*</label>
+                                        <select class="select2 form-select shadow-none" style="width: 100%; height:36px;" id="is_featured" name="status" >
+                                            <option value="" selected disabled>Vui lòng chọn...</option>
+                                            <option value="1">Nổi Bật</option>
+                                            <option value="0">Bình Thường</option>
+                                        </select>
                                     </div>
                                     <div class="form-group">
                                         <label for="status">Trạng thái*</label>
-                                        <select class="select2 form-select shadow-none" style="width: 100%; height:36px;" id="status" name="status" required>
+                                        <select class="select2 form-select shadow-none" style="width: 100%; height:36px;" id="status" name="status" >
                                             <option value="" selected disabled>Vui lòng chọn...</option>
                                             <option value="1">Hiển thị</option>
                                             <option value="0">Ẩn</option>

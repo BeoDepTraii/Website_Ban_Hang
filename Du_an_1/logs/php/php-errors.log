@@ -524,3 +524,22 @@ Stack trace:
 [31-Jul-2024 09:21:46 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "category_name" in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 76
 [31-Jul-2024 09:21:46 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "category_name" in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 76
 [31-Jul-2024 09:21:46 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "category_name" in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Admin\Pages\Product\Index.php on line 76
+[31-Jul-2024 21:29:10 Asia/Ho_Chi_Minh] Lỗi khi hiển thị chi tiết dữ liệu: No connection could be made because the target machine actively refused it
+[31-Jul-2024 21:29:10 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "user" in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Client\Layouts\Header.php on line 94
+[31-Jul-2024 21:29:10 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on value of type null in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Client\Layouts\Header.php on line 94
+[31-Jul-2024 21:29:10 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "user" in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Client\Layouts\Header.php on line 94
+[31-Jul-2024 21:29:10 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on value of type null in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Client\Layouts\Header.php on line 94
+[31-Jul-2024 21:35:59 Asia/Ho_Chi_Minh] Lỗi khi hiển thị tất cả dữ liệu: No connection could be made because the target machine actively refused it
+[31-Jul-2024 21:36:01 Asia/Ho_Chi_Minh] Lỗi khi hiển thị tất cả dữ liệu: No connection could be made because the target machine actively refused it
+[31-Jul-2024 21:36:03 Asia/Ho_Chi_Minh] Lỗi khi hiển thị tất cả dữ liệu: No connection could be made because the target machine actively refused it
+[31-Jul-2024 21:36:09 Asia/Ho_Chi_Minh] Lỗi khi hiển thị tất cả dữ liệu: No connection could be made because the target machine actively refused it
+[31-Jul-2024 22:01:17 Asia/Ho_Chi_Minh] PHP Parse error:  syntax error, unexpected identifier "var_dump", expecting "," or ";" in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Controllers\Admin\ProductController.php on line 41
+[31-Jul-2024 23:26:33 Asia/Ho_Chi_Minh] PHP Parse error:  Unclosed '{' on line 17 in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Controllers\Admin\ProductController.php on line 209
+[02-Aug-2024 14:50:55 Asia/Ho_Chi_Minh] Lỗi khi hiển thị chi tiết dữ liệu: No connection could be made because the target machine actively refused it
+[02-Aug-2024 14:50:55 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "user" in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Client\Layouts\Header.php on line 94
+[02-Aug-2024 14:50:55 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on value of type null in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Client\Layouts\Header.php on line 94
+[02-Aug-2024 14:50:55 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "user" in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Client\Layouts\Header.php on line 94
+[02-Aug-2024 14:50:55 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on value of type null in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Client\Layouts\Header.php on line 94
+[02-Aug-2024 14:51:05 Asia/Ho_Chi_Minh] Lỗi khi hiển thị tất cả dữ liệu: No connection could be made because the target machine actively refused it
+[02-Aug-2024 14:51:41 Asia/Ho_Chi_Minh] Lỗi khi hiển thị tất cả dữ liệu: No connection could be made because the target machine actively refused it
+[02-Aug-2024 14:51:49 Asia/Ho_Chi_Minh] Lỗi khi hiển thị tất cả dữ liệu: No connection could be made because the target machine actively refused it
