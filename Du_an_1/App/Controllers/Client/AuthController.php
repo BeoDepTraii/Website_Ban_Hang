@@ -11,8 +11,10 @@ use App\Views\Client\Layouts\Footer;
 use App\Views\Client\Layouts\Header;
 use App\Views\Client\Pages\Auth\ChangePassword;
 use App\Views\Client\Pages\Auth\Edit;
+use App\Views\Client\Pages\Auth\ForgotPassword;
 use App\Views\Client\Pages\Auth\Login;
 use App\Views\Client\Pages\Auth\Register;
+use App\Views\Client\Pages\Auth\ResetPassword;
 
 class AuthController {
 
@@ -118,6 +120,9 @@ class AuthController {
     }
 
 
+
+
+    /*------------------CHỨC NĂNG ĐĂNG XUẤT-------------------*/
     // Đăng xuất
     public static function logout(){
         AuthHelper::logout();
@@ -157,6 +162,9 @@ class AuthController {
 
     }
 
+
+
+    /*------------------CHỨC NĂNG CẬP NHẬT-------------------*/
     public static function update($id){
         //Validate
         $is_valid=AuthValidation::edit();
@@ -190,6 +198,8 @@ class AuthController {
     }
 
 
+
+    /*------------------CHỨC NĂNG ĐỔI MẬT KHẨU-------------------*/
     //Hiển thị form đổi mật khẩu
     public static function changePassword(){
         $is_login = AuthHelper::checkLogin();
@@ -240,6 +250,116 @@ class AuthController {
         //Kiểm tra kết quả trả về và chuyển hướng
         header('Location: /change-password');
     }
+
+
+
+
+
+    /*------------------CHỨC NĂNG QUÊN MẬT KHẨU-------------------*/
+    //Hiển thị giao diện quên mật khẩu
+
+    public static function forgotPassword(){
+        Header::render();
+        Notification::render();  // hiển thị thông báo
+        NotificationHelper::clear(); //clear notification
+        ForgotPassword::render();
+        Footer::render();
+    }
+
+    //Thực hiện lấy lại mật khẩu
+    public static function forgotPasswordAction(){
+        //Validate
+        $is_valid=AuthValidation::forgotPassword();
+
+        if(!$is_valid){
+            NotificationHelper::error('forgot_password', 'Lấy lại mật khẩu thất bại!');
+            header('Location: /forgot-password');
+            exit;
+        }
+
+        //Lấy dữ liệu từ form do người dùng nhập vào
+        $username=$_POST['username'];
+        $email=$_POST['email'];
+
+        $data=[
+            'username' => $username
+        ];
+
+        //Kiểm tra username, email đã tồn tại trong CSDL chưa?
+        $result=AuthHelper::forgotPassword($data);
+
+        if(!$result){
+            NotificationHelper::error('username_exist','Không tồn tại tài khoản này!');
+            header('Location: /forgot-password');
+            exit;
+        }
+
+        if($result['email']!=$email){
+            NotificationHelper::error('email_incorrect','Email nhập không đúng!');
+            header('Location: /forgot-password');
+            exit;
+        }
+
+        $_SESSION['reset_password'] = [
+            'username' => $username,
+            'email' => $email
+        ];
+
+        header('Location: /reset-password');
+
+    }
+
+
+        //Hiển thị giao diện reset mật khẩu
+
+        public static function resetPassword(){
+            if(!isset($_SESSION['reset_password'])){
+                NotificationHelper::error('reset_password', 'Vui lòng nhập đầy đủ thông tin của form này!');
+                header('Location: /forgot-password');
+                exit;
+            }
+            Header::render();
+            Notification::render();  // hiển thị thông báo
+            NotificationHelper::clear(); //clear notification
+            ResetPassword::render();
+            Footer::render();
+        }
+
+        //Thực hiện reset mật khẩu
+        public static function resetPasswordAction(){
+            //Validate
+            $is_valid=AuthValidation::resetPassword();
+
+            if(!$is_valid){
+                NotificationHelper::error('reset_password', 'Đặt lại mật khẩu thất bại!');
+                header('Location: /reset-password');
+                exit;
+            }
+
+            //Lấy dữ liệu từ form do người dùng nhập vào
+            $password=$_POST['password'];
+            $hash_password=password_hash($password,PASSWORD_DEFAULT);
+            $data=[
+                'username' => $_SESSION['reset_password']['username'],
+                'email' => $_SESSION['reset_password']['email'],
+                'password' => $hash_password
+            ];
+
+            //Gọi Helper để Update
+            $result=AuthHelper::resetPassword($data);
+
+            if($result){
+                NotificationHelper::success('reset_password','Đặt lại mật khẩu thành công!');
+                unset($_SESSION['reset_password']);
+                header('Location: /login');
+            }else{
+                NotificationHelper::error('reset_password','Đặt lại mật khẩu thất bại!');
+                header('Location: /reset-password');
+            }
+            //Kiểm tra kết quả trả về và chuyển hướng
+            header('Location: /login');
+
+        }
 
 
 }

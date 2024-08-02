@@ -245,4 +245,44 @@ class AuthHelper {
 
         
     }
+
+
+    public static function forgotPassword($data) {
+        $user= new User();
+
+        $result=$user->getOneUserByUsernamme($data['username']);
+
+        return $result;
+    }
+
+
+    public static function resetPassword($data) {
+        $user= new User();
+
+        $result=$user->updateUserByUsernameAndEmail($data);
+
+        return $result;
+    }
+
+    public static function middleware(){
+        // var_dump($_SERVER['REQUEST_URI']);
+        $admin=explode('/',$_SERVER['REQUEST_URI']);
+        // var_dump($admin);
+        $admin=$admin[1];
+
+        if($admin=='admin'){
+
+            if(!isset($_SESSION['user'])){
+                NotificationHelper::error('admin', 'Vui lòng đăng nhập trước!');
+                header('Location: /login');
+                exit;
+            }
+
+            if($_SESSION['user']['role'] != 1 ){
+                NotificationHelper::error('admin', 'Bạn không có quyền truy cập trang này!');
+                header('Location: /login');
+                exit;
+            }
+        }
+    }
 }

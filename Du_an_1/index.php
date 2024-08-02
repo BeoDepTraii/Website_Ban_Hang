@@ -9,8 +9,7 @@ ini_set('log_errors', TRUE);
 // Kiểm tra có file log chưa? Chưa -> tạo file và lưu vào    Có -> lưu vào luôn
 ini_set('error_log', './logs/php/php-errors.log');
 
-
-
+use App\Helpers\AuthHelper;
 use App\Route;
 
 require_once 'vendor/autoload.php';
@@ -21,6 +20,7 @@ $dotenv->load();
 require_once 'config.php';
 
 
+AuthHelper::middleware();
 
 // *** Client
 Route::get('/', 'App\Controllers\Client\HomeController@index');
@@ -46,6 +46,13 @@ Route::put('/users/{id}', 'App\Controllers\Client\AuthController@update');   //R
 
 Route::get('/change-password', 'App\Controllers\Client\AuthController@changePassword');   //Route đổi mật khẩu
 Route::put('/change-password', 'App\Controllers\Client\AuthController@changePasswordAction');   //Route đổi mật khẩu
+
+Route::get('/forgot-password', 'App\Controllers\Client\AuthController@forgotPassword');   //Route quên mật khẩu
+Route::post('/forgot-password', 'App\Controllers\Client\AuthController@forgotPasswordAction');   //Route quên mật khẩu
+
+
+Route::get('/reset-password', 'App\Controllers\Client\AuthController@resetPassword');   //Route reset mật khẩu
+Route::put('/reset-password', 'App\Controllers\Client\AuthController@resetPasswordAction');   //Route reset mật khẩu
 
 
 

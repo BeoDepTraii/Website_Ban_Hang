@@ -37,7 +37,7 @@ class Login extends BaseView{
                             <button type="reset" class="btn btn-outline-danger">Nhập lại</button>
                             <button type="submit" class="btn btn-outline-info">Đăng nhập</button>
                             <br>
-                            <a href="/forgotPassword" class="text-danger">Quên mật khẩu?</a>
+                            <a href="/forgot-password" class="text-danger">Quên mật khẩu?</a>
                         </form>
                     </div>
                 </div>

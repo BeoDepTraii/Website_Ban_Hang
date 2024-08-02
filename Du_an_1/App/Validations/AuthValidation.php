@@ -233,4 +233,79 @@ class AuthValidation{
             return $is_valid;
     
         }
+
+
+
+    
+            /*------------------CHỨC NĂNG QUÊN MẬT KHẨU-------------------*/
+
+    public static function forgotPassword():bool{
+        $is_valid = true;
+
+        
+        //Validate tên đăng nhập
+        if(!isset($_POST['username']) || $_POST['username'] === ''){
+            NotificationHelper::error('username', 'Không để trống tên đăng nhập !');
+            $is_valid = false;
+        }
+
+
+
+
+        //Validate email
+        if(!isset($_POST['email']) || $_POST['email'] === ''){
+            NotificationHelper::error('email', 'Không để trống email !');
+            $is_valid = false;
+        }else{
+            $emailPattern = "/^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/";
+            if(!preg_match($emailPattern, $_POST['email'])){
+                NotificationHelper::error('email','Email không đúng định dạng !');
+                $is_valid = false;
+            }
+        }
+
+
+
+        return $is_valid;
+
+    }
+
+
+    //Reset password
+    public static function resetPassword():bool{
+        $is_valid = true;
+
+
+
+        //Validate mật khẩu
+        if(!isset($_POST['password']) || $_POST['password'] === ''){
+            NotificationHelper::error('password', 'Không để trống mật khẩu !');
+            $is_valid = false;
+        }else{
+            if(strlen($_POST['password'])<3){
+                NotificationHelper::error('password','Mật khẩu phải trên 3 kí tự !');
+                $is_valid = false;
+
+            }
+        }
+
+
+
+
+        //Validate confirm password
+        if(!isset($_POST['confirmPassword']) || $_POST['confirmPassword'] === ''){
+            NotificationHelper::error('confirmPassword', 'Không để trống mục nhập lại mật khẩu !');
+            $is_valid = false;
+        }else{
+            if($_POST['password']!=$_POST['confirmPassword']){
+                NotificationHelper::error('confirmPassword','Mật khẩu và nhập lại mật khẩu chưa giống nhau !');
+                $is_valid = false;
+
+            }
+        }
+
+
+        return $is_valid;
+
+    }
 }
