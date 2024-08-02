@@ -335,3 +335,110 @@ Stack trace:
 [31-Jul-2024 07:54:16 Asia/Ho_Chi_Minh] Lỗi khi hiển thị tất cả dữ liệu: Access denied for user 'root'@'localhost' (using password: YES)
 [31-Jul-2024 07:54:22 Asia/Ho_Chi_Minh] Lỗi khi hiển thị tất cả dữ liệu: Access denied for user 'root'@'localhost' (using password: YES)
 [31-Jul-2024 07:54:27 Asia/Ho_Chi_Minh] Lỗi khi hiển thị tất cả dữ liệu: Access denied for user 'root'@'localhost' (using password: YES)
+[31-Jul-2024 09:04:48 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Class "App\Views\Client\Pages\Contact" not found in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Route.php:79
+Stack trace:
+#0 /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/index.php(98): App\Route::dispatch('/contact')
+#1 {main}
+  thrown in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Route.php on line 79
+[31-Jul-2024 09:17:10 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key 1 in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Route.php on line 76
+[31-Jul-2024 09:17:10 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Method name must be a string in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Route.php:82
+Stack trace:
+#0 /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/index.php(98): App\Route::dispatch('/contact')
+#1 {main}
+  thrown in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Route.php on line 82
+[31-Jul-2024 09:17:11 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key 1 in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Route.php on line 76
+[31-Jul-2024 09:17:11 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Method name must be a string in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Route.php:82
+Stack trace:
+#0 /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/index.php(98): App\Route::dispatch('/contact')
+#1 {main}
+  thrown in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Route.php on line 82
+[31-Jul-2024 09:18:29 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Class "App\Views\Client\Pages\Contact" not found in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Route.php:79
+Stack trace:
+#0 /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/index.php(98): App\Route::dispatch('/contact')
+#1 {main}
+  thrown in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Route.php on line 79
+[31-Jul-2024 09:18:30 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Class "App\Views\Client\Pages\Contact" not found in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Route.php:79
+Stack trace:
+#0 /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/index.php(98): App\Route::dispatch('/contact')
+#1 {main}
+  thrown in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Route.php on line 79
+[31-Jul-2024 09:18:30 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Class "App\Views\Client\Pages\Contact" not found in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Route.php:79
+Stack trace:
+#0 /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/index.php(98): App\Route::dispatch('/contact')
+#1 {main}
+  thrown in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Route.php on line 79
+[31-Jul-2024 09:18:30 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Class "App\Views\Client\Pages\Contact" not found in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Route.php:79
+Stack trace:
+#0 /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/index.php(98): App\Route::dispatch('/contact')
+#1 {main}
+  thrown in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Route.php on line 79
+[31-Jul-2024 09:18:30 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Class "App\Views\Client\Pages\Contact" not found in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Route.php:79
+Stack trace:
+#0 /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/index.php(98): App\Route::dispatch('/contact')
+#1 {main}
+  thrown in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Route.php on line 79
+[31-Jul-2024 09:18:30 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Class "App\Views\Client\Pages\Contact" not found in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Route.php:79
+Stack trace:
+#0 /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/index.php(98): App\Route::dispatch('/contact')
+#1 {main}
+  thrown in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Route.php on line 79
+[31-Jul-2024 09:18:31 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Class "App\Views\Client\Pages\Contact" not found in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Route.php:79
+Stack trace:
+#0 /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/index.php(98): App\Route::dispatch('/contact')
+#1 {main}
+  thrown in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Route.php on line 79
+[02-Aug-2024 14:52:30 Asia/Ho_Chi_Minh] Lỗi khi xóa dữ liệu: Cannot delete or update a parent row: a foreign key constraint fails (`duan1`.`products`, CONSTRAINT `products_ibfk_1` FOREIGN KEY (`category_id`) REFERENCES `categories` (`id`))
+[02-Aug-2024 14:53:10 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "image" in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Views/Admin/Pages/Product/Index.php on line 70
+[02-Aug-2024 14:53:10 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "price" in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Views/Admin/Pages/Product/Index.php on line 72
+[02-Aug-2024 14:53:10 Asia/Ho_Chi_Minh] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Views/Admin/Pages/Product/Index.php on line 72
+[02-Aug-2024 14:53:10 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "discount_price" in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Views/Admin/Pages/Product/Index.php on line 73
+[02-Aug-2024 14:53:10 Asia/Ho_Chi_Minh] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Views/Admin/Pages/Product/Index.php on line 73
+[02-Aug-2024 14:53:10 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "category_name" in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Views/Admin/Pages/Product/Index.php on line 74
+[02-Aug-2024 14:53:10 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "image" in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Views/Admin/Pages/Product/Index.php on line 70
+[02-Aug-2024 14:53:10 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "price" in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Views/Admin/Pages/Product/Index.php on line 72
+[02-Aug-2024 14:53:10 Asia/Ho_Chi_Minh] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Views/Admin/Pages/Product/Index.php on line 72
+[02-Aug-2024 14:53:10 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "discount_price" in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Views/Admin/Pages/Product/Index.php on line 73
+[02-Aug-2024 14:53:10 Asia/Ho_Chi_Minh] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Views/Admin/Pages/Product/Index.php on line 73
+[02-Aug-2024 14:53:10 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "category_name" in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Views/Admin/Pages/Product/Index.php on line 74
+[02-Aug-2024 14:53:10 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "image" in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Views/Admin/Pages/Product/Index.php on line 70
+[02-Aug-2024 14:53:10 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "price" in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Views/Admin/Pages/Product/Index.php on line 72
+[02-Aug-2024 14:53:10 Asia/Ho_Chi_Minh] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Views/Admin/Pages/Product/Index.php on line 72
+[02-Aug-2024 14:53:10 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "discount_price" in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Views/Admin/Pages/Product/Index.php on line 73
+[02-Aug-2024 14:53:10 Asia/Ho_Chi_Minh] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Views/Admin/Pages/Product/Index.php on line 73
+[02-Aug-2024 14:53:10 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "category_name" in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Views/Admin/Pages/Product/Index.php on line 74
+[02-Aug-2024 14:53:28 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "image" in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Views/Admin/Pages/Product/Index.php on line 70
+[02-Aug-2024 14:53:28 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "price" in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Views/Admin/Pages/Product/Index.php on line 72
+[02-Aug-2024 14:53:28 Asia/Ho_Chi_Minh] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Views/Admin/Pages/Product/Index.php on line 72
+[02-Aug-2024 14:53:28 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "discount_price" in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Views/Admin/Pages/Product/Index.php on line 73
+[02-Aug-2024 14:53:28 Asia/Ho_Chi_Minh] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Views/Admin/Pages/Product/Index.php on line 73
+[02-Aug-2024 14:53:28 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "category_name" in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Views/Admin/Pages/Product/Index.php on line 74
+[02-Aug-2024 14:53:28 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "image" in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Views/Admin/Pages/Product/Index.php on line 70
+[02-Aug-2024 14:53:28 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "price" in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Views/Admin/Pages/Product/Index.php on line 72
+[02-Aug-2024 14:53:28 Asia/Ho_Chi_Minh] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Views/Admin/Pages/Product/Index.php on line 72
+[02-Aug-2024 14:53:28 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "discount_price" in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Views/Admin/Pages/Product/Index.php on line 73
+[02-Aug-2024 14:53:28 Asia/Ho_Chi_Minh] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Views/Admin/Pages/Product/Index.php on line 73
+[02-Aug-2024 14:53:28 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "category_name" in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Views/Admin/Pages/Product/Index.php on line 74
+[02-Aug-2024 14:53:28 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "image" in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Views/Admin/Pages/Product/Index.php on line 70
+[02-Aug-2024 14:53:28 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "price" in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Views/Admin/Pages/Product/Index.php on line 72
+[02-Aug-2024 14:53:28 Asia/Ho_Chi_Minh] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Views/Admin/Pages/Product/Index.php on line 72
+[02-Aug-2024 14:53:28 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "discount_price" in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Views/Admin/Pages/Product/Index.php on line 73
+[02-Aug-2024 14:53:28 Asia/Ho_Chi_Minh] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Views/Admin/Pages/Product/Index.php on line 73
+[02-Aug-2024 14:53:28 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "category_name" in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Views/Admin/Pages/Product/Index.php on line 74
+[02-Aug-2024 14:54:03 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "image" in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Views/Admin/Pages/Product/Index.php on line 70
+[02-Aug-2024 14:54:03 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "price" in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Views/Admin/Pages/Product/Index.php on line 72
+[02-Aug-2024 14:54:03 Asia/Ho_Chi_Minh] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Views/Admin/Pages/Product/Index.php on line 72
+[02-Aug-2024 14:54:03 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "discount_price" in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Views/Admin/Pages/Product/Index.php on line 73
+[02-Aug-2024 14:54:03 Asia/Ho_Chi_Minh] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Views/Admin/Pages/Product/Index.php on line 73
+[02-Aug-2024 14:54:03 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "category_name" in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Views/Admin/Pages/Product/Index.php on line 74
+[02-Aug-2024 14:54:03 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "image" in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Views/Admin/Pages/Product/Index.php on line 70
+[02-Aug-2024 14:54:03 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "price" in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Views/Admin/Pages/Product/Index.php on line 72
+[02-Aug-2024 14:54:03 Asia/Ho_Chi_Minh] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Views/Admin/Pages/Product/Index.php on line 72
+[02-Aug-2024 14:54:03 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "discount_price" in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Views/Admin/Pages/Product/Index.php on line 73
+[02-Aug-2024 14:54:03 Asia/Ho_Chi_Minh] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Views/Admin/Pages/Product/Index.php on line 73
+[02-Aug-2024 14:54:03 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "category_name" in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Views/Admin/Pages/Product/Index.php on line 74
+[02-Aug-2024 14:54:03 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "image" in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Views/Admin/Pages/Product/Index.php on line 70
+[02-Aug-2024 14:54:03 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "price" in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Views/Admin/Pages/Product/Index.php on line 72
+[02-Aug-2024 14:54:03 Asia/Ho_Chi_Minh] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Views/Admin/Pages/Product/Index.php on line 72
+[02-Aug-2024 14:54:03 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "discount_price" in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Views/Admin/Pages/Product/Index.php on line 73
+[02-Aug-2024 14:54:03 Asia/Ho_Chi_Minh] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Views/Admin/Pages/Product/Index.php on line 73
+[02-Aug-2024 14:54:03 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "category_name" in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Views/Admin/Pages/Product/Index.php on line 74

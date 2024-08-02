@@ -1,15 +1,18 @@
 <?php
 
-namespace App\Views\Client;
+namespace App\Views\Client\Pages\Home;
 
 use App\Views\BaseView;
 
-class Home extends BaseView
+class Index extends BaseView
 {
     public static function render($data = null)
     {
-?>
-        <!-- Hero Start -->
+?>       
+       
+       
+           
+       <!-- Hero Start -->
         <div class="container-fluid py-5 mb-5 hero-header">
             <div class="container py-5">
                 <div class="row g-5 align-items-center">
@@ -998,7 +1001,7 @@ class Home extends BaseView
             </div>
         </div>
         <!-- Tastimonial End -->
-       
-<?php
+
+        <?php
     }
 }

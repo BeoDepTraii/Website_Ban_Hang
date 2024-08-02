@@ -10,7 +10,6 @@ class Edit extends BaseView{
     ?>
 
         <!-- Code html hiển thị giao diện -->
-        <div style="height: 100px;"></div>
          <div class="container mt-5">
             <div class="row">
               <div class="offset-md-1 col-md-3">

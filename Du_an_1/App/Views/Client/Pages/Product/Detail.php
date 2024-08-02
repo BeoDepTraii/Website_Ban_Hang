@@ -11,8 +11,6 @@ class Detail extends BaseView
         // var_dump($_SESSION);
 ?>
 
-
-<div style="height: 100px;"></div>
         <div class="container mt-5 mb-5">
 
             <div class="row">

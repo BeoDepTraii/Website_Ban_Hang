@@ -57,7 +57,7 @@ class Header extends BaseView
         <div class="container-fluid fixed-top" style="box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
             <div class="container px-0">
                 <nav class="navbar navbar-light bg-white navbar-expand-xl">
-                    <a href="index.html" class="navbar-brand"><h1 class="text-primary display-6">NMC Store</h1></a>
+                    <a href="/" class="navbar-brand"><h1 class="text-primary display-6">NMC Store</h1></a>
                     <button class="navbar-toggler py-2 px-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                         <span class="fa fa-bars text-primary"></span>
                     </button>
@@ -65,8 +65,8 @@ class Header extends BaseView
                         <div class="navbar-nav mx-auto">
                             <a href="/" class="nav-item nav-link active">Trang chủ</a>
                             <a href="/products" class="nav-item nav-link">Sản phẩm</a>
-                            <a href="shop-detail.html" class="nav-item nav-link">Liên hệ</a>
-                            <a href="contact.html" class="nav-item nav-link">Giỏ hàng</a>
+                            <a href="/contact" class="nav-item nav-link">Liên hệ</a>
+                            <a href="#" class="nav-item nav-link">Giỏ hàng</a>
                         
 
                         
@@ -138,6 +138,7 @@ class Header extends BaseView
             </div>
         </div>
         <!-- Modal Search End -->
+        <div style="height: 100px;"></div>
 
     <?php
 

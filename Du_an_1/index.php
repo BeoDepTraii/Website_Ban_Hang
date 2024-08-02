@@ -27,6 +27,8 @@ Route::get('/', 'App\Controllers\Client\HomeController@index');
 Route::get('/products', 'App\Controllers\Client\ProductController@index');
 Route::get('/products/{id}', 'App\Controllers\Client\ProductController@detail');
 
+Route::get('/contact', 'App\Controllers\Client\ContactController@index');
+
 Route::get('/register', 'App\Controllers\Client\AuthController@register');   //Route đăng ký
 Route::post('/register', 'App\Controllers\Client\AuthController@registerAction');   //Route đăng ký
 
@@ -72,22 +74,22 @@ Route::delete('/admin/categories/{id}', 'App\Controllers\Admin\CategoryControlle
 
 
 //  *** Product
-// GET /Product (lấy danh sách sản phẩm)
+// GET /products (lấy danh sách sản phẩm)
 Route::get('/admin/products', 'App\Controllers\Admin\ProductController@index');
 
-// GET /Product/create (hiển thị form thêm sản phẩm)
+// GET /products/create (hiển thị form thêm sản phẩm)
 Route::get('/admin/products/create', 'App\Controllers\Admin\ProductController@create');
 
-// POST /Product (tạo mới một sản phẩm)
+// POST /products (tạo mới một sản phẩm)
 Route::post('/admin/products', 'App\Controllers\Admin\ProductController@store');
 
-// GET /Product/{id} (lấy chi tiết sản phẩm với id cụ thể)
+// GET /products/{id} (lấy chi tiết sản phẩm với id cụ thể)
 Route::get('/admin/products/{id}', 'App\Controllers\Admin\ProductController@edit');
 
-// PUT /Product/{id} (update sản phẩm với id cụ thể)
+// PUT /products/{id} (update sản phẩm với id cụ thể)
 Route::put('/admin/products/{id}', 'App\Controllers\Admin\ProductController@update');
 
-// DELETE /Product/{id} (delete sản phẩm với id cụ thể)
+// DELETE /products/{id} (delete sản phẩm với id cụ thể)
 Route::delete('/admin/products/{id}', 'App\Controllers\Admin\ProductController@delete');
 
 
