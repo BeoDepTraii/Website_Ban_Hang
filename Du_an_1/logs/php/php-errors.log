@@ -609,3 +609,9 @@ Stack trace:
 [02-Aug-2024 16:14:35 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key 2 in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Helpers/AuthHelper.php on line 271
 [02-Aug-2024 16:14:37 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key 2 in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Helpers/AuthHelper.php on line 271
 [02-Aug-2024 16:14:42 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key 2 in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Helpers/AuthHelper.php on line 271
+[02-Aug-2024 16:50:22 Asia/Ho_Chi_Minh] Lỗi khi hiển thị chi tiết dữ liệu bằng username: Access denied for user 'root'@'localhost' (using password: YES)
+[02-Aug-2024 16:50:35 Asia/Ho_Chi_Minh] Lỗi khi hiển thị chi tiết dữ liệu bằng username: Access denied for user 'root'@'localhost' (using password: YES)
+[02-Aug-2024 16:51:09 Asia/Ho_Chi_Minh] Lỗi khi hiển thị chi tiết dữ liệu bằng username: Access denied for user 'root'@'localhost' (using password: YES)
+[02-Aug-2024 16:51:09 Asia/Ho_Chi_Minh] Lỗi khi thêm dữ liệu: Access denied for user 'root'@'localhost' (using password: YES)
+[02-Aug-2024 16:51:24 Asia/Ho_Chi_Minh] Lỗi khi hiển thị chi tiết dữ liệu bằng username: Access denied for user 'root'@'localhost' (using password: YES)
+[02-Aug-2024 16:51:24 Asia/Ho_Chi_Minh] Lỗi khi thêm dữ liệu: Access denied for user 'root'@'localhost' (using password: YES)
