@@ -442,3 +442,164 @@ Stack trace:
 [02-Aug-2024 14:54:03 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "discount_price" in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Views/Admin/Pages/Product/Index.php on line 73
 [02-Aug-2024 14:54:03 Asia/Ho_Chi_Minh] PHP Deprecated:  number_format(): Passing null to parameter #1 ($num) of type float is deprecated in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Views/Admin/Pages/Product/Index.php on line 73
 [02-Aug-2024 14:54:03 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "category_name" in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Views/Admin/Pages/Product/Index.php on line 74
+[02-Aug-2024 15:05:22 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Call to undefined method App\Controllers\Admin\ProductController::edit() in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Route.php:104
+Stack trace:
+#0 /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/index.php(98): App\Route::dispatch('/admin/products...')
+#1 {main}
+  thrown in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Route.php on line 104
+[02-Aug-2024 15:21:33 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on int in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Views/Admin/Pages/Product/Edit.php on line 78
+[02-Aug-2024 15:21:33 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on int in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Views/Admin/Pages/Product/Edit.php on line 78
+[02-Aug-2024 15:21:33 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Views/Admin/Pages/Product/Edit.php:78
+Stack trace:
+#0 /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Controllers/Admin/ProductController.php(129): App\Views\Admin\Pages\Product\Edit::render(Array)
+#1 /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Route.php(104): App\Controllers\Admin\ProductController::edit(1)
+#2 /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/index.php(98): App\Route::dispatch('/admin/products...')
+#3 {main}
+  thrown in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Views/Admin/Pages/Product/Edit.php on line 78
+[02-Aug-2024 15:22:11 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on int in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Views/Admin/Pages/Product/Edit.php on line 78
+[02-Aug-2024 15:22:11 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on int in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Views/Admin/Pages/Product/Edit.php on line 78
+[02-Aug-2024 15:22:11 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Views/Admin/Pages/Product/Edit.php:78
+Stack trace:
+#0 /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Controllers/Admin/ProductController.php(129): App\Views\Admin\Pages\Product\Edit::render(Array)
+#1 /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Route.php(104): App\Controllers\Admin\ProductController::edit(1)
+#2 /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/index.php(98): App\Route::dispatch('/admin/products...')
+#3 {main}
+  thrown in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Views/Admin/Pages/Product/Edit.php on line 78
+[02-Aug-2024 15:22:28 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on int in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Views/Admin/Pages/Product/Edit.php on line 78
+[02-Aug-2024 15:22:28 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on int in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Views/Admin/Pages/Product/Edit.php on line 78
+[02-Aug-2024 15:22:28 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Views/Admin/Pages/Product/Edit.php:78
+Stack trace:
+#0 /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Controllers/Admin/ProductController.php(129): App\Views\Admin\Pages\Product\Edit::render(Array)
+#1 /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Route.php(104): App\Controllers\Admin\ProductController::edit(1)
+#2 /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/index.php(98): App\Route::dispatch('/admin/products...')
+#3 {main}
+  thrown in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Views/Admin/Pages/Product/Edit.php on line 78
+[02-Aug-2024 15:24:39 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on int in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Views/Admin/Pages/Product/Edit.php on line 78
+[02-Aug-2024 15:24:39 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on int in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Views/Admin/Pages/Product/Edit.php on line 78
+[02-Aug-2024 15:24:39 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Views/Admin/Pages/Product/Edit.php:78
+Stack trace:
+#0 /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Controllers/Admin/ProductController.php(129): App\Views\Admin\Pages\Product\Edit::render(Array)
+#1 /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Route.php(104): App\Controllers\Admin\ProductController::edit(1)
+#2 /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/index.php(98): App\Route::dispatch('/admin/products...')
+#3 {main}
+  thrown in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Views/Admin/Pages/Product/Edit.php on line 78
+[02-Aug-2024 15:24:43 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on int in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Views/Admin/Pages/Product/Edit.php on line 78
+[02-Aug-2024 15:24:43 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on int in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Views/Admin/Pages/Product/Edit.php on line 78
+[02-Aug-2024 15:24:43 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Views/Admin/Pages/Product/Edit.php:78
+Stack trace:
+#0 /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Controllers/Admin/ProductController.php(129): App\Views\Admin\Pages\Product\Edit::render(Array)
+#1 /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Route.php(104): App\Controllers\Admin\ProductController::edit(2)
+#2 /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/index.php(98): App\Route::dispatch('/admin/products...')
+#3 {main}
+  thrown in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Views/Admin/Pages/Product/Edit.php on line 78
+[02-Aug-2024 15:24:56 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on int in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Views/Admin/Pages/Product/Edit.php on line 78
+[02-Aug-2024 15:24:56 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on int in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Views/Admin/Pages/Product/Edit.php on line 78
+[02-Aug-2024 15:24:56 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Views/Admin/Pages/Product/Edit.php:78
+Stack trace:
+#0 /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Controllers/Admin/ProductController.php(129): App\Views\Admin\Pages\Product\Edit::render(Array)
+#1 /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Route.php(104): App\Controllers\Admin\ProductController::edit(2)
+#2 /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/index.php(98): App\Route::dispatch('/admin/products...')
+#3 {main}
+  thrown in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Views/Admin/Pages/Product/Edit.php on line 78
+[02-Aug-2024 15:24:56 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on int in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Views/Admin/Pages/Product/Edit.php on line 78
+[02-Aug-2024 15:24:56 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on int in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Views/Admin/Pages/Product/Edit.php on line 78
+[02-Aug-2024 15:24:56 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Views/Admin/Pages/Product/Edit.php:78
+Stack trace:
+#0 /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Controllers/Admin/ProductController.php(129): App\Views\Admin\Pages\Product\Edit::render(Array)
+#1 /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Route.php(104): App\Controllers\Admin\ProductController::edit(2)
+#2 /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/index.php(98): App\Route::dispatch('/admin/products...')
+#3 {main}
+  thrown in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Views/Admin/Pages/Product/Edit.php on line 78
+[02-Aug-2024 15:25:01 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on int in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Views/Admin/Pages/Product/Edit.php on line 78
+[02-Aug-2024 15:25:01 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on int in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Views/Admin/Pages/Product/Edit.php on line 78
+[02-Aug-2024 15:25:01 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Views/Admin/Pages/Product/Edit.php:78
+Stack trace:
+#0 /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Controllers/Admin/ProductController.php(129): App\Views\Admin\Pages\Product\Edit::render(Array)
+#1 /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Route.php(104): App\Controllers\Admin\ProductController::edit(1)
+#2 /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/index.php(98): App\Route::dispatch('/admin/products...')
+#3 {main}
+  thrown in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Views/Admin/Pages/Product/Edit.php on line 78
+[02-Aug-2024 15:27:05 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on int in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Views/Admin/Pages/Product/Edit.php on line 78
+[02-Aug-2024 15:27:05 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on int in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Views/Admin/Pages/Product/Edit.php on line 78
+[02-Aug-2024 15:27:05 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Views/Admin/Pages/Product/Edit.php:78
+Stack trace:
+#0 /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Controllers/Admin/ProductController.php(129): App\Views\Admin\Pages\Product\Edit::render(Array)
+#1 /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Route.php(104): App\Controllers\Admin\ProductController::edit(1)
+#2 /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/index.php(98): App\Route::dispatch('/admin/products...')
+#3 {main}
+  thrown in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Views/Admin/Pages/Product/Edit.php on line 78
+[02-Aug-2024 15:27:07 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on int in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Views/Admin/Pages/Product/Edit.php on line 78
+[02-Aug-2024 15:27:07 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on int in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Views/Admin/Pages/Product/Edit.php on line 78
+[02-Aug-2024 15:27:07 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Views/Admin/Pages/Product/Edit.php:78
+Stack trace:
+#0 /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Controllers/Admin/ProductController.php(129): App\Views\Admin\Pages\Product\Edit::render(Array)
+#1 /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Route.php(104): App\Controllers\Admin\ProductController::edit(1)
+#2 /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/index.php(98): App\Route::dispatch('/admin/products...')
+#3 {main}
+  thrown in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Views/Admin/Pages/Product/Edit.php on line 78
+[02-Aug-2024 15:27:08 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on int in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Views/Admin/Pages/Product/Edit.php on line 78
+[02-Aug-2024 15:27:08 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on int in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Views/Admin/Pages/Product/Edit.php on line 78
+[02-Aug-2024 15:27:08 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Views/Admin/Pages/Product/Edit.php:78
+Stack trace:
+#0 /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Controllers/Admin/ProductController.php(129): App\Views\Admin\Pages\Product\Edit::render(Array)
+#1 /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Route.php(104): App\Controllers\Admin\ProductController::edit(1)
+#2 /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/index.php(98): App\Route::dispatch('/admin/products...')
+#3 {main}
+  thrown in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Views/Admin/Pages/Product/Edit.php on line 78
+[02-Aug-2024 15:27:12 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on int in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Views/Admin/Pages/Product/Edit.php on line 78
+[02-Aug-2024 15:27:12 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on int in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Views/Admin/Pages/Product/Edit.php on line 78
+[02-Aug-2024 15:27:12 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Views/Admin/Pages/Product/Edit.php:78
+Stack trace:
+#0 /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Controllers/Admin/ProductController.php(129): App\Views\Admin\Pages\Product\Edit::render(Array)
+#1 /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Route.php(104): App\Controllers\Admin\ProductController::edit(2)
+#2 /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/index.php(98): App\Route::dispatch('/admin/products...')
+#3 {main}
+  thrown in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Views/Admin/Pages/Product/Edit.php on line 78
+[02-Aug-2024 15:28:28 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on int in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Views/Admin/Pages/Product/Edit.php on line 78
+[02-Aug-2024 15:28:28 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on int in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Views/Admin/Pages/Product/Edit.php on line 78
+[02-Aug-2024 15:28:28 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Views/Admin/Pages/Product/Edit.php:78
+Stack trace:
+#0 /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Controllers/Admin/ProductController.php(129): App\Views\Admin\Pages\Product\Edit::render(Array)
+#1 /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Route.php(104): App\Controllers\Admin\ProductController::edit(2)
+#2 /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/index.php(98): App\Route::dispatch('/admin/products...')
+#3 {main}
+  thrown in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Views/Admin/Pages/Product/Edit.php on line 78
+[02-Aug-2024 15:29:16 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on int in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Views/Admin/Pages/Product/Edit.php on line 78
+[02-Aug-2024 15:29:16 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on int in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Views/Admin/Pages/Product/Edit.php on line 78
+[02-Aug-2024 15:29:16 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Views/Admin/Pages/Product/Edit.php:78
+Stack trace:
+#0 /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Controllers/Admin/ProductController.php(129): App\Views\Admin\Pages\Product\Edit::render(Array)
+#1 /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Route.php(104): App\Controllers\Admin\ProductController::edit(2)
+#2 /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/index.php(98): App\Route::dispatch('/admin/products...')
+#3 {main}
+  thrown in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Views/Admin/Pages/Product/Edit.php on line 78
+[02-Aug-2024 15:29:46 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on int in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Views/Admin/Pages/Product/Edit.php on line 78
+[02-Aug-2024 15:29:46 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on int in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Views/Admin/Pages/Product/Edit.php on line 78
+[02-Aug-2024 15:29:46 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Views/Admin/Pages/Product/Edit.php:78
+Stack trace:
+#0 /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Controllers/Admin/ProductController.php(129): App\Views\Admin\Pages\Product\Edit::render(Array)
+#1 /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Route.php(104): App\Controllers\Admin\ProductController::edit(2)
+#2 /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/index.php(98): App\Route::dispatch('/admin/products...')
+#3 {main}
+  thrown in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Views/Admin/Pages/Product/Edit.php on line 78
+[02-Aug-2024 15:29:47 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on int in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Views/Admin/Pages/Product/Edit.php on line 78
+[02-Aug-2024 15:29:47 Asia/Ho_Chi_Minh] PHP Warning:  Trying to access array offset on int in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Views/Admin/Pages/Product/Edit.php on line 78
+[02-Aug-2024 15:29:47 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Views/Admin/Pages/Product/Edit.php:78
+Stack trace:
+#0 /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Controllers/Admin/ProductController.php(129): App\Views\Admin\Pages\Product\Edit::render(Array)
+#1 /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Route.php(104): App\Controllers\Admin\ProductController::edit(2)
+#2 /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/index.php(98): App\Route::dispatch('/admin/products...')
+#3 {main}
+  thrown in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Views/Admin/Pages/Product/Edit.php on line 78
+[02-Aug-2024 15:34:12 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "id" in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Views/Admin/Pages/Product/Edit.php on line 47
+[02-Aug-2024 15:34:12 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "id" in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Views/Admin/Pages/Product/Edit.php on line 53
+[02-Aug-2024 15:34:12 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "name" in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Views/Admin/Pages/Product/Edit.php on line 57
+[02-Aug-2024 15:34:12 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "price" in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Views/Admin/Pages/Product/Edit.php on line 61
+[02-Aug-2024 15:34:12 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "discount_price" in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Views/Admin/Pages/Product/Edit.php on line 65
+[02-Aug-2024 15:34:12 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "description" in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Views/Admin/Pages/Product/Edit.php on line 69
+[02-Aug-2024 15:34:12 Asia/Ho_Chi_Minh] PHP Warning:  foreach() argument must be of type array|object, null given in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Views/Admin/Pages/Product/Edit.php on line 76
+[02-Aug-2024 15:43:12 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Call to undefined method App\Controllers\Admin\ProductController::delete() in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Route.php:104
+Stack trace:
+#0 /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/index.php(98): App\Route::dispatch('/admin/products...')
+#1 {main}
+  thrown in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Route.php on line 104

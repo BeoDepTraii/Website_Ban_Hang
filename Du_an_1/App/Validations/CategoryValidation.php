@@ -16,9 +16,9 @@ use App\Helpers\NotificationHelper;
 
 
 
-        //Validate mật khẩu
+        //Validate trạng thái
         if(!isset($_POST['status']) || $_POST['status'] ===''){
-            NotificationHelper::error('status', 'Không để trống !');
+            NotificationHelper::error('status', 'Không để trống trạng thái!');
             $is_valid = false;
         }
 
@@ -33,7 +33,7 @@ use App\Helpers\NotificationHelper;
             $is_valid = false;
         }
 
-        //Validate mật khẩu
+        //Validate trạng thái
         if(!isset($_POST['status']) || $_POST['status'] ===''){
             NotificationHelper::error('status', 'Không để trống !');
             $is_valid = false;

@@ -98,98 +98,101 @@ class ProductController
     }
 
 
-//     // hiển thị chi tiết
-//     public static function show()
-//     {
-//     }
+    // hiển thị chi tiết
+    public static function show()
+    {
+    }
 
 
-//     // hiển thị giao diện form sửa
-//     public static function edit(int $id)
-//     {
-//         // // giả sử data là mảng dữ liệu lấy được từ database
-//         // $data = [
-//         //     'id' => $id,
-//         //     'name' => 'Product 1',
-//         //     'status' => 1
-//         // ];
-//         $product = new Product();
-//         $data = $product->getOneProduct($id);
+    // hiển thị giao diện form sửa
+    public static function edit(int $id)
+    {
+        // // giả sử data là mảng dữ liệu lấy được từ database
+        // $data = [
+        //     'id' => $id,
+        //     'name' => 'Product 1',
+        //     'status' => 1
+        // ];
+        $product = new Product();
+        $data = $product->getOneProduct($id);
 
-//         if (!$data) {
-//             NotificationHelper::error('edit', 'Loại sản phẩm không tồn tại!');
-//             header('location: /admin/products');
-//             exit;
+        $category = new Category();
+        $dataCate = $category->getAllCategory();
 
-//         }
-//         Header::render();
-//         Notification::render();  // hiển thị thông báo
-//         NotificationHelper::clear(); //clear notification
-//         // hiển thị form sửa
-//         Edit::render($data);
-//         Footer::render();
-//     }
+        if (!$data) {
+            NotificationHelper::error('edit', 'Sản phẩm không tồn tại!');
+            header('location: /admin/products');
+            exit;
 
-
-//     // xử lý chức năng sửa (cập nhật)
-//     public static function update(int $id)
-//     {
-//         //Validate
-//         $is_valid = ProductValidations::edit();
-
-//         if(!$is_valid){
-//             NotificationHelper::error('update', 'Cập nhật loại sản phẩm thất bại!');
-//             header("Location: /admin/products/$id");
-//             exit;
-//         }
-//         $name = $_POST['name'];
-//         $status = $_POST['status'];
-//         //Check tồn tại tên loại (ko trùng)
-//         $product = new Product();
-//         $is_exist = $product->getOneProductByName($name);
-//         if ($is_exist) {
-//                 if($is_exist['id']!= $id){
-//                     NotificationHelper::error('update', 'Tên loại sản phẩm đã tồn tại!');
-//                     header("Location: /admin/products/$id");
-//                     exit;
-//                 }
-
-//         }
-
-//         //Thêm vào CSDL
-//         $data=[
-//             'name' => $name,
-//            'status' => $status,
-//         ];
-//         $result = $product->updateProduct($id,$data);
-
-//         if($result){
-//             NotificationHelper::success('update', 'Cập nhật loại sản phẩm thành công!');
-//             header('Location: /admin/products');
-//             exit;
-//         }else{
-//             NotificationHelper::error('update', 'Cập nhật loại sản phẩm thất bại!');
-//             header("Location: /admin/products/$id");
-//             exit;
-//         }
-
-//     }
+        }
+        Header::render();
+        Notification::render();  // hiển thị thông báo
+        NotificationHelper::clear(); //clear notification
+        // hiển thị form sửa
+        Edit::render($data, $dataCate);
+        Footer::render();
+    }
 
 
-//     // thực hiện xoá
-//     public static function delete(int $id)
-//     {
-//         $product = new Product();
-//         $result = $product->deleteProduct($id);
+    // xử lý chức năng sửa (cập nhật)
+    public static function update(int $id)
+    {
+        //Validate
+        $is_valid = ProductValidations::edit();
 
-//         if($result){
-//             NotificationHelper::success('delete', 'Xóa loại sản phẩm thành công!');
+        if(!$is_valid){
+            NotificationHelper::error('update', 'Cập nhật sản phẩm thất bại!');
+            header("Location: /admin/products/$id");
+            exit;
+        }
+        $name = $_POST['name'];
+        $status = $_POST['status'];
+        //Check tồn tại tên loại (ko trùng)
+        $product = new Product();
+        $is_exist = $product->getOneProductByName($name);
+        if ($is_exist) {
+                if($is_exist['id']!= $id){
+                    NotificationHelper::error('update', 'Tên loại sản phẩm đã tồn tại!');
+                    header("Location: /admin/products/$id");
+                    exit;
+                }
 
-//         }else{
-//             NotificationHelper::error('delete', 'Xóa loại sản phẩm thất bại!');
+        }
 
-//         }
-//         header('Location: /admin/products');
+        //Thêm vào CSDL
+        $data=[
+            'name' => $name,
+           'status' => $status,
+        ];
+        $result = $product->updateProduct($id,$data);
+
+        if($result){
+            NotificationHelper::success('update', 'Cập nhật loại sản phẩm thành công!');
+            header('Location: /admin/products');
+            exit;
+        }else{
+            NotificationHelper::error('update', 'Cập nhật loại sản phẩm thất bại!');
+            header("Location: /admin/products/$id");
+            exit;
+        }
+
+    }
+
+
+    // thực hiện xoá
+    public static function delete(int $id)
+    {
+        $product = new Product();
+        $result = $product->deleteProduct($id);
+
+        if($result){
+            NotificationHelper::success('delete', 'Xóa sản phẩm thành công!');
+
+        }else{
+            NotificationHelper::error('delete', 'Xóa sản phẩm thất bại!');
+
+        }
+        header('Location: /admin/products');
         
-//     }
+    }
 }
