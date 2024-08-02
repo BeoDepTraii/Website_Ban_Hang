@@ -108,7 +108,7 @@ class Header extends BaseView
                                     </a>
                                     <ul class="dropdown-menu dropdown-menu-end user-dd animated" aria-labelledby="navbarDropdown">
 
-                                        <a class="dropdown-item" href=""><i class="fa fa-power-off me-1 ms-1"></i> Đăng xuất</a>
+                                        <a class="dropdown-item" href="/logout"><i class="fa fa-power-off me-1 ms-1"></i> Đăng xuất</a>
                                     </ul>
                                 </li>
                                 <!-- ============================================================== -->
@@ -161,6 +161,14 @@ class Header extends BaseView
                                     <ul aria-expanded="false" class="collapse  first-level">
                                         <li class="sidebar-item">
                                             <a href="/admin/comments" class="sidebar-link"><i class="mdi mdi-note-outline"></i><span class="hide-menu"> Danh sách </span></a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="sidebar-item">
+                                    <a class="sidebar-link has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false"><i class="mdi mdi-receipt"></i><span class="hide-menu">Người Dùng </span></a>
+                                    <ul aria-expanded="false" class="collapse  first-level">
+                                        <li class="sidebar-item">
+                                            <a href="/admin/users" class="sidebar-link"><i class="mdi mdi-note-outline"></i><span class="hide-menu"> Danh sách </span></a>
                                         </li>
                                     </ul>
                                 </li>
