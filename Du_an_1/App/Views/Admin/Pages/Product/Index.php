@@ -73,9 +73,9 @@ class Index extends BaseView
                                                             <img src="<?=APP_URL?>/pubic/uploads/products/<?=$item['image']??''?>" alt="" width="100px">
                                                         </td>
                                                         <td><?= $item['name'] ?></td>
-                                                        <td><?=number_format($item['price']??0)?></td>
-                                                        <td><?=number_format($item['discount_price']??0)?></td>
-                                                        <td><?= $item['category_name']??'' ?></td>
+                                                        <td><?=number_format($item['price'])?></td>
+                                                        <td><?=number_format($item['discount_price'])?></td>
+                                                        <td><?= $item['category_name'] ?></td>
                                                         <td><?= ($item['status'] == 1) ? 'Hiển thị' : 'Ẩn' ?></td>
                                                         <td>
                                                             <a href="/admin/products/<?= $item['id'] ?>" class="btn btn-primary ">Sửa</a>
