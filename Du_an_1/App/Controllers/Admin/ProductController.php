@@ -134,8 +134,8 @@ class ProductController
     }
 
 
-    // xử lý chức năng sửa (cập nhật)
-    public static function update(int $id)
+//     // xử lý chức năng sửa (cập nhật)
+public static function update(int $id)
     {
         //Validate
         $is_valid = ProductValidations::edit();
@@ -146,7 +146,6 @@ class ProductController
             exit;
         }
         $name = $_POST['name'];
-        $status = $_POST['status'];
         //Check tồn tại tên loại (ko trùng)
         $product = new Product();
         $is_exist = $product->getOneProductByName($name);
@@ -162,8 +161,19 @@ class ProductController
         //Thêm vào CSDL
         $data=[
             'name' => $name,
-           'status' => $status,
+            'price' => $_POST['price'],
+            'discount_price' => $_POST['discount_price'],
+            'description' => $_POST['description'],
+            'is_feature' => $_POST['is_feature'],
+            'category_id' => $_POST['category_id'],
+            'status' => $_POST['status'],
         ];
+
+        $is_upload=ProductValidations::uploadImage();
+        if($is_upload){
+            $data['image'] = $is_upload;
+        }
+
         $result = $product->updateProduct($id,$data);
 
         if($result){
@@ -186,10 +196,10 @@ class ProductController
         $result = $product->deleteProduct($id);
 
         if($result){
-            NotificationHelper::success('delete', 'Xóa sản phẩm thành công!');
+            NotificationHelper::success('delete', 'Xóa loại sản phẩm thành công!');
 
         }else{
-            NotificationHelper::error('delete', 'Xóa sản phẩm thất bại!');
+            NotificationHelper::error('delete', 'Xóa loại sản phẩm thất bại!');
 
         }
         header('Location: /admin/products');

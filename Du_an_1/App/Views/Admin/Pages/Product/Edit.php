@@ -44,10 +44,14 @@ class Edit extends BaseView
                 <div class="row">
                     <div class="col-md-12">
                         <div class="card">
-                            <form class="form-horizontal" action="/admin/products/<?= $data['id'] ?>" method="POST">
+                            <form class="form-horizontal" action="/admin/products/<?= $data['id'] ?>" method="POST" enctype="multipart/form-data">
                                 <div class="card-body">
                                     <h4 class="card-title">Sửa sản phẩm</h4>
                                     <input type="hidden" name="method" id="" value="PUT">
+
+                                    <div align="center">
+                                        <img src="<?=APP_URL?>/public/uploads/products/<?=$data['image']?>" alt="" width="300px">
+                                    </div>
                                     <div class="form-group">
                                         <label for="id">ID</label>
                                         <input type="text" class="form-control" id="id"  name="id" value="<?= $data['id'] ?>" disabled>
@@ -75,7 +79,7 @@ class Edit extends BaseView
                                             <?php
                                             foreach ($dataCate as $item) :
                                             ?>
-                                            <option value="<?= $item['id']?>"><?= $item['name']?></option>
+                                            <option value="<?= $item['id']?>" <?= ($item['id'] == $data['id'])? 'selected' : '' ?>><?= $item['name']?></option>
                                             <?php
                                             endforeach;
                                             ?>
