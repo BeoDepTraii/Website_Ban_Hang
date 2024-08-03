@@ -66,7 +66,7 @@ class Header extends BaseView
                             <a href="/" class="nav-item nav-link active">Trang chủ</a>
                             <a href="/products" class="nav-item nav-link">Sản phẩm</a>
                             <a href="/contact" class="nav-item nav-link">Liên hệ</a>
-                            <a href="#" class="nav-item nav-link">Giỏ hàng</a>
+                            <a href="/cart" class="nav-item nav-link">Giỏ hàng</a>
                         
 
                         

@@ -29,6 +29,11 @@ Route::get('/products/{id}', 'App\Controllers\Client\ProductController@detail');
 
 Route::get('/contact', 'App\Controllers\Client\ContactController@index');
 
+Route::get('/cart', 'App\Controllers\Client\CartController@index');
+
+// Route::post('/cart/add', 'App\Controllers\Client\CartController@addProduct');   //Route thêm sản phẩm vào gi�� hàng
+
+
 Route::get('/register', 'App\Controllers\Client\AuthController@register');   //Route đăng ký
 Route::post('/register', 'App\Controllers\Client\AuthController@registerAction');   //Route đăng ký
 
