@@ -45,9 +45,12 @@ class Index extends BaseView
                                 <input type="text" class="w-100 form-control border-0 py-3 mb-4" placeholder="Your Name">
                                 <input type="email" class="w-100 form-control border-0 py-3 mb-4" placeholder="Enter Your Email">
                                 <textarea class="w-100 form-control border-0 mb-4" rows="5" cols="10" placeholder="Your Message"></textarea>
-                                <button class="w-100 btn form-control border-secondary py-3 bg-white text-primary " type="submit">Submit</button>
+                                <button class="btn btnn border-secondary btn-primary text-primary" type="submit"> <i class="fa fa-paper-plane-o fa-2x send" aria-hidden="true"></i><i class="fa fa-paper-plane-o fa-2x send2" aria-hidden="true"></i><p>send</p></button>
+                                
                             </form>
+                            
                         </div>
+                        
                         <div class="col-lg-5">
                             <div class="d-flex p-4 rounded mb-4 bg-white">
                                 <i class="fas fa-map-marker-alt fa-2x text-primary me-4"></i>
