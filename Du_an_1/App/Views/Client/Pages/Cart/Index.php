@@ -15,10 +15,9 @@ class Index extends BaseView
 <!-- Single Page Header start -->
 <div class="container-fluid page-header py-5">
             <h1 class="text-center text-white display-6">Cart</h1>
-            <ol class="breadcrumb justify-content-center mb-0">
-                <li class="breadcrumb-item"><a href="#">Home</a></li>
-                <li class="breadcrumb-item"><a href="#">Pages</a></li>
-                <li class="breadcrumb-item active text-white">Cart</li>
+            <ol class="breadcrumb justify-content-center mb-0" style="background-color: transparent;">
+                <li class="breadcrumb-item"><a href="/">Trang chủ</a></li>
+                <li class="breadcrumb-item active text-white">Giỏ hàng</li>
             </ol>
         </div>
         <!-- Single Page Header End -->
@@ -178,7 +177,7 @@ class Index extends BaseView
                                 <h5 class="mb-0 ps-4 me-4">Total</h5>
                                 <p class="mb-0 pe-4">$99.00</p>
                             </div>
-                            <button class="btn border-secondary rounded-pill px-4 py-3 text-primary text-uppercase mb-4 ms-4" type="button">Proceed Checkout</button>
+                            <a href="/checkout"><button class="btn border-secondary rounded-pill px-4 py-3 text-primary text-uppercase mb-4 ms-4" type="button">Thanh toán</button></a>
                         </div>
                     </div>
                 </div>

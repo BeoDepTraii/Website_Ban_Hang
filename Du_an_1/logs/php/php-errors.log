@@ -366,3 +366,37 @@ Stack trace:
 [04-Aug-2024 17:58:18 Asia/Ho_Chi_Minh] Lỗi khi lấy loại sản phẩm bằng tên: Access denied for user 'root'@'localhost' (using password: YES)
 [04-Aug-2024 17:58:18 Asia/Ho_Chi_Minh] Lỗi khi thêm dữ liệu: Access denied for user 'root'@'localhost' (using password: YES)
 [04-Aug-2024 17:58:50 Asia/Ho_Chi_Minh] Lỗi khi hiển thị tất cả dữ liệu: Access denied for user 'root'@'localhost' (using password: YES)
+[05-Aug-2024 07:51:01 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Class "App\Controllers\Client\CheckoutController" not found in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Route.php:79
+Stack trace:
+#0 /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/index.php(117): App\Route::dispatch('/checkout')
+#1 {main}
+  thrown in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Route.php on line 79
+[05-Aug-2024 07:55:47 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Class "App\Controllers\Client\CheckoutController" not found in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Route.php:79
+Stack trace:
+#0 /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/index.php(117): App\Route::dispatch('/checkout')
+#1 {main}
+  thrown in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Route.php on line 79
+[05-Aug-2024 07:56:03 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Class "App\Controllers\Client\CheckoutController" not found in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Route.php:79
+Stack trace:
+#0 /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/index.php(117): App\Route::dispatch('/checkout')
+#1 {main}
+  thrown in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Route.php on line 79
+[05-Aug-2024 08:11:54 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "product_id" in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Controllers/Client/CartController.php on line 27
+[05-Aug-2024 08:11:54 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Class "App\Controllers\Client\Product" not found in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Controllers/Client/CartController.php:31
+Stack trace:
+#0 /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Route.php(82): App\Controllers\Client\CartController->addProduct()
+#1 /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/index.php(119): App\Route::dispatch('/cart/add')
+#2 {main}
+  thrown in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Controllers/Client/CartController.php on line 31
+[05-Aug-2024 08:14:48 Asia/Ho_Chi_Minh] PHP Warning:  Undefined array key "product_id" in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Controllers/Client/CartController.php on line 28
+[05-Aug-2024 08:14:48 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Class "App\Controllers\Client\Product" not found in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Controllers/Client/CartController.php:32
+Stack trace:
+#0 /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Route.php(82): App\Controllers\Client\CartController->addProduct()
+#1 /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/index.php(119): App\Route::dispatch('/cart/add')
+#2 {main}
+  thrown in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Controllers/Client/CartController.php on line 32
+[05-Aug-2024 08:21:12 Asia/Ho_Chi_Minh] PHP Warning:  foreach() argument must be of type array|object, string given in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Views/Client/Components/Notification.php on line 27
+[05-Aug-2024 08:21:59 Asia/Ho_Chi_Minh] PHP Warning:  foreach() argument must be of type array|object, string given in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Views/Client/Components/Notification.php on line 27
+[05-Aug-2024 08:23:44 Asia/Ho_Chi_Minh] PHP Warning:  foreach() argument must be of type array|object, string given in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Views/Client/Components/Notification.php on line 27
+[05-Aug-2024 08:29:52 Asia/Ho_Chi_Minh] PHP Warning:  foreach() argument must be of type array|object, string given in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Views/Client/Components/Notification.php on line 27
+[05-Aug-2024 08:30:56 Asia/Ho_Chi_Minh] PHP Warning:  foreach() argument must be of type array|object, string given in /Users/x/Documents/GitHub/Website_Ban_Hang/Du_an_1/App/Views/Client/Components/Notification.php on line 27

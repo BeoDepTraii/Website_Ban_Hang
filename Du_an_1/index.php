@@ -30,6 +30,10 @@ Route::get('/products/{id}', 'App\Controllers\Client\ProductController@detail');
 Route::get('/contact', 'App\Controllers\Client\ContactController@index');
 
 Route::get('/cart', 'App\Controllers\Client\CartController@index');
+Route::post('/cart/add', 'App\Controllers\Client\CartController@addProduct');
+
+
+Route::get('/checkout', 'App\Controllers\Client\CheckoutController@index');
 
 // Route::post('/cart/add', 'App\Controllers\Client\CartController@addProduct');   //Route thêm sản phẩm vào gi�� hàng
 
