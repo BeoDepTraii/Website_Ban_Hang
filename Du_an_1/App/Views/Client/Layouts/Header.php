@@ -45,6 +45,8 @@ class Header extends BaseView
             <!-- Libraries Stylesheet -->
             <link href="<?= APP_URL ?>/public/assets/client/lib/lightbox/css/lightbox.min.css" rel="stylesheet">
             <link href="<?= APP_URL ?>/public/assets/client/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+            <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
             
             <!-- Bootstrap CSS -->
             <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -53,6 +55,7 @@ class Header extends BaseView
             <!-- <link rel="stylesheet" href="<?= APP_URL ?>/public/assets/client/css/style.css"> -->
             <link rel="stylesheet" href="<?= APP_URL ?>/public/assets/client/css/style2.css">
             <link rel="stylesheet" href="<?= APP_URL ?>/public/assets/client/css/bootstrap.min.css">
+            <link rel="stylesheet" href="<?= APP_URL ?>/public/assets/client/lib/main/main.js"></link>
 
         </head>
 

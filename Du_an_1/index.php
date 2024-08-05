@@ -20,17 +20,21 @@ $dotenv->load();
 require_once 'config.php';
 
 
-AuthHelper::middleware();
+AuthHelper::middleware();   
 
 // *** Client
 Route::get('/', 'App\Controllers\Client\HomeController@index');
 Route::get('/products', 'App\Controllers\Client\ProductController@index');
 Route::get('/products/{id}', 'App\Controllers\Client\ProductController@detail');
+Route::get('/products/categories/{id}', 'App\Controllers\Client\ProductController@getProductByCategory');
 
 Route::get('/contact', 'App\Controllers\Client\ContactController@index');
 
 Route::get('/cart', 'App\Controllers\Client\CartController@index');
 Route::post('/cart/add', 'App\Controllers\Client\CartController@addProduct');
+Route::post('/cart/updateQuantity', 'App\Controllers\Client\CartController@updateQuantity');
+
+
 
 
 Route::get('/checkout', 'App\Controllers\Client\CheckoutController@index');
@@ -112,6 +116,26 @@ Route::put('/admin/products/{id}', 'App\Controllers\Admin\ProductController@upda
 // DELETE /products/{id} (delete sản phẩm với id cụ thể)
 // DELETE /products/{id} (delete sản phẩm với id cụ thể)
 Route::delete('/admin/products/{id}', 'App\Controllers\Admin\ProductController@delete');
+
+
+//  *** User
+// GET /users (lấy danh sách người dùng)
+Route::get('/admin/users', 'App\Controllers\Admin\UserController@index');
+
+// GET /users/create (hiển thị form thêm người dùng)
+Route::get('/admin/users/create', 'App\Controllers\Admin\UserController@create');
+
+// POST /users (tạo mới một người dùng)
+Route::post('/admin/users', 'App\Controllers\Admin\UserController@store');
+
+// GET /users/{id} (lấy chi tiết người dùng với id cụ thể)
+Route::get('/admin/users/{id}', 'App\Controllers\Admin\UserController@edit');
+
+// PUT /users/{id} (update người dùng với id cụ thể)
+Route::put('/admin/users/{id}', 'App\Controllers\Admin\UserController@update');
+
+// DELETE /users/{id} (delete người dùng với id cụ thể)
+Route::delete('/admin/users/{id}', 'App\Controllers\Admin\UserController@delete');
 
 
 

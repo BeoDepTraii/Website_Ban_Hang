@@ -9,8 +9,7 @@ class Category extends BaseView
     public static function render($data = null)
     {
 ?>
-
-        <h4>Danh mục</h4>                   
+                  
                     <?php
             foreach ($data as $item) :
             ?>

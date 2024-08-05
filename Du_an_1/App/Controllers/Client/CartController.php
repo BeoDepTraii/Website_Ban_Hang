@@ -40,7 +40,7 @@ class CartController
 
         if (!$product) {
             // Sản phẩm không tồn tại
-            NotificationHelper::error('addProduct','ID sản phẩm không hợp lệ');
+            NotificationHelper::error('addProduct','Sản phẩm không tồn tại');
             // $_SESSION['error'] = 'Sản phẩm không tồn tại';
             header('Location: /cart');
             exit;
@@ -66,4 +66,39 @@ class CartController
         header('Location: /cart');
         exit;
     }
+
+
+// App/Controllers/Client/CartController.php
+public function updateQuantity()
+{
+    // Lấy thông tin từ POST request
+    $productId = $_POST['productId'];
+    $quantity = $_POST['quantity'];
+
+    // Lấy giỏ hàng từ session
+    $cart = SessionHelper::get('cart', []);
+
+    // Cập nhật số lượng sản phẩm trong giỏ hàng
+    foreach ($cart as &$item) {
+        if ($item['product']['id'] == $productId) {
+            $item['quantity'] = $quantity;
+            break;
+        }
+    }
+    
+    // Cập nhật lại giỏ hàng trong session
+    SessionHelper::set('cart', $cart);
+
+    // Tính toán lại giá tổng
+    $newTotalPrice = array_sum(array_map(function($item) {
+        return $item['product']['price'] * $item['quantity'];
+    }, $cart));
+
+    // Trả về dữ liệu cho AJAX
+    echo json_encode(['newTotalPrice' => number_format($newTotalPrice, 2)]);
+}
+
+    
+    
+
 }

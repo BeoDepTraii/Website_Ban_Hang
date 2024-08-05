@@ -145,6 +145,7 @@ public static function update(int $id)
             exit;
         }
         $name = $_POST['name'];
+
         //Check tồn tại tên loại (ko trùng)
         $product = new Product();
         $is_exist = $product->getOneProductByName($name);
@@ -156,8 +157,6 @@ public static function update(int $id)
                 }
 
         }
-
-        //Thêm vào CSDL
         $data=[
             'name' => $name,
             'price' => $_POST['price'],
@@ -167,12 +166,11 @@ public static function update(int $id)
             'category_id' => $_POST['category_id'],
             'status' => $_POST['status'],
         ];
-
+        
         $is_upload=ProductValidations::uploadImage();
         if($is_upload){
             $data['image'] = $is_upload;
         }
-
         $result = $product->updateProduct($id,$data);
 
         if($result){

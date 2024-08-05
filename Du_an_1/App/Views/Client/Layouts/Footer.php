@@ -84,7 +84,7 @@ class Footer extends BaseView
         <script src="<?= APP_URL ?>/public/assets/client/lib/waypoints/waypoints.min.js"></script>
         <script src="<?= APP_URL ?>/public/assets/client/lib/lightbox/js/lightbox.min.js"></script>
         <script src="<?= APP_URL ?>/public/assets/client/lib/owlcarousel/owl.carousel.min.js"></script>
-        <script src="<?= APP_URL ?>/public/assets/client/lib/main/main.js"></script>
+        
         <!-- Template Javascript -->
         <script>
             (function ($) {
