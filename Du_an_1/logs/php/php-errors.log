@@ -366,3 +366,20 @@ Stack trace:
 [04-Aug-2024 17:58:18 Asia/Ho_Chi_Minh] Lỗi khi lấy loại sản phẩm bằng tên: Access denied for user 'root'@'localhost' (using password: YES)
 [04-Aug-2024 17:58:18 Asia/Ho_Chi_Minh] Lỗi khi thêm dữ liệu: Access denied for user 'root'@'localhost' (using password: YES)
 [04-Aug-2024 17:58:50 Asia/Ho_Chi_Minh] Lỗi khi hiển thị tất cả dữ liệu: Access denied for user 'root'@'localhost' (using password: YES)
+[05-Aug-2024 08:02:55 Asia/Ho_Chi_Minh] Lỗi khi hiển thị chi tiết dữ liệu bằng username: Access denied for user 'root'@'localhost' (using password: YES)
+[05-Aug-2024 08:03:21 Asia/Ho_Chi_Minh] Lỗi khi hiển thị chi tiết dữ liệu bằng username: Access denied for user 'root'@'localhost' (using password: YES)
+[05-Aug-2024 08:05:14 Asia/Ho_Chi_Minh] Lỗi khi hiển thị chi tiết dữ liệu bằng username: Access denied for user 'root'@'localhost' (using password: YES)
+[05-Aug-2024 08:05:42 Asia/Ho_Chi_Minh] Lỗi khi hiển thị chi tiết dữ liệu bằng username: Access denied for user 'root'@'localhost' (using password: YES)
+[05-Aug-2024 08:05:42 Asia/Ho_Chi_Minh] Lỗi khi thêm dữ liệu: Access denied for user 'root'@'localhost' (using password: YES)
+[05-Aug-2024 08:06:00 Asia/Ho_Chi_Minh] Lỗi khi hiển thị chi tiết dữ liệu bằng username: Access denied for user 'root'@'localhost' (using password: YES)
+[05-Aug-2024 08:06:00 Asia/Ho_Chi_Minh] Lỗi khi thêm dữ liệu: Access denied for user 'root'@'localhost' (using password: YES)
+[05-Aug-2024 08:06:53 Asia/Ho_Chi_Minh] Lỗi khi hiển thị chi tiết dữ liệu bằng username: Access denied for user 'root'@'localhost' (using password: YES)
+[05-Aug-2024 08:06:53 Asia/Ho_Chi_Minh] Lỗi khi thêm dữ liệu: Access denied for user 'root'@'localhost' (using password: YES)
+[05-Aug-2024 08:08:18 Asia/Ho_Chi_Minh] Lỗi khi hiển thị chi tiết dữ liệu bằng username: Access denied for user 'root'@'localhost' (using password: YES)
+[05-Aug-2024 08:51:56 Asia/Ho_Chi_Minh] Lỗi khi hiển thị tất cả dữ liệu: No connection could be made because the target machine actively refused it
+[05-Aug-2024 08:51:58 Asia/Ho_Chi_Minh] Lỗi khi hiển thị tất cả dữ liệu: No connection could be made because the target machine actively refused it
+[05-Aug-2024 08:52:05 Asia/Ho_Chi_Minh] Lỗi khi hiển thị tất cả dữ liệu: No connection could be made because the target machine actively refused it
+[05-Aug-2024 08:52:15 Asia/Ho_Chi_Minh] Lỗi khi hiển thị tất cả dữ liệu: No connection could be made because the target machine actively refused it
+[05-Aug-2024 08:52:29 Asia/Ho_Chi_Minh] Lỗi khi hiển thị tất cả dữ liệu: No connection could be made because the target machine actively refused it
+[05-Aug-2024 08:52:34 Asia/Ho_Chi_Minh] Lỗi khi hiển thị tất cả dữ liệu: No connection could be made because the target machine actively refused it
+[05-Aug-2024 09:04:46 Asia/Ho_Chi_Minh] Lỗi khi hiển thị tất cả dữ liệu: No connection could be made because the target machine actively refused it

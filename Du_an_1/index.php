@@ -85,6 +85,7 @@ Route::put('/admin/categories/{id}', 'App\Controllers\Admin\CategoryController@u
 Route::delete('/admin/categories/{id}', 'App\Controllers\Admin\CategoryController@delete');
 
 
+
 //  *** Product
 // GET /products (lấy danh sách sản phẩm)
 Route::get('/admin/products', 'App\Controllers\Admin\ProductController@index');
@@ -109,6 +110,24 @@ Route::put('/admin/products/{id}', 'App\Controllers\Admin\ProductController@upda
 // DELETE /products/{id} (delete sản phẩm với id cụ thể)
 Route::delete('/admin/products/{id}', 'App\Controllers\Admin\ProductController@delete');
 
+
+
+//  *** Comment
+// GET /Comments (lấy danh sách bình luận)
+Route::get('/admin/comments', 'App\Controllers\Admin\CommentController@index');
+
+
+// GET /Comments/{id} (lấy chi tiết bình luận với id cụ thể)
+// GET /Comments/{id} (lấy chi tiết bình luận với id cụ thể)
+Route::get('/admin/comments/{id}', 'App\Controllers\Admin\CommentController@edit');
+
+// PUT /Comments/{id} (update bình luận với id cụ thể)
+// PUT /Comments/{id} (update bình luận với id cụ thể)
+Route::put('/admin/comments/{id}', 'App\Controllers\Admin\CommentController@update');
+
+// DELETE /Comments/{id} (delete bình luận với id cụ thể)
+// DELETE /Comments/{id} (delete bình luận với id cụ thể)
+Route::delete('/admin/comments/{id}', 'App\Controllers\Admin\CommentController@delete');
 
 
 
