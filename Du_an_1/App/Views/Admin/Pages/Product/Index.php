@@ -63,7 +63,9 @@ class Index extends BaseView
                                             </thead>
                                             <tbody>
                                                 <?php
+                                        
                                                 foreach ($data as $item) :
+                                                
                                                 ?>
                                                     <tr>
                                                         <td><?= $item['id'] ?></td>

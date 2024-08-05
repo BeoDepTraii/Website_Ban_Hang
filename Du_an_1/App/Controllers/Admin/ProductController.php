@@ -12,11 +12,10 @@ use App\Views\Admin\Components\Notification;
 use App\Views\Admin\Pages\Product\Create;
 use App\Views\Admin\Pages\Product\Edit;
 use App\Views\Admin\Pages\Product\Index;
+use App\Validations\ProductValidation;
 
 class ProductController
 {
-
-
     // hiển thị danh sách
     public static function index()
     {
