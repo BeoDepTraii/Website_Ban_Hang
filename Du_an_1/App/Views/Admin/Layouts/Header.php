@@ -34,6 +34,9 @@ class Header extends BaseView
             <!-- Custom CSS -->
             <link href="<?= APP_URL ?>/public/assets/admin/dist/css/style.min.css" rel="stylesheet">
 
+            <!-- chartJS -->
+            <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
         </head>
 
         <body>
@@ -171,6 +174,9 @@ class Header extends BaseView
                                             <a href="/admin/users" class="sidebar-link"><i class="mdi mdi-note-outline"></i><span class="hide-menu"> Danh sách </span></a>
                                         </li>
                                     </ul>
+                                </li>
+                                <li class="sidebar-item">
+                                            <a href="/" class="sidebar-link"><i class="mdi mdi-note-outline"></i><span class="hide-menu"> Trở Lại Website </span></a>
                                 </li>
 
                                 <li class="sidebar-item p-3">
