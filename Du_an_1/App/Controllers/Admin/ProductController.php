@@ -12,10 +12,11 @@ use App\Views\Admin\Components\Notification;
 use App\Views\Admin\Pages\Product\Create;
 use App\Views\Admin\Pages\Product\Edit;
 use App\Views\Admin\Pages\Product\Index;
-use App\Validations\ProductValidation;
 
 class ProductController
 {
+
+
     // hiển thị danh sách
     public static function index()
     {
@@ -133,8 +134,8 @@ class ProductController
     }
 
 
-//     // xử lý chức năng sửa (cập nhật)
-public static function update(int $id)
+    // xử lý chức năng sửa (cập nhật)
+    public static function update(int $id)
     {
         //Validate
         $is_valid = ProductValidations::edit();
@@ -145,6 +146,7 @@ public static function update(int $id)
             exit;
         }
         $name = $_POST['name'];
+
         //Check tồn tại tên loại (ko trùng)
         $product = new Product();
         $is_exist = $product->getOneProductByName($name);
@@ -156,8 +158,6 @@ public static function update(int $id)
                 }
 
         }
-
-        //Thêm vào CSDL
         $data=[
             'name' => $name,
             'price' => $_POST['price'],
@@ -167,12 +167,11 @@ public static function update(int $id)
             'category_id' => $_POST['category_id'],
             'status' => $_POST['status'],
         ];
-
+        
         $is_upload=ProductValidations::uploadImage();
         if($is_upload){
             $data['image'] = $is_upload;
         }
-
         $result = $product->updateProduct($id,$data);
 
         if($result){
@@ -195,10 +194,10 @@ public static function update(int $id)
         $result = $product->deleteProduct($id);
 
         if($result){
-            NotificationHelper::success('delete', 'Xóa loại sản phẩm thành công!');
+            NotificationHelper::success('delete', 'Xóa sản phẩm thành công!');
 
         }else{
-            NotificationHelper::error('delete', 'Xóa loại sản phẩm thất bại!');
+            NotificationHelper::error('delete', 'Xóa sản phẩm thất bại!');
 
         }
         header('Location: /admin/products');

@@ -49,4 +49,7 @@ class Category extends BaseModel
             return $result;
         }
     }
+    public function countTotalCategory(){
+        return $this->countTotal();
+    } 
 }

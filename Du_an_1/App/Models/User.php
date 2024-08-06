@@ -73,4 +73,8 @@ class User extends BaseModel
             return false;
         }
     }
+
+    public function countTotalUser(){
+        return $this->countTotal();
+    } 
 }

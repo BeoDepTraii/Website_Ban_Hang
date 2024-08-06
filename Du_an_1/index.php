@@ -20,19 +20,15 @@ $dotenv->load();
 require_once 'config.php';
 
 
-AuthHelper::middleware();
+AuthHelper::middleware();   
 
 // *** Client
 Route::get('/', 'App\Controllers\Client\HomeController@index');
 Route::get('/products', 'App\Controllers\Client\ProductController@index');
 Route::get('/products/{id}', 'App\Controllers\Client\ProductController@detail');
+Route::get('/products/categories/{id}', 'App\Controllers\Client\ProductController@getProductByCategory');
 
 Route::get('/contact', 'App\Controllers\Client\ContactController@index');
-
-Route::get('/cart', 'App\Controllers\Client\CartController@index');
-
-// Route::post('/cart/add', 'App\Controllers\Client\CartController@addProduct');   //Route thêm sản phẩm vào gi�� hàng
-
 
 Route::get('/register', 'App\Controllers\Client\AuthController@register');   //Route đăng ký
 Route::post('/register', 'App\Controllers\Client\AuthController@registerAction');   //Route đăng ký
@@ -85,50 +81,64 @@ Route::put('/admin/categories/{id}', 'App\Controllers\Admin\CategoryController@u
 Route::delete('/admin/categories/{id}', 'App\Controllers\Admin\CategoryController@delete');
 
 
-
 //  *** Product
 // GET /products (lấy danh sách sản phẩm)
 Route::get('/admin/products', 'App\Controllers\Admin\ProductController@index');
 
 // GET /products/create (hiển thị form thêm sản phẩm)
-// GET /products/create (hiển thị form thêm sản phẩm)
 Route::get('/admin/products/create', 'App\Controllers\Admin\ProductController@create');
 
-// POST /products (tạo mới một sản phẩm)
 // POST /products (tạo mới một sản phẩm)
 Route::post('/admin/products', 'App\Controllers\Admin\ProductController@store');
 
 // GET /products/{id} (lấy chi tiết sản phẩm với id cụ thể)
-// GET /products/{id} (lấy chi tiết sản phẩm với id cụ thể)
 Route::get('/admin/products/{id}', 'App\Controllers\Admin\ProductController@edit');
 
-// PUT /products/{id} (update sản phẩm với id cụ thể)
 // PUT /products/{id} (update sản phẩm với id cụ thể)
 Route::put('/admin/products/{id}', 'App\Controllers\Admin\ProductController@update');
 
 // DELETE /products/{id} (delete sản phẩm với id cụ thể)
-// DELETE /products/{id} (delete sản phẩm với id cụ thể)
 Route::delete('/admin/products/{id}', 'App\Controllers\Admin\ProductController@delete');
 
 
+//  *** User
+// GET /users (lấy danh sách người dùng)
+Route::get('/admin/users', 'App\Controllers\Admin\UserController@index');
+
+// GET /users/create (hiển thị form thêm người dùng)
+Route::get('/admin/users/create', 'App\Controllers\Admin\UserController@create');
+
+// POST /users (tạo mới một người dùng)
+Route::post('/admin/users', 'App\Controllers\Admin\UserController@store');
+
+// GET /users/{id} (lấy chi tiết người dùng với id cụ thể)
+Route::get('/admin/users/{id}', 'App\Controllers\Admin\UserController@edit');
+
+// PUT /users/{id} (update người dùng với id cụ thể)
+Route::put('/admin/users/{id}', 'App\Controllers\Admin\UserController@update');
+
+// DELETE /users/{id} (delete người dùng với id cụ thể)
+Route::delete('/admin/users/{id}', 'App\Controllers\Admin\UserController@delete');
+
 
 //  *** Comment
-// GET /Comments (lấy danh sách bình luận)
+// GET /comment (lấy danh sách bình luận)
 Route::get('/admin/comments', 'App\Controllers\Admin\CommentController@index');
 
+// GET /comment/create (hiển thị form thêm bình luận)
+Route::get('/admin/comments/create', 'App\Controllers\Admin\CommentController@create');
 
-// GET /Comments/{id} (lấy chi tiết bình luận với id cụ thể)
-// GET /Comments/{id} (lấy chi tiết bình luận với id cụ thể)
+// POST /comment (tạo mới một bình luận)
+Route::post('/admin/comments', 'App\Controllers\Admin\CommentController@store');
+
+// GET /comment/{id} (lấy chi tiết bình luận với id cụ thể)
 Route::get('/admin/comments/{id}', 'App\Controllers\Admin\CommentController@edit');
 
-// PUT /Comments/{id} (update bình luận với id cụ thể)
-// PUT /Comments/{id} (update bình luận với id cụ thể)
+// PUT /comment/{id} (update bình luận với id cụ thể)
 Route::put('/admin/comments/{id}', 'App\Controllers\Admin\CommentController@update');
 
-// DELETE /Comments/{id} (delete bình luận với id cụ thể)
-// DELETE /Comments/{id} (delete bình luận với id cụ thể)
+// DELETE /comment/{id} (delete bình luận với id cụ thể)
 Route::delete('/admin/comments/{id}', 'App\Controllers\Admin\CommentController@delete');
-
 
 
 Route::dispatch($_SERVER['REQUEST_URI']);

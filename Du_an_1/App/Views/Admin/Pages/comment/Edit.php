@@ -46,35 +46,28 @@ class Edit extends BaseView
                         <div class="card">
                             <form class="form-horizontal" action="/admin/comments/<?= $data['id'] ?>" method="POST">
                                 <div class="card-body">
-                                    <h4 class="card-title">Sửa bình luận</h4>
+                                    <h4 class="card-title">Cập Nhật Bình Luận</h4>
                                     <input type="hidden" name="method" id="" value="PUT">
                                     <div class="form-group">
                                         <label for="id">ID</label>
                                         <input type="text" class="form-control" id="id"  name="id" value="<?= $data['id'] ?>" disabled>
                                     </div>
                                     <div class="form-group">
-                                        <label for="username">Tài Khoản</label>
-                                        <input type="text" class="form-control" id="username"  name="username" value="<?= $data['username'] ?>" >
-
+                                        <label for="username">Tài Khoản*</label>
+                                        <input type="text" class="form-control" id="username" placeholder="Nhập tên loại sản phẩm..." name="username" value="<?= $data['username'] ?>"disabled >
                                     </div>
                                     <div class="form-group">
-                                        <label for="product_name">sản phẩm</label>
-                                        <input type="text" class="form-control" id="product_name" name="product_name" value="<?= $data['product_name'] ?>" >
-
+                                        <label for="product_name">Tên Sản Phẩm*</label>
+                                        <input type="text" class="form-control" id="product_name" placeholder="Nhập tên loại sản phẩm..." name="product_name" value="<?= $data['product_name'] ?>"disabled >
                                     </div>
                                     <div class="form-group">
-                                        <label for="content">Nội dung</label>
-                    
-                                        <textarea name="content"  class="form-control" id="content" rows="3" disabled><?= $data['content']?></textarea>
-
+                                        <label for="content">Nội Dung*</label>
+                                        <textarea class="form-control" id="content" name="content" rows="3" disabled><?= $data['content'] ?></textarea>
                                     </div>
                                     <div class="form-group">
-                                        <label for="date">Thòi gian</label>
-                                        <input type="text" class="form-control" id="date"  name="date" value="<?= $data['date'] ?>" >
-                                       
-
+                                        <label for="date">Thời Gian*</label>
+                                        <input type="text" class="form-control" id="date" placeholder="Nhập tên loại sản phẩm..." name="date" value="<?= $data['username'] ?>"disabled >
                                     </div>
-                                    
                                     <div class="form-group">
                                         <label for="status">Trạng thái*</label>
                                         <select class="select2 form-select shadow-none" style="width: 100%; height:36px;" id="status" name="status" value="<?= $data['status'] ?>" >

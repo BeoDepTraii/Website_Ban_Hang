@@ -17,11 +17,11 @@ class CommentController
     // hiển thị danh sách
     public static function index()
     {
-       
+        $comment =  new Comment();
+        $data=$comment->getAllCommentJoinProductAndUser();
 
-        $Comment =  new Comment();
-        $data=$Comment->getAllCommentJoinProductAndUser();
-
+        // echo '<pre>';
+        // var_dump($data);
         Header::render();
         Notification::render();
         NotificationHelper::clear();
@@ -31,18 +31,12 @@ class CommentController
     }
 
 
-    // hiển thị giao diện form thêm
-    public static function create()
-    {
-       
-    }
-
-
     // xử lý chức năng thêm
     public static function store()
     {
-        
-    }
+        }
+
+        //thực hiện thêm mới 
 
 
     // hiển thị chi tiết
@@ -55,10 +49,11 @@ class CommentController
     public static function edit(int $id)
     {
 
+        $comment=new Comment();
+        $data=$comment->getOneCommentJoinProductAndUser($id);
 
-        $Comment=new Comment();
-        $data=$Comment->getOneCommentJoinProductAndUser($id);
-        
+        // echo '<pre>';
+        // var_dump($data);
         if(!$data){
             NotificationHelper::error('edit', 'Không thể xem bình luận này');
             header('location: /admin/comments');
@@ -71,7 +66,6 @@ class CommentController
             // hiển thị form sửa
             Edit::render($data);
             Footer::render();
-       
     }
 
 
@@ -87,25 +81,21 @@ class CommentController
             exit;
         }
 
-       
         $status = $_POST['status'];
-      
-        $Comment= new Comment();
-        
+        $comment= new Comment();
 
         //thực hiện cập nhật bình luận
 
         $data=[
-          
             'status'=> $status
         ];
 
-        $result= $Comment->updateComment($id, $data);
+        $result= $comment->updateComment($id, $data);
 
         if($result){
-           
+            
             NotificationHelper::success('update', 'Cập nhật bình luận thành công');
-            header('location: /admin/comments/');
+            header('location: /admin/comments');
 
         }
         else{
@@ -119,8 +109,8 @@ class CommentController
     // thực hiện xoá
     public static function delete(int $id)
     {
-        $Comment=new Comment();
-        $result=$Comment->deleteComment($id);
+        $comment=new Comment();
+        $result=$comment->deleteComment($id);
 
         // var_dump($result);
         if($result){

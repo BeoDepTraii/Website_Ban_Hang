@@ -16,12 +16,12 @@ class Index extends BaseView
             <div class="page-breadcrumb">
                 <div class="row">
                     <div class="col-12 d-flex no-block align-items-center">
-                        <h4 class="page-title">QUẢN LÝ binh luan</h4>
+                        <h4 class="page-title">QUẢN LÝ BÌNH LUẬN</h4>
                         <div class="ms-auto text-end">
                             <nav aria-label="breadcrumb">
                                 <ol class="breadcrumb">
                                     <li class="breadcrumb-item"><a href="/admin">Trang chủ</a></li>
-                                    <li class="breadcrumb-item active" aria-current="page">Danh sách binh luan</li>
+                                    <li class="breadcrumb-item active" aria-current="page">Danh sách BÌNH LUẬN</li>
                                 </ol>
                             </nav>
                         </div>
@@ -43,7 +43,7 @@ class Index extends BaseView
 
                         <div class="card">
                             <div class="card-body">
-                                <h5 class="card-title">Danh sách binh luan</h5>
+                                <h5 class="card-title">Danh sách bình luận</h5>
                                 <?php
                                 if (count($data)) :
                                 ?>
@@ -52,11 +52,11 @@ class Index extends BaseView
                                             <thead>
                                                 <tr>
                                                     <th>ID</th>
-                                                    <th>Tên tai khaon</th>
-                                                    <th>san pham</th>
-                                                    <th>noi dung</th>
-                                                    <th>thoi gian</th>
-                                                    <th>trang thai</th>
+                                                    <th>Tên tài khoản</th>
+                                                    <th>Tên sản phẩm</th>
+                                                    <th>Nội dung</th>
+                                                    <th>Thời gian</th>
+                                                    <th>Trạng thái</th>
                                                     <th></th>
                                                 </tr>
                                             </thead>
@@ -65,15 +65,14 @@ class Index extends BaseView
                                                 foreach ($data as $item) :
                                                 ?>
                                                     <tr>
-                                                        <td><?= $item['id'] ?></td>
+                                                    <td><?= $item['id'] ?></td>
                                                         <td>
-                                                            <a href="/admin/users/<?=$item['user_id']?>"><?= $item['username']?></a>
-                                                          
+                                                            <a href="/admin/users/<?=$item['user_id']?>"><?= $item['username'] ?></a>
                                                         </td>
                                                         <td>
-                                                        <a href="/admin/product/<?=$item['product_id']?>"><?= $item['product_name']?></a>
-                                                            
-                                                    </td>
+                                                        <a href="/admin/products/<?=$item['product_id']?>"><?= $item['product_name'] ?></a>
+                                                        </td>
+                                                        <td><?= $item['product_name'] ?></td>
                                                         <td><?= $item['content'] ?></td>
                                                         <td><?= $item['date'] ?></td>
                                                         <td><?= ($item['status'] == 1) ? 'Hiển thị' : 'Ẩn' ?></td>

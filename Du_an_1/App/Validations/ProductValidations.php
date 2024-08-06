@@ -100,7 +100,57 @@ class ProductValidations {
 
     public static function edit():bool {
 
-        return self::create();
+        $is_valid = true;
+
+        //Tên validation
+        if (!isset($_POST['name']) || $_POST['name'] === '') {
+            NotificationHelper::error('name', 'Không để trống tên sản phẩm!');
+            $is_valid = false;
+        }
+
+        //Giá tiền validation
+        if (!isset($_POST['price']) || $_POST['price'] === '') {
+            NotificationHelper::error('price', 'Không để trống giá sản phẩm!');
+            $is_valid = false;
+        }elseif((int)$_POST['price'] <= 0){
+                NotificationHelper::error('price','Giá sản phẩm phải lớn hơn 0!');
+                $is_valid = false;
+            
+        }
+
+        //Giá giảm validation
+        if (!isset($_POST['discount_price']) || $_POST['discount_price'] === '') {
+            NotificationHelper::error('discount_price', 'Không để trống giá giảm sản phẩm!');
+            $is_valid = false;
+        }elseif((int)$_POST['discount_price'] < 0){
+                NotificationHelper::error('discount_price','Giá giảm sản phẩm không được bé hơn 0!');
+                $is_valid = false;
+            
+        }elseif((int)$_POST['discount_price'] > (int)$_POST['price']){
+            NotificationHelper::error('discount_price','Giá giảm sản phẩm phải nhỏ hơn giá sản phẩm!');
+            $is_valid = false;
+        }
+
+        //ID loại sp validation
+        if (!isset($_POST['category_id']) || $_POST['category_id'] === '') {
+            NotificationHelper::error('category_id', 'Không để trống loại sản phẩm!');
+            $is_valid = false;
+        }
+
+
+        //Is_feature validation
+        if (!isset($_POST['is_feature']) || $_POST['is_feature'] === '') {
+            NotificationHelper::error('is_feature', 'Không để trống nổi bật!');
+            $is_valid = false;
+        }
+
+
+        //Status validation
+        if (!isset($_POST['status']) || $_POST['status'] === '') {
+            NotificationHelper::error('status', 'Không để trống trạng thái!');
+            $is_valid = false;
+        }
+        return $is_valid;
     }
 
 }
