@@ -34,3 +34,29 @@ $(document).ready(function() {
         });
     });
 });
+
+
+$(document).ready(function() {
+    $('.btn-remove').on('click', function() {
+        var button = $(this);
+        var productId = button.data('product-id');
+
+        $.ajax({
+            url: '/cart/removeProduct',
+            method: 'POST',
+            data: {
+                productId: productId
+            },
+            success: function(response) {
+                // Xóa sản phẩm khỏi giao diện
+                button.closest('tr').remove();
+
+                // Cập nhật tổng giá trị của giỏ hàng
+                $('.cart-total').text(response.newTotalPrice);
+            },
+            error: function() {
+                alert('Có lỗi xảy ra.');
+            }
+        });
+    });
+});

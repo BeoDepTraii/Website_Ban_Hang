@@ -76,10 +76,10 @@ class Index extends BaseView
                             </p>
                         </td>
                         <td>
-                            <button class="btn btn-md rounded-circle bg-light border mt-4" >
-                                <i class="fa fa-times text-danger"></i>
-                            </button>
-                        </td>
+                        <button class="btn btn-md rounded-circle bg-light border mt-4 btn-remove" data-product-id="<?= $item['product']['id'] ?>">
+                            <i class="fa fa-times text-danger"></i>
+                        </button>
+                    </td>
                     </tr>
                     <?php endforeach; ?>
                 </tbody>
@@ -91,14 +91,12 @@ class Index extends BaseView
             <div class="col-sm-8 col-md-7 col-lg-6 col-xl-4">
                 <div class="bg-light rounded">
                     <div class="p-4">
-                        <h1 class="display-6 mb-4">Cart <span class="fw-normal">Total</span></h1>
+                    <h1 class="display-6 mb-4">Cart <span class="fw-normal">Total</span></h1>
                         <div class="d-flex justify-content-between mb-4">
                             <h5 class="mb-0 me-4">Subtotal:</h5>
-                            <p class="mb-0 subtotal">
-                                $<?= number_format(array_sum(array_map(function($item) {
-                                    return $item['product']['price'] * $item['quantity'];
-                                }, $cart)), 2) ?>
-                            </p>
+                            <p class="mb-0 cart-total">$<?= number_format(array_sum(array_map(function($item) {
+                                return $item['product']['price'] * $item['quantity'];
+                            }, $cart)), 2) ?></p>
                         </div>
                         <div class="d-flex justify-content-between">
                             <h5 class="mb-0 me-4">Shipping</h5>

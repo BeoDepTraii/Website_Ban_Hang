@@ -15,10 +15,11 @@ class CartController
     // hiển thị trang cart
     public static function index()
     {
+        $cart = SessionHelper::get('cart', []);
         Header::render();
         Notification::render();  // hiển thị thông báo
         NotificationHelper::clear(); //clear notification
-        Index::render();
+        Index::render($cart);
         Footer::render();
     }
 
@@ -68,35 +69,65 @@ class CartController
     }
 
 
-// App/Controllers/Client/CartController.php
-public function updateQuantity()
-{
-    // Lấy thông tin từ POST request
-    $productId = $_POST['productId'];
-    $quantity = $_POST['quantity'];
-
-    // Lấy giỏ hàng từ session
-    $cart = SessionHelper::get('cart', []);
-
     // Cập nhật số lượng sản phẩm trong giỏ hàng
-    foreach ($cart as &$item) {
-        if ($item['product']['id'] == $productId) {
-            $item['quantity'] = $quantity;
-            break;
+    public function updateQuantity()
+    {
+        // Lấy thông tin từ POST request
+        $productId = $_POST['productId'];
+        $quantity = $_POST['quantity'];
+
+        // Lấy giỏ hàng từ session
+        $cart = SessionHelper::get('cart', []);
+
+        // Cập nhật số lượng sản phẩm trong giỏ hàng
+        foreach ($cart as &$item) {
+            if ($item['product']['id'] == $productId) {
+                $item['quantity'] = $quantity;
+                break;
+            }
         }
+        
+        // Cập nhật lại giỏ hàng trong session
+        SessionHelper::set('cart', $cart);
+
+        // Tính toán lại giá tổng
+        $newTotalPrice = array_sum(array_map(function($item) {
+            return $item['product']['price'] * $item['quantity'];
+        }, $cart));
+
+        // Trả về dữ liệu cho AJAX
+        echo json_encode(['newTotalPrice' => number_format($newTotalPrice, 2)]);
     }
-    
-    // Cập nhật lại giỏ hàng trong session
-    SessionHelper::set('cart', $cart);
 
-    // Tính toán lại giá tổng
-    $newTotalPrice = array_sum(array_map(function($item) {
-        return $item['product']['price'] * $item['quantity'];
-    }, $cart));
 
-    // Trả về dữ liệu cho AJAX
-    echo json_encode(['newTotalPrice' => number_format($newTotalPrice, 2)]);
-}
+
+    // Xoá sản phẩm trong giỏ hàng
+    public function removeProduct()
+    {
+        $productId = $_POST['productId'];
+
+        // Lấy giỏ hàng từ session
+        $cart = SessionHelper::get('cart', []);
+
+        // Xóa sản phẩm khỏi giỏ hàng
+        foreach ($cart as $key => $item) {
+            if ($item['product']['id'] == $productId) {
+                unset($cart[$key]);
+                break;
+            }
+        }
+
+        // Cập nhật lại giỏ hàng trong session
+        SessionHelper::set('cart', array_values($cart));
+
+        // Tính toán lại giá tổng
+        $newTotalPrice = array_sum(array_map(function($item) {
+            return $item['product']['price'] * $item['quantity'];
+        }, $cart));
+
+        // Trả về dữ liệu cho AJAX
+        echo json_encode(['newTotalPrice' => number_format($newTotalPrice, 2)]);
+    }
 
     
     

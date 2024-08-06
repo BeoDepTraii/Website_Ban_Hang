@@ -33,6 +33,7 @@ Route::get('/contact', 'App\Controllers\Client\ContactController@index');
 Route::get('/cart', 'App\Controllers\Client\CartController@index');
 Route::post('/cart/add', 'App\Controllers\Client\CartController@addProduct');
 Route::post('/cart/updateQuantity', 'App\Controllers\Client\CartController@updateQuantity');
+Route::post('/cart/removeProduct', 'App\Controllers\Client\CartController@removeProduct');
 
 
 

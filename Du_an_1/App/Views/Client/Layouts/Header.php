@@ -55,7 +55,7 @@ class Header extends BaseView
             <!-- <link rel="stylesheet" href="<?= APP_URL ?>/public/assets/client/css/style.css"> -->
             <link rel="stylesheet" href="<?= APP_URL ?>/public/assets/client/css/style2.css">
             <link rel="stylesheet" href="<?= APP_URL ?>/public/assets/client/css/bootstrap.min.css">
-            <link rel="stylesheet" href="<?= APP_URL ?>/public/assets/client/lib/main/main.js"></link>
+            <script src="<?= APP_URL ?>/public/assets/client/lib/main/main.js"></script>
 
         </head>
 
