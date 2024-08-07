@@ -31,20 +31,21 @@ class ProductController
     }
     public static function detail($id)
     {
-        $product_detail = [
-            'id' => $id,
-            'name' => 'Product 1',
-            'description' => 'Description Product 1',
-            'price' => 100000,
-            'discount_price' => 10000,
-            'image' => 'product.jpg',
-            'status' => 1
-        ];
-        $data = [
-            'product' => $product_detail
-        ];
-        Header::render();
+        $product = new Product();
+        $product_detail = $product -> getOneProductByStatus($id);
 
+        $comment = new Comment();
+        $comments = $comment -> get5CommentNewesByProductAndStatus($id);
+
+        $data = [
+            'product' => $product_detail,
+            'comments' => $comments
+        ];
+
+        // echo '<pre>';
+        // var_dump($data);
+        
+        Header::render();
         Detail::render($data);
         Footer::render();
     }

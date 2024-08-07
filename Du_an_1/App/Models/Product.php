@@ -42,6 +42,17 @@ class Product extends BaseModel
         error_log('Lỗi khi lấy loại sản phẩm bằng tên: ' . $th->getMessage());
         return $result;
     }
+        $result = [];
+        try {
+        $sql = "SELECT * FROM $this->table WHERE status=" . self::STATUS_ENABLE;
+        $sql = "SELECT products.* FROM products INNER JOIN categories ON products.category_id=categories.id WHERE products.status=".self::STATUS_ENABLE." AND categories.status=".self::STATUS_ENABLE;
+        $result = $this->_conn->MySQLi()->query($sql);
+        return $result->fetch_all(MYSQLI_ASSOC);
+        
+        } catch (\Throwable $th) {
+        error_log('Lỗi khi lấy loại sản phẩm bằng tên: ' . $th->getMessage());
+        return $result;
+    }
     }
 
     public function getOneProductByName($name)

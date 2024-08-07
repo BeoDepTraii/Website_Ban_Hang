@@ -21,11 +21,13 @@ require_once 'config.php';
 
 
 AuthHelper::middleware();   
+AuthHelper::middleware();   
 
 // *** Client
 Route::get('/', 'App\Controllers\Client\HomeController@index');
 Route::get('/products', 'App\Controllers\Client\ProductController@index');
 Route::get('/products/{id}', 'App\Controllers\Client\ProductController@detail');
+Route::get('/products/categories/{id}', 'App\Controllers\Client\ProductController@getProductByCategory');
 Route::get('/products/categories/{id}', 'App\Controllers\Client\ProductController@getProductByCategory');
 
 Route::get('/contact', 'App\Controllers\Client\ContactController@index');
@@ -99,22 +101,17 @@ Route::delete('/admin/categories/{id}', 'App\Controllers\Admin\CategoryControlle
 Route::get('/admin/products', 'App\Controllers\Admin\ProductController@index');
 
 // GET /products/create (hiển thị form thêm sản phẩm)
-// GET /products/create (hiển thị form thêm sản phẩm)
 Route::get('/admin/products/create', 'App\Controllers\Admin\ProductController@create');
 
-// POST /products (tạo mới một sản phẩm)
 // POST /products (tạo mới một sản phẩm)
 Route::post('/admin/products', 'App\Controllers\Admin\ProductController@store');
 
 // GET /products/{id} (lấy chi tiết sản phẩm với id cụ thể)
-// GET /products/{id} (lấy chi tiết sản phẩm với id cụ thể)
 Route::get('/admin/products/{id}', 'App\Controllers\Admin\ProductController@edit');
 
 // PUT /products/{id} (update sản phẩm với id cụ thể)
-// PUT /products/{id} (update sản phẩm với id cụ thể)
 Route::put('/admin/products/{id}', 'App\Controllers\Admin\ProductController@update');
 
-// DELETE /products/{id} (delete sản phẩm với id cụ thể)
 // DELETE /products/{id} (delete sản phẩm với id cụ thể)
 Route::delete('/admin/products/{id}', 'App\Controllers\Admin\ProductController@delete');
 

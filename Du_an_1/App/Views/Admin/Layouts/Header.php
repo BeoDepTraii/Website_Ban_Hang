@@ -34,6 +34,9 @@ class Header extends BaseView
             <!-- Custom CSS -->
             <link href="<?= APP_URL ?>/public/assets/admin/dist/css/style.min.css" rel="stylesheet">
 
+            <!-- chartJS -->
+            <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
         </head>
 
         <body>

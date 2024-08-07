@@ -15,15 +15,10 @@ class Header extends BaseView
         // var_dump(json_decode($_COOKIE['user']));
 
         $is_login = AuthHelper::checkLogin();
-        
-        $current_page = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
-        $current_page = trim($current_page, '/'); // Loại bỏ dấu gạch chéo ở đầu và cuối
-        if ($current_page == '') {
-            $current_page = 'home'; // Trang chủ mặc định nếu đường dẫn trống
-        }
 
 
 ?>
+
 
         <!DOCTYPE html>
         <html lang="en">
@@ -76,12 +71,12 @@ class Header extends BaseView
                     <button class="navbar-toggler py-2 px-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                         <span class="fa fa-bars text-primary"></span>
                     </button>
-                    <div class="collapse navbar-collapse bg-white nav-pills" id="navbarCollapse">
+                    <div class="collapse navbar-collapse bg-white" id="navbarCollapse">
                         <div class="navbar-nav mx-auto">
-                            <a href="/" class="nav-item nav-link <?= ($current_page == 'home') ? 'active' : '' ?>">Trang chủ</a>
-                            <a href="/products" class="nav-item nav-link <?= ($current_page == 'products') ? 'active' : '' ?>">Sản phẩm</a>
-                            <a href="/contact" class="nav-item nav-link <?= ($current_page == 'contact') ? 'active' : '' ?>">Liên hệ</a>
-                            <a href="/cart" class="nav-item nav-link <?= ($current_page == 'cart') ? 'active' : '' ?>">Giỏ hàng</a>
+                            <a href="/" class="nav-item nav-link active">Trang chủ</a>
+                            <a href="/products" class="nav-item nav-link">Sản phẩm</a>
+                            <a href="/contact" class="nav-item nav-link">Liên hệ</a>
+                            <a href="#" class="nav-item nav-link">Giỏ hàng</a>
                         
 
                         

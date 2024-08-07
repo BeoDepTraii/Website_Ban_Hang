@@ -125,8 +125,26 @@ abstract class BaseModel implements CrudInterface
 
     public function getAllByStatus()
     {
+        try {
         $sql = "SELECT * FROM $this->table WHERE status=" . self::STATUS_ENABLE;
         $result = $this->_conn->MySQLi()->query($sql);
         return $result->fetch_all(MYSQLI_ASSOC);
+    } catch (\Throwable $th) {
+        error_log('Lỗi khi xóa dữ liệu: ' . $th->getMessage());
+        return false;
     }
+}
+//đếm số lượng
+public function countTotal()
+{
+    $result = [];
+    try {
+        $sql = "SELECT COUNT(*) AS total FROM $this->table";
+        $result = $this->_conn->MySQLi()->query($sql);
+        return $result->fetch_assoc();
+    } catch (\Throwable $th) {
+        error_log('Lỗi khi count tất cả dữ liệu: ' . $th->getMessage());
+        return $result;
+    }
+}
 }
