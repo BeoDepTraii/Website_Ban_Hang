@@ -72,7 +72,7 @@ class Home extends BaseView
                     <div class="col-md-3">
                         <div class="card card-hover">
                             <div class="box bg-danger text-center">
-                                <h1 class="font-light text-white"><i class="mdi mdi-border-outside"></i></h1>
+                                <h1 class="font-light text-white"><i class="mdi mdi-border-outside"><?= $data['total_comment'] ?></i></h1>
                                 <h6 class="text-white">Bình Luận</h6>
                             </div>
                         </div>
@@ -664,13 +664,7 @@ class Home extends BaseView
                         borderWidth: 1
                     }]
                     },
-                    // options: {
-                    // scales: {
-                    //     y: {
-                    //     beginAtZero: true
-                    //     }
-                    // }
-                    // }
+                    
                 });
             }
             productByCategoryChart();

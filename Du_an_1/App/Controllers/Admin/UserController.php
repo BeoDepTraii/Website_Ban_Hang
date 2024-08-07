@@ -32,69 +32,6 @@ class UserController
     }
 
 
-    // // hiển thị giao diện form thêm
-    // public static function create()
-    // {
-    //     Header::render();
-    //     Notification::render();
-    //     NotificationHelper::clear();
-    //     // hiển thị form thêm
-    //     Create::render();
-    //     Footer::render();
-    // }
-
-
-    // // xử lý chức năng thêm
-    // public static function store()
-    // {
-    //     //validation các trường dữ liệu
-    //     $is_valid=UserValidation::create();
-
-    //     if(!$is_valid){
-    //         NotificationHelper::error('store', 'Thêm loại sản phẩm thất bại');
-    //         header('location: /admin/users/create');
-    //         exit;
-    //     }
-
-    //     $name=$_POST['name'];
-    //     $status = $_POST['status'];
-    //     //kiểm tra tên loại có tồn tại chưa => không được trùng tên
-    //     $User= new User();
-    //     $is_exist=$User->getOneUserByName($name);
-
-    //     if($is_exist){
-    //         NotificationHelper::error('store', 'Tên loại sản phẩm đã tồn tại');
-    //         header('location: /admin/users/create');
-    //         exit;
-    //     }
-
-    //     //thực hiện thêm mới 
-
-    //     $data=[
-    //         'name'=> $name,
-    //         'status'=> $status
-    //     ];
-
-    //     $result= $User->createUser($data);
-
-    //     if($result){
-    //         NotificationHelper::success('store', 'Thêm loại sản phẩm thành công');
-    //         header('location: /admin/users');
-
-    //     }
-    //     else{
-    //         NotificationHelper::error('store', 'Thêm loại sản phẩm thất bại');
-    //         header('location: /admin/users/create');
-    //     }
-    // }
-
-
-    // // hiển thị chi tiết
-    // public static function show()
-    // {
-    // }
-
-
     // hiển thị giao diện form sửa
     public static function edit(int $id)
     {

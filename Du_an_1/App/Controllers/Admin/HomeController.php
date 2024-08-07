@@ -4,6 +4,7 @@ namespace App\Controllers\Admin;
 
 use App\Helpers\NotificationHelper;
 use App\Models\Category;
+use App\Models\Comment;
 use App\Models\Product;
 use App\Models\User;
 use App\Views\Admin\Components\Notification;
@@ -25,13 +26,17 @@ class HomeController
         $product = new Product();
         $total_product = $product -> countTotalPrduct();
 
+        $comment = new Comment();
+        $total_comment = $comment -> countTotalComment();
+
         $product_by_category = $product->countProductByCaterogy();
 
         $data =[
             'total_user'=> $total_user['total'],
             'total_category'=> $total_category['total'],
             'total_product'=> $total_product['total'],
-            'product_by_category' => $product_by_category
+            'product_by_category' => $product_by_category,
+            'total_comment' => $total_comment['total']
         ];
         // echo '<pre>';
         // var_dump($product_by_category);
