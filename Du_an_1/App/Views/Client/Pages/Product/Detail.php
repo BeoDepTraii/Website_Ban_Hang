@@ -48,7 +48,7 @@ class Detail extends BaseView
                     <?php
                     endif;
                     ?>
-
+                    <h6>Số Lượt Xem: <?= $data ['product']['view']?> </h6>
                     <h5>Danh mục: <?= $data ['product']['category_name']?></h5>
 
                     <form action="#" method="post">
@@ -98,7 +98,7 @@ class Detail extends BaseView
                                         if(isset($data) && $is_login && ($_SESSION['user']['id'] == $item['user_id'])):
                                         ?>
 
-                                        <button type="button" class="btn btn-cyan btn-sm" data-toggle="collapse" data-target="# <?=$item['username']?><?=$item['id']?>" aria-expanded="false" aria-controls="comment">Sửa</button>
+                                        <button type="submit" class="btn btn-cyan btn-sm" data-toggle="collapse" data-target="#<?=$item['username']?><?=$item['id']?>" aria-expanded="false" aria-controls="comment">Sửa</button>
                                         <form action="#" method="post" onsubmit="return confirm('Chắc chưa?')" style="display: inline-block">
                                             <input type="hidden" name="method" value="DELETE" id="">
                                             <input type="hidden" name="product_id" value="" id="">

@@ -39,6 +39,7 @@ Route::post('/cart/removeProduct', 'App\Controllers\Client\CartController@remove
 
 
 Route::get('/checkout', 'App\Controllers\Client\CheckoutController@index');
+Route::post('/checkout/store', 'App\Controllers\Client\CheckoutController@store');
 
 // Route::post('/cart/add', 'App\Controllers\Client\CartController@addProduct');   //Route thêm sản phẩm vào gi�� hàng
 
