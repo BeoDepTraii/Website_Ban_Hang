@@ -30,6 +30,19 @@ Route::get('/products/categories/{id}', 'App\Controllers\Client\ProductControlle
 
 Route::get('/contact', 'App\Controllers\Client\ContactController@index');
 
+Route::get('/cart', 'App\Controllers\Client\CartController@index');
+Route::post('/cart/add', 'App\Controllers\Client\CartController@addProduct');
+Route::post('/cart/updateQuantity', 'App\Controllers\Client\CartController@updateQuantity');
+Route::post('/cart/removeProduct', 'App\Controllers\Client\CartController@removeProduct');
+
+
+
+
+Route::get('/checkout', 'App\Controllers\Client\CheckoutController@index');
+
+// Route::post('/cart/add', 'App\Controllers\Client\CartController@addProduct');   //Route thêm sản phẩm vào gi�� hàng
+
+
 Route::get('/register', 'App\Controllers\Client\AuthController@register');   //Route đăng ký
 Route::post('/register', 'App\Controllers\Client\AuthController@registerAction');   //Route đăng ký
 
@@ -86,17 +99,22 @@ Route::delete('/admin/categories/{id}', 'App\Controllers\Admin\CategoryControlle
 Route::get('/admin/products', 'App\Controllers\Admin\ProductController@index');
 
 // GET /products/create (hiển thị form thêm sản phẩm)
+// GET /products/create (hiển thị form thêm sản phẩm)
 Route::get('/admin/products/create', 'App\Controllers\Admin\ProductController@create');
 
+// POST /products (tạo mới một sản phẩm)
 // POST /products (tạo mới một sản phẩm)
 Route::post('/admin/products', 'App\Controllers\Admin\ProductController@store');
 
 // GET /products/{id} (lấy chi tiết sản phẩm với id cụ thể)
+// GET /products/{id} (lấy chi tiết sản phẩm với id cụ thể)
 Route::get('/admin/products/{id}', 'App\Controllers\Admin\ProductController@edit');
 
 // PUT /products/{id} (update sản phẩm với id cụ thể)
+// PUT /products/{id} (update sản phẩm với id cụ thể)
 Route::put('/admin/products/{id}', 'App\Controllers\Admin\ProductController@update');
 
+// DELETE /products/{id} (delete sản phẩm với id cụ thể)
 // DELETE /products/{id} (delete sản phẩm với id cụ thể)
 Route::delete('/admin/products/{id}', 'App\Controllers\Admin\ProductController@delete');
 

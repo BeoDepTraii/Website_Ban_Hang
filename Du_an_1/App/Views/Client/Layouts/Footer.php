@@ -84,7 +84,7 @@ class Footer extends BaseView
         <script src="<?= APP_URL ?>/public/assets/client/lib/waypoints/waypoints.min.js"></script>
         <script src="<?= APP_URL ?>/public/assets/client/lib/lightbox/js/lightbox.min.js"></script>
         <script src="<?= APP_URL ?>/public/assets/client/lib/owlcarousel/owl.carousel.min.js"></script>
-
+        
         <!-- Template Javascript -->
         <script>
             (function ($) {
@@ -207,7 +207,7 @@ class Footer extends BaseView
         $('.btn-play').click(function () {
             $videoSrc = $(this).data("src");
         });
-        console.log($videoSrc);
+        
 
         $('#videoModal').on('shown.bs.modal', function (e) {
             $("#video").attr('src', $videoSrc + "?autoplay=1&amp;modestbranding=1&amp;showinfo=0");
@@ -221,20 +221,20 @@ class Footer extends BaseView
 
 
     // Product Quantity
-    $('.quantity button').on('click', function () {
-        var button = $(this);
-        var oldValue = button.parent().parent().find('input').val();
-        if (button.hasClass('btn-plus')) {
-            var newVal = parseFloat(oldValue) + 1;
-        } else {
-            if (oldValue > 0) {
-                var newVal = parseFloat(oldValue) - 1;
-            } else {
-                newVal = 0;
-            }
-        }
-        button.parent().parent().find('input').val(newVal);
-    });
+    // $('.quantity button').on('click', function () {
+    //     var button = $(this);
+    //     var oldValue = button.parent().parent().find('input').val();
+    //     if (button.hasClass('btn-plus')) {
+    //         var newVal = parseFloat(oldValue) + 1;
+    //     } else {
+    //         if (oldValue > 0) {
+    //             var newVal = parseFloat(oldValue) - 1;
+    //         } else {
+    //             newVal = 0;
+    //         }
+    //     }
+    //     button.parent().parent().find('input').val(newVal);
+    // });
 
 })(jQuery);
 
