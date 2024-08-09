@@ -73,11 +73,11 @@ class Header extends BaseView
                     </button>
                     <div class="collapse navbar-collapse bg-white" id="navbarCollapse">
                         <div class="navbar-nav mx-auto">
-                            <a href="/" class="nav-item nav-link active">Trang chủ</a>
-                            <a href="/products" class="nav-item nav-link">Sản phẩm</a>
-                            <a href="/contact" class="nav-item nav-link">Liên hệ</a>
-                            <a href="/cart" class="nav-item nav-link">Giỏ hàng</a>
-                        
+                            <a href="/" class="nav-item nav-link <?= ($current_page == 'home') ? 'active' : '' ?>">Trang chủ</a>
+                            <a href="/products" class="nav-item nav-link <?= ($current_page == 'products') ? 'active' : '' ?>">Sản phẩm</a>
+                            <a href="/contact" class="nav-item nav-link <?= ($current_page == 'contact') ? 'active' : '' ?>">Liên hệ</a>
+                            <a href="/cart" class="nav-item nav-link <?= ($current_page == 'cart') ? 'active' : '' ?>">Giỏ hàng</a>
+                            <a href="/products/{id}" class="nav-item nav-link <?= ($current_page == 'products/{id}') ? 'active' : '' ?>"></a>
 
                         
                         </div>
