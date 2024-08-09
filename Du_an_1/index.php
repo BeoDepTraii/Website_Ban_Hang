@@ -20,8 +20,7 @@ $dotenv->load();
 require_once 'config.php';
 
 
-AuthHelper::middleware();   
-AuthHelper::middleware();   
+AuthHelper::middleware();     
 
 // *** Client
 Route::get('/', 'App\Controllers\Client\HomeController@index');
@@ -34,15 +33,11 @@ Route::get('/contact', 'App\Controllers\Client\ContactController@index');
 
 Route::get('/cart', 'App\Controllers\Client\CartController@index');
 Route::post('/cart/add', 'App\Controllers\Client\CartController@addProduct');
-Route::post('/cart/updateQuantity', 'App\Controllers\Client\CartController@updateQuantity');
-Route::post('/cart/removeProduct', 'App\Controllers\Client\CartController@removeProduct');
 
 
 
 
 Route::get('/checkout', 'App\Controllers\Client\CheckoutController@index');
-
-// Route::post('/cart/add', 'App\Controllers\Client\CartController@addProduct');   //Route thêm sản phẩm vào gi�� hàng
 
 
 Route::get('/register', 'App\Controllers\Client\AuthController@register');   //Route đăng ký

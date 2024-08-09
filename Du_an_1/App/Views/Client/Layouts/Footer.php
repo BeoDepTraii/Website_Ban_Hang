@@ -201,40 +201,24 @@ class Footer extends BaseView
     });
 
 
-    // Modal Video
-    $(document).ready(function () {
-        var $videoSrc;
-        $('.btn-play').click(function () {
-            $videoSrc = $(this).data("src");
-        });
+    // // Modal Video
+    // $(document).ready(function () {
+    //     var $videoSrc;
+    //     $('.btn-play').click(function () {
+    //         $videoSrc = $(this).data("src");
+    //     });
         
 
-        $('#videoModal').on('shown.bs.modal', function (e) {
-            $("#video").attr('src', $videoSrc + "?autoplay=1&amp;modestbranding=1&amp;showinfo=0");
-        })
+    //     $('#videoModal').on('shown.bs.modal', function (e) {
+    //         $("#video").attr('src', $videoSrc + "?autoplay=1&amp;modestbranding=1&amp;showinfo=0");
+    //     })
 
-        $('#videoModal').on('hide.bs.modal', function (e) {
-            $("#video").attr('src', $videoSrc);
-        })
-    });
-
-
-
-    // Product Quantity
-    // $('.quantity button').on('click', function () {
-    //     var button = $(this);
-    //     var oldValue = button.parent().parent().find('input').val();
-    //     if (button.hasClass('btn-plus')) {
-    //         var newVal = parseFloat(oldValue) + 1;
-    //     } else {
-    //         if (oldValue > 0) {
-    //             var newVal = parseFloat(oldValue) - 1;
-    //         } else {
-    //             newVal = 0;
-    //         }
-    //     }
-    //     button.parent().parent().find('input').val(newVal);
+    //     $('#videoModal').on('hide.bs.modal', function (e) {
+    //         $("#video").attr('src', $videoSrc);
+    //     })
     // });
+
+
 
 })(jQuery);
 
@@ -246,8 +230,7 @@ class Footer extends BaseView
 
 <?php
 
-        // unset($_SESSION['success']);
-        // unset($_SESSION['error']);
+
     }
 }
 
