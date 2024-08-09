@@ -3,7 +3,6 @@
 namespace App\Views\Client\Pages\Product;
 
 use App\Helpers\AuthHelper;
-use App\Helpers\AuthHelper;
 use App\Views\BaseView;
 
 class Detail extends BaseView
@@ -11,20 +10,8 @@ class Detail extends BaseView
     public static function render($data = null)
     {
         $is_login = AuthHelper::checkLogin();
-        $is_login = AuthHelper::checkLogin();
         // var_dump($_SESSION);
 ?>
-
-        <!-- Single Page Header start -->
-        <div class="container-fluid page-header py-5">
-            <h1 class="text-center text-white display-6">Shop Detail</h1>
-            <ol class="breadcrumb justify-content-center mb-0">
-                <li class="breadcrumb-item"><a href="#">Home</a></li>
-                <li class="breadcrumb-item"><a href="#">Pages</a></li>
-                <li class="breadcrumb-item active text-white">Shop Detail</li>
-            </ol>
-        </div>
-        <!-- Single Page Header End -->
 
         <!-- Single Page Header start -->
         <div class="container-fluid page-header py-5">
@@ -84,19 +71,10 @@ class Detail extends BaseView
 
                             foreach($data['comments'] as $item):    
                             ?>
-                            <?php
-                            if(isset($data) && isset($data['comments']) && $data && $data['comments']):
-
-                            foreach($data['comments'] as $item):    
-                            ?>
 
                             <!-- Comment Row -->
                             <div class="d-flex flex-row comment-row m-t-0">
                                 <div class="p-2">
-                                <?php
-                                    if($item['avatar']):
-                                ?>
-                                    <img src="<?= APP_URL ?>/public/uploads/users/<?= $item['avatar']?>" alt="user" width="50" class="rounded-circle">
                                 <?php
                                     if($item['avatar']):
                                 ?>
@@ -110,25 +88,10 @@ class Detail extends BaseView
                                 endif;
                                 ?>
 
-                                <?php
-                                    else:
-                                ?>
-                                <img src="<?= APP_URL ?>/public/uploads/users/default-user.png" alt="user" width="50" class="rounded-circle">
-                                <?php
-                                endif;
-                                ?>
-
                                 <div class="comment-text w-100">
                                     <h6 class="font-medium"><?=$item['name']?></h6>
                                     <span class="m-b-15 d-block"><?=$item['content']?></span>
-                                    <h6 class="font-medium"><?=$item['name']?></h6>
-                                    <span class="m-b-15 d-block"><?=$item['content']?></span>
                                     <div class="comment-footer">
-                                        <span class="text-muted float-right"><?=$item['date']?></span>
-
-                                        <?php
-                                        if(isset($data) && $is_login && ($_SESSION['user']['id'] == $item['user_id'])):
-                                        ?>
                                         <span class="text-muted float-right"><?=$item['date']?></span>
 
                                         <?php
@@ -143,14 +106,12 @@ class Detail extends BaseView
 
                                         </form>
                                         <div class="collapse" id="<?=$item['username']?><?=$item['id']?>">
-                                        <div class="collapse" id="<?=$item['username']?><?=$item['id']?>">
                                             <div class="card card-body mt-5">
                                                 <form action="#" method="post">
                                                     <input type="hidden" name="method" value="PUT" id="">
                                                     <input type="hidden" name="product_id" value="" id="">
                                                     <div class="form-group">
                                                         <label for="">Bình luận</label>
-                                                        <textarea class="form-control rounded-0" name="content" id="" rows="3" placeholder="Nhập bình luận..."><?=$item['content']?></textarea>
                                                         <textarea class="form-control rounded-0" name="content" id="" rows="3" placeholder="Nhập bình luận..."><?=$item['content']?></textarea>
                                                     </div>
                                                     <div class="comment-footer">
@@ -163,27 +124,9 @@ class Detail extends BaseView
                                         <?php
                                         endif;
                                         ?>
-                                        <?php
-                                        endif;
-                                        ?>
                                     </div>
                                 </div>
                             </div>
-                            </div>
-                            
-      
-                            <?php
-                            endforeach;
-                            else:
-                            ?>
-                            <h6 class="text-center text-danger">Chưa Có Bình Luận</h6>
-                            <?php
-                            endif;
-                            ?>
-
-                            <?php
-                            if(isset($data) && $is_login):
-                            ?>
                             </div>
                             
       
@@ -213,7 +156,6 @@ class Detail extends BaseView
                                         <div class="form-group">
                                             <label for="">Bình luận</label>
                                             <textarea class="form-control rounded-0" name="content" id="" rows="3" placeholder="Nhập bình luận..." ></textarea>
-                                            <textarea class="form-control rounded-0" name="content" id="" rows="3" placeholder="Nhập bình luận..." ></textarea>
                                         </div>
                                         <div class="comment-footer">
                                             <button type="submit" class="btn btn-cyan btn-sm">Gửi</button>
@@ -227,19 +169,11 @@ class Detail extends BaseView
                             else:
                             ?>
                             <h6 class="text-center text-danger">Vui Lòng Đăng Nhập Để Bình Luận</h6>
-                            <?php
-                            else:
-                            ?>
-                            <h6 class="text-center text-danger">Vui Lòng Đăng Nhập Để Bình Luận</h6>
 
                              <?php
                             endif;
                             ?>
-                             <?php
-                            endif;
-                            ?>
                     </div>
-                    
                     
                 </div>
             </div>
@@ -248,7 +182,6 @@ class Detail extends BaseView
         <!-- Single Product Start -->
         <div class="container-fluid py-5 mt-5">
             <div class="container py-5">
-                
                 
                 <h1 class="fw-bold mb-0">Related products</h1>
                 <div class="vesitable">

@@ -16,6 +16,12 @@ class Header extends BaseView
 
         $is_login = AuthHelper::checkLogin();
 
+        $current_page = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
+        $current_page = trim($current_page, '/'); // Loại bỏ dấu gạch chéo ở đầu và cuối
+        if ($current_page == '') {
+            $current_page = 'home'; // Trang chủ mặc định nếu đường dẫn trống
+        }
+
 
 ?>
 
@@ -77,7 +83,6 @@ class Header extends BaseView
                             <a href="/products" class="nav-item nav-link <?= ($current_page == 'products') ? 'active' : '' ?>">Sản phẩm</a>
                             <a href="/contact" class="nav-item nav-link <?= ($current_page == 'contact') ? 'active' : '' ?>">Liên hệ</a>
                             <a href="/cart" class="nav-item nav-link <?= ($current_page == 'cart') ? 'active' : '' ?>">Giỏ hàng</a>
-                            <a href="/products/{id}" class="nav-item nav-link <?= ($current_page == 'products/{id}') ? 'active' : '' ?>"></a>
 
                         
                         </div>
