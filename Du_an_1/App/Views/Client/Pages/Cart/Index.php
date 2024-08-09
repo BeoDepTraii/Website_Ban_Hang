@@ -27,55 +27,66 @@ class Index extends BaseView
         <div class="container-fluid py-5">
             <div class="container py-5">
                 <?php if (!empty($cart)) : ?>
+
                 <form method="post" action="/update_cart.php">
+                    <input type="hidden" name="product_id" value="123">
+                    <input type="hidden" name="action" value="increase">
+
                     <div class="table-responsive">
-                        <table class="table">
-                            <thead>
-                                <tr>
-                                    <th scope="col">Products</th>
-                                    <th scope="col">Name</th>
-                                    <th scope="col">Price</th>
-                                    <th scope="col">Quantity</th>
-                                    <th scope="col">Total</th>
-                                    <th scope="col">Handle</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <?php foreach ($cart as $item) : ?>
-                                <tr>
-                                    <th scope="row">
-                                        <div class="d-flex align-items-center">
-                                            <img src="<?= APP_URL ?>/public/uploads/products/<?= $item['product']['image'] ?>" class="img-fluid me-5 rounded-circle" style="width: 80px; height: 80px;" alt="">
-                                        </div>
-                                    </th>
-                                    <td>
-                                        <p class="mb-0 mt-4"><?= $item['product']['name'] ?></p>
-                                    </td>
-                                    <td>
-                                        <p class="mb-0 mt-4" class="product-price" data-product-id="<?= $item['product']['id'] ?>">
-                                            <?= number_format($item['product']['price'], 2) ?> $
-                                        </p>
-                                    </td>
-                                    <td>
-                                        <div class="input-group quantity mt-4" style="width: 100px;">
-                                            <input type="number" class="form-control form-control-sm text-center border-0 quantity-input" name="quantities[<?= $item['product']['id'] ?>]" value="<?= $item['quantity'] ?>" min="1">
-                                        </div>
-                                    </td>
-                                    <td>
-                                        <p class="mb-0 mt-4 total-price" data-product-id="<?= $item['product']['id'] ?>">
-                                            <?= number_format($item['product']['price'] * $item['quantity'], 2) ?> $
-                                        </p>
-                                    </td>
-                                    <td>
-                                        <a href="/remove_from_cart.php?product_id=<?= $item['product']['id'] ?>" class="btn btn-md rounded-circle bg-light border mt-4 btn-remove">
-                                            <i class="fa fa-times text-danger"></i>
-                                        </a>
-                                    </td>
-                                </tr>
-                                <?php endforeach; ?>
-                            </tbody>
-                        </table>
-                    </div>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">Products</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Price</th>
+                    <th scope="col">Quantity</th>
+                    <th scope="col">Total</th>
+                    <th scope="col">Handle</th>
+                </tr>
+            </thead>
+            <tbody>
+                <?php foreach ($cart as $item) : ?>
+                <tr>
+                    <th scope="row">
+                        <div class="d-flex align-items-center">
+                            <img src="<?= APP_URL ?>/public/uploads/products/<?= $item['product']['image'] ?>" class="img-fluid me-5 rounded-circle" style="width: 80px; height: 80px;" alt="">
+                        </div>
+                    </th>
+                    <td>
+                        <p class="mb-0 mt-4"><?= $item['product']['name'] ?></p>
+                    </td>
+                    <td>
+                        <p class="mb-0 mt-4" class="product-price" data-product-id="<?= $item['product']['id'] ?>">
+                            <?= number_format($item['product']['price'], 2) ?> $
+                        </p>
+                    </td>
+                    <td>
+                        <div class="input-group quantity mt-4" style="width: 100px;">
+                            <input type="number" class="form-control form-control-sm text-center border-0 quantity-input" name="quantities[<?= $item['product']['id'] ?>]" value="<?= $item['quantity'] ?>" min="1">
+                        </div>
+                    </td>
+                    <td>
+                        <p class="mb-0 mt-4 total-price" data-product-id="<?= $item['product']['id'] ?>">
+                            <?= number_format($item['product']['price'] * $item['quantity'], 2) ?> $
+                        </p>
+                    </td>
+                    <td>
+                    <button type="submit" name="product_id" value="<?= $item['product']['id'] ?>" class="btn btn-md rounded-circle bg-light border mt-4 btn-remove" formaction="/update_cart.php?action=decrease">
+                            <i class="fa fa-minus text-danger"></i>
+                        </button>
+                        <button type="submit" name="product_id" value="<?= $item['product']['id'] ?>" class="btn btn-md rounded-circle bg-light border mt-4 btn-remove" formaction="/update_cart.php?action=increase">
+                            <i class="fa fa-plus text-success"></i>
+                        </button>
+                        
+                        <a href="/remove_from_cart.php?product_id=<?= $item['product']['id'] ?>" class="btn btn-md rounded-circle bg-light border mt-4 btn-remove">
+                            <i class="fa fa-times text-danger"></i>
+                        </a>
+                    </td>
+                </tr>
+                <?php endforeach; ?>
+            </tbody>
+        </table>
+    </div>
                     <!-- Subtotal and Total Calculations -->
                     <div class="row g-4 justify-content-end">
                         <div class="col-8"></div>
@@ -105,7 +116,6 @@ class Index extends BaseView
                                         }, $cart)) + 3, 2) ?>
                                     </p>
                                 </div>
-                                <button type="submit" class="btn border-secondary rounded-pill px-4 py-3 text-primary text-uppercase mb-4 ms-4">Cập nhật giỏ hàng</button>
                                 <a href="/checkout"><button class="btn border-secondary rounded-pill px-4 py-3 text-primary text-uppercase mb-4 ms-4" type="button">Thanh toán</button></a>
                             </div>
                         </div>
