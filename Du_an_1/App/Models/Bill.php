@@ -7,7 +7,7 @@ class Bill extends BaseModel
     protected $table = 'bill';
     protected $id = 'id';
 
-    public function getAllProduct()
+    public function getAllBill()
     {
         return $this->getAll();
     }

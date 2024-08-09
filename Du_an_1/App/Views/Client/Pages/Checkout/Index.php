@@ -14,9 +14,6 @@ class Index extends BaseView
         $cartData = CheckoutController::getCartData();
         $cart = $cartData['cart'];
         $totalPrice = $cartData['totalPrice'];
-
-        // Hiển thị thông báo lỗi nếu có
-        $notification = NotificationHelper::error ('formHandler', '');
         ?>
 
         <!-- Single Page Header start -->
@@ -41,9 +38,12 @@ class Index extends BaseView
                         <!-- Các trường thông tin người dùng -->
                         <!-- ... (trường thông tin giống như trong mã gốc) -->
                         <div class="col-md-12 col-lg-6 col-xl-7">
+                        <div class="form-item">>
+                                <input type="text" class="form-control" hidden placeholder="<?=$data['id']?>" disabled>
+                            </div>
                             <div class="form-item">
-                                <label class="form-label my-3" >Name <sup>*</sup></label>
-                                <input type="text" class="form-control" placeholder="<?=$data['name']?>" disabled>
+                                <label class="form-label my-3" >Usernam <sup>*</sup></label>
+                                <input type="text" name="username" id="username"  class="form-control" placeholder="<?=$data['username']?>" disabled>
                             </div>
                             <div class="form-item">
                                 <label class="form-label my-3">Email Address<sup>*</sup></label>
@@ -99,7 +99,7 @@ class Index extends BaseView
                                             </td>
                                             <td class="py-5">
                                                 <div class="py-3 border-bottom border-top">
-                                                    <p class="mb-0 text-dark">$<?= $totalPrice ?></p>
+                                                    <p class="mb-0 text-dark"><?= $totalPrice ?></p>
                                                 </div>
                                             </td>
                                         </tr>

@@ -108,14 +108,17 @@ class CartController
 
         // Lấy giỏ hàng từ session
         $cart = SessionHelper::get('cart', []);
-
+        // $cart_data = json_decode($cart, true);
         // Xóa sản phẩm khỏi giỏ hàng
         foreach ($cart as $key => $item) {
             if ($item['product']['id'] == $productId) {
                 unset($cart[$key]);
+                // $product_data = json_encode($cart_data);
                 break;
             }
         }
+        echo '<pre>';
+        var_dump($cart);
 
         // Cập nhật lại giỏ hàng trong session
         SessionHelper::set('cart', array_values($cart));

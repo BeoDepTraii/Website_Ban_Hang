@@ -31,11 +31,16 @@ class CheckoutController
         // Lấy giỏ hàng từ session
         $cart = SessionHelper::get('cart', []);
 
+        // echo '<pre>';
+        // var_dump($cart);
+
         // Tính toán giá tổng
         $totalPrice = array_sum(array_map(function($item) {
             return $item['product']['price'] * $item['quantity'];
-        }, $cart));
+        },
+        $cart));
 
+        
         
         return [
             'cart' => $cart,
@@ -52,12 +57,11 @@ class CheckoutController
             header('Location: /checkout');
             exit;
         }
-
-        
         //Thêm vào CSDL
         $data=[
+            //  'username' => $_POST['id'],
             'address' => $_POST['address'],
-            'phonenumber' => $_POST['phonenumber'],       
+            'phonenumber' => $_POST['phonenumber'], 
         ];
         $bill = new Bill();
         $result = $bill->createBill($data);
