@@ -18,7 +18,7 @@ class Header extends BaseView
 
         $current_page = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
         $current_page = trim($current_page, '/'); // Loại bỏ dấu gạch chéo ở đầu và cuối
-        if ($current_page == '') {
+        if ($current_page == '' ) {
             $current_page = 'home'; // Trang chủ mặc định nếu đường dẫn trống
         }
 

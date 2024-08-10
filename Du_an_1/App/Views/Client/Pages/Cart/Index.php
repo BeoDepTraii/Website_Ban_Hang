@@ -15,7 +15,7 @@ class Index extends BaseView
 
         <!-- Single Page Header start -->
         <div class="container-fluid page-header py-5">
-            <h1 class="text-center text-white display-6">Cart</h1>
+            <h1 class="text-center text-white display-6">Giỏ hàng</h1>
             <ol class="breadcrumb justify-content-center mb-0" style="background-color: transparent;">
                 <li class="breadcrumb-item"><a href="/">Trang chủ</a></li>
                 <li class="breadcrumb-item active text-white">Giỏ hàng</li>
@@ -36,12 +36,12 @@ class Index extends BaseView
         <table class="table">
             <thead>
                 <tr>
-                    <th scope="col">Products</th>
-                    <th scope="col">Name</th>
-                    <th scope="col">Price</th>
-                    <th scope="col">Quantity</th>
-                    <th scope="col">Total</th>
-                    <th scope="col">Handle</th>
+                    <th scope="col">Sản phẩm</th>
+                    <th scope="col">Tên</th>
+                    <th scope="col">Giá</th>
+                    <th scope="col">Số lượng</th>
+                    <th scope="col">Tổng</th>
+                    <th scope="col">Chỉnh sửa</th>
                 </tr>
             </thead>
             <tbody>
@@ -57,7 +57,7 @@ class Index extends BaseView
                     </td>
                     <td>
                         <p class="mb-0 mt-4" class="product-price" data-product-id="<?= $item['product']['id'] ?>">
-                            <?= number_format($item['product']['price'], 2) ?> $
+                            <?= number_format($item['product']['price']) ?> VNĐ
                         </p>
                     </td>
                     <td>
@@ -67,7 +67,7 @@ class Index extends BaseView
                     </td>
                     <td>
                         <p class="mb-0 mt-4 total-price" data-product-id="<?= $item['product']['id'] ?>">
-                            <?= number_format($item['product']['price'] * $item['quantity'], 2) ?> $
+                            <?= number_format($item['product']['price'] * $item['quantity']) ?> VNĐ
                         </p>
                     </td>
                     <td>
@@ -93,27 +93,27 @@ class Index extends BaseView
                         <div class="col-sm-8 col-md-7 col-lg-6 col-xl-4">
                             <div class="bg-light rounded">
                                 <div class="p-4">
-                                    <h1 class="display-6 mb-4">Cart <span class="fw-normal">Total</span></h1>
+                                    <h1 class="display-6 mb-4">Tổng <span class="fw-normal"> tiền</span></h1>
                                     <div class="d-flex justify-content-between mb-4">
-                                        <h5 class="mb-0 me-4">Subtotal:</h5>
-                                        <p class="mb-0 cart-total">$<?= number_format(array_sum(array_map(function($item) {
+                                        <h5 class="mb-0 me-4">Tạm tính:</h5>
+                                        <p class="mb-0 cart-total"><?= number_format(array_sum(array_map(function($item) {
                                             return $item['product']['price'] * $item['quantity'];
-                                        }, $cart)), 2) ?></p>
+                                        }, $cart))) ?> VNĐ</p>
                                     </div>
                                     <div class="d-flex justify-content-between">
-                                        <h5 class="mb-0 me-4">Shipping</h5>
+                                        <h5 class="mb-0 me-4">Giao hàng</h5>
                                         <div class="">
-                                            <p class="mb-0">Flat rate: $3.00</p>
+                                            <p class="mb-0">Phí ship: 30.000 VNĐ</p>
                                         </div>
                                     </div>
-                                    <p class="mb-0 text-end">Shipping to Ukraine.</p>
+                                    <p class="mb-0 text-end">Giao hàng toàn quốc</p>
                                 </div>
                                 <div class="py-4 mb-4 border-top border-bottom d-flex justify-content-between">
-                                    <h5 class="mb-0 ps-4 me-4">Total</h5>
-                                    <p class="mb-0 total-price">
-                                        $<?= number_format(array_sum(array_map(function($item) {
+                                    <h5 class="mb-0 ps-4 me-4">Tổng</h5>
+                                    <p class="mb-0 total-price" style="padding-right: 20px;">
+                                        <?= number_format(array_sum(array_map(function($item) {
                                             return $item['product']['price'] * $item['quantity'];
-                                        }, $cart)) + 3, 2) ?>
+                                        }, $cart)) + 30000) ?> VNĐ 
                                     </p>
                                 </div>
                                 <a href="/checkout"><button class="btn border-secondary rounded-pill px-4 py-3 text-primary text-uppercase mb-4 ms-4" type="button">Thanh toán</button></a>
@@ -122,7 +122,7 @@ class Index extends BaseView
                     </div>
                 </form>
                 <?php else : ?>
-                <p>Giỏ hàng của bạn đang trống.</p>
+                <p style="text-align:center;">Giỏ hàng của bạn đang trống.</p>
                 <?php endif; ?>
             </div>
         </div>

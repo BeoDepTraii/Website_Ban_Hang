@@ -15,11 +15,11 @@ class Detail extends BaseView
 
         <!-- Single Page Header start -->
         <div class="container-fluid page-header py-5">
-            <h1 class="text-center text-white display-6">Shop Detail</h1>
-            <ol class="breadcrumb justify-content-center mb-0">
-                <li class="breadcrumb-item"><a href="#">Home</a></li>
-                <li class="breadcrumb-item"><a href="#">Pages</a></li>
-                <li class="breadcrumb-item active text-white">Shop Detail</li>
+            <h1 class="text-center text-white display-6">Chi tiết sản phẩm</h1>
+            <ol class="breadcrumb justify-content-center mb-0" style="background-color: transparent;">
+                <li class="breadcrumb-item"><a href="#">Trang chủ</a></li>
+                <li class="breadcrumb-item"><a href="#">Sản phẩm</a></li>
+                <li class="breadcrumb-item active text-white">Chi tiết sản phẩm</li>
             </ol>
         </div>
         <!-- Single Page Header End -->

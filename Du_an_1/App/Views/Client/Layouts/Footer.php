@@ -23,7 +23,7 @@ class Footer extends BaseView
                         </div>
                         <div class="col-lg-6">
                             <div class="position-relative mx-auto">
-                                <input class="form-control border-0 w-100 py-3 px-4 rounded-pill" type="number" placeholder="Your Email" style="height: 3.5rem;">
+                                <input class="form-control border-0 w-100 py-3 px-4 rounded-pill" type="number" placeholder="Nhập email của bạn" style="height: 3.5rem;">
                                 <button type="submit" class="btn btn-primary border-0 border-secondary py-3 px-4 position-absolute rounded-pill text-white" style="top: 0; right: 0;"><i class="fa fa-paper-plane" aria-hidden="true"></i></button>
                             </div>
                         </div>
