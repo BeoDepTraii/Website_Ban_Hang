@@ -91,7 +91,7 @@ class AuthHelper {
                     
 
             //Lưu cookie
-            setcookie('user', $user_data, time() + 3600*24*30*12, '/');
+            setcookie('user', $user_data, time() + 3600*24*30*12, '/'); 
                      
 
             //Lưu session

@@ -810,3 +810,60 @@ Stack trace:
 [07-Aug-2024 01:47:03 Asia/Ho_Chi_Minh] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Client\Layouts\Header.php:86) in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Helpers\AuthHelper.php on line 94
 [07-Aug-2024 01:49:20 Asia/Ho_Chi_Minh] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Client\Layouts\Header.php:86) in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Helpers\AuthHelper.php on line 94
 [07-Aug-2024 01:49:30 Asia/Ho_Chi_Minh] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Views\Client\Layouts\Header.php:86) in C:\Users\664VN\OneDrive\Documents\GitHub\Website_Ban_Hang\Du_an_1\App\Helpers\AuthHelper.php on line 94
+[07-Aug-2024 07:25:47 Asia/Ho_Chi_Minh] Lỗi khi xóa dữ liệu: No connection could be made because the target machine actively refused it
+[07-Aug-2024 07:25:49 Asia/Ho_Chi_Minh] Lỗi khi lấy loại sản phẩm bằng tên: No connection could be made because the target machine actively refused it
+[07-Aug-2024 07:25:49 Asia/Ho_Chi_Minh] PHP Warning:  foreach() argument must be of type array|object, bool given in D:\2024\duan1\Website_Ban_Hang\Du_an_1\App\Views\Client\Components\Category.php on line 16
+[07-Aug-2024 07:25:49 Asia/Ho_Chi_Minh] PHP Warning:  foreach() argument must be of type array|object, bool given in D:\2024\duan1\Website_Ban_Hang\Du_an_1\App\Views\Client\Components\Category.php on line 16
+[07-Aug-2024 07:26:07 Asia/Ho_Chi_Minh] Lỗi khi xóa dữ liệu: No connection could be made because the target machine actively refused it
+[07-Aug-2024 07:26:09 Asia/Ho_Chi_Minh] Lỗi khi lấy loại sản phẩm bằng tên: No connection could be made because the target machine actively refused it
+[07-Aug-2024 07:26:09 Asia/Ho_Chi_Minh] PHP Warning:  foreach() argument must be of type array|object, bool given in D:\2024\duan1\Website_Ban_Hang\Du_an_1\App\Views\Client\Components\Category.php on line 16
+[07-Aug-2024 07:26:09 Asia/Ho_Chi_Minh] PHP Warning:  foreach() argument must be of type array|object, bool given in D:\2024\duan1\Website_Ban_Hang\Du_an_1\App\Views\Client\Components\Category.php on line 16
+[07-Aug-2024 07:26:15 Asia/Ho_Chi_Minh] Lỗi khi xóa dữ liệu: No connection could be made because the target machine actively refused it
+[07-Aug-2024 07:26:17 Asia/Ho_Chi_Minh] Lỗi khi lấy loại sản phẩm bằng tên: No connection could be made because the target machine actively refused it
+[07-Aug-2024 07:26:17 Asia/Ho_Chi_Minh] PHP Warning:  foreach() argument must be of type array|object, bool given in D:\2024\duan1\Website_Ban_Hang\Du_an_1\App\Views\Client\Components\Category.php on line 16
+[07-Aug-2024 07:26:17 Asia/Ho_Chi_Minh] PHP Warning:  foreach() argument must be of type array|object, bool given in D:\2024\duan1\Website_Ban_Hang\Du_an_1\App\Views\Client\Components\Category.php on line 16
+[07-Aug-2024 07:26:43 Asia/Ho_Chi_Minh] Lỗi khi xóa dữ liệu: No connection could be made because the target machine actively refused it
+[07-Aug-2024 07:26:45 Asia/Ho_Chi_Minh] Lỗi khi lấy loại sản phẩm bằng tên: No connection could be made because the target machine actively refused it
+[07-Aug-2024 07:26:45 Asia/Ho_Chi_Minh] PHP Warning:  foreach() argument must be of type array|object, bool given in D:\2024\duan1\Website_Ban_Hang\Du_an_1\App\Views\Client\Components\Category.php on line 16
+[07-Aug-2024 07:26:45 Asia/Ho_Chi_Minh] PHP Warning:  foreach() argument must be of type array|object, bool given in D:\2024\duan1\Website_Ban_Hang\Du_an_1\App\Views\Client\Components\Category.php on line 16
+[07-Aug-2024 07:41:40 Asia/Ho_Chi_Minh] PHP Warning:  Cannot modify header information - headers already sent by (output started at D:\2024\duan1\Website_Ban_Hang\Du_an_1\App\Views\Client\Layouts\Header.php:86) in D:\2024\duan1\Website_Ban_Hang\Du_an_1\App\Helpers\AuthHelper.php on line 94
+[07-Aug-2024 07:42:13 Asia/Ho_Chi_Minh] PHP Warning:  Cannot modify header information - headers already sent by (output started at D:\2024\duan1\Website_Ban_Hang\Du_an_1\App\Views\Client\Layouts\Header.php:86) in D:\2024\duan1\Website_Ban_Hang\Du_an_1\App\Helpers\AuthHelper.php on line 94
+[07-Aug-2024 07:42:41 Asia/Ho_Chi_Minh] PHP Warning:  Cannot modify header information - headers already sent by (output started at D:\2024\duan1\Website_Ban_Hang\Du_an_1\App\Views\Client\Layouts\Header.php:86) in D:\2024\duan1\Website_Ban_Hang\Du_an_1\App\Helpers\AuthHelper.php on line 94
+[07-Aug-2024 07:49:19 Asia/Ho_Chi_Minh] PHP Warning:  Cannot modify header information - headers already sent by (output started at D:\2024\duan1\Website_Ban_Hang\Du_an_1\App\Views\Client\Layouts\Header.php:86) in D:\2024\duan1\Website_Ban_Hang\Du_an_1\App\Helpers\AuthHelper.php on line 94
+[07-Aug-2024 08:29:26 Asia/Ho_Chi_Minh] PHP Warning:  Cannot modify header information - headers already sent by (output started at D:\2024\duan1\Website_Ban_Hang\Du_an_1\App\Views\Client\Layouts\Header.php:86) in D:\2024\duan1\Website_Ban_Hang\Du_an_1\App\Helpers\AuthHelper.php on line 94
+[10-Aug-2024 08:54:58 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Call to undefined method App\Helpers\NotificationHelper::setError() in D:\2024\duan1\Website_Ban_Hang\Du_an_1\App\Controllers\Client\ContactController.php:68
+Stack trace:
+#0 D:\2024\duan1\Website_Ban_Hang\Du_an_1\App\Route.php(82): App\Controllers\Client\ContactController::send()
+#1 D:\2024\duan1\Website_Ban_Hang\Du_an_1\index.php(146): App\Route::dispatch()
+#2 {main}
+  thrown in D:\2024\duan1\Website_Ban_Hang\Du_an_1\App\Controllers\Client\ContactController.php on line 68
+[10-Aug-2024 09:33:42 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $conn in D:\2024\duan1\Website_Ban_Hang\Du_an_1\App\Controllers\Client\ContactController.php on line 33
+[10-Aug-2024 09:33:42 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in D:\2024\duan1\Website_Ban_Hang\Du_an_1\App\Controllers\Client\ContactController.php:33
+Stack trace:
+#0 D:\2024\duan1\Website_Ban_Hang\Du_an_1\App\Route.php(82): App\Controllers\Client\ContactController::send()
+#1 D:\2024\duan1\Website_Ban_Hang\Du_an_1\index.php(146): App\Route::dispatch()
+#2 {main}
+  thrown in D:\2024\duan1\Website_Ban_Hang\Du_an_1\App\Controllers\Client\ContactController.php on line 33
+[10-Aug-2024 09:50:04 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $contact in D:\2024\duan1\Website_Ban_Hang\Du_an_1\App\Controllers\Client\ContactController.php on line 37
+[10-Aug-2024 09:50:04 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Call to a member function createContact() on null in D:\2024\duan1\Website_Ban_Hang\Du_an_1\App\Controllers\Client\ContactController.php:37
+Stack trace:
+#0 D:\2024\duan1\Website_Ban_Hang\Du_an_1\App\Route.php(82): App\Controllers\Client\ContactController::send()
+#1 D:\2024\duan1\Website_Ban_Hang\Du_an_1\index.php(146): App\Route::dispatch()
+#2 {main}
+  thrown in D:\2024\duan1\Website_Ban_Hang\Du_an_1\App\Controllers\Client\ContactController.php on line 37
+[10-Aug-2024 09:50:12 Asia/Ho_Chi_Minh] PHP Warning:  Undefined variable $contact in D:\2024\duan1\Website_Ban_Hang\Du_an_1\App\Controllers\Client\ContactController.php on line 37
+[10-Aug-2024 09:50:12 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Call to a member function createContact() on null in D:\2024\duan1\Website_Ban_Hang\Du_an_1\App\Controllers\Client\ContactController.php:37
+Stack trace:
+#0 D:\2024\duan1\Website_Ban_Hang\Du_an_1\App\Route.php(82): App\Controllers\Client\ContactController::send()
+#1 D:\2024\duan1\Website_Ban_Hang\Du_an_1\index.php(146): App\Route::dispatch()
+#2 {main}
+  thrown in D:\2024\duan1\Website_Ban_Hang\Du_an_1\App\Controllers\Client\ContactController.php on line 37
+[10-Aug-2024 09:51:03 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Class "App\Controllers\Client\Contact" not found in D:\2024\duan1\Website_Ban_Hang\Du_an_1\App\Controllers\Client\ContactController.php:31
+Stack trace:
+#0 D:\2024\duan1\Website_Ban_Hang\Du_an_1\App\Route.php(82): App\Controllers\Client\ContactController::send()
+#1 D:\2024\duan1\Website_Ban_Hang\Du_an_1\index.php(146): App\Route::dispatch()
+#2 {main}
+  thrown in D:\2024\duan1\Website_Ban_Hang\Du_an_1\App\Controllers\Client\ContactController.php on line 31
+[10-Aug-2024 09:51:33 Asia/Ho_Chi_Minh] Lỗi khi thêm dữ liệu: Unknown column 'name' in 'field list'
+[10-Aug-2024 09:53:08 Asia/Ho_Chi_Minh] Lỗi khi thêm dữ liệu: Unknown column 'name' in 'field list'
+[10-Aug-2024 09:55:25 Asia/Ho_Chi_Minh] Lỗi khi thêm dữ liệu: Unknown column 'name' in 'field list'
