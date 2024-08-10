@@ -37,17 +37,6 @@ class ContactController
         ];
         $result = $contact->createContact($data);
 
- if($result){
-    NotificationHelper::success('store', 'thành công!');
-    header('Location: /contact');
-    exit;
-}else{
-    NotificationHelper::error('store', 'thất bại!');
-    header('Location: /contact');
-    exit;
-}
-
-
         // Kiểm tra dữ liệu POST
         if (empty($name) || empty($email) || empty($message)) {
             NotificationHelper::error('form', 'Tất cả các trường là bắt buộc.');
