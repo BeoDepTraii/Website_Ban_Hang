@@ -14,7 +14,7 @@ class Footer extends BaseView
                 <!-- footer -->
                 <!-- ============================================================== -->
                 <footer class="footer text-center">
-                        Copyright &copy; by Chihihi
+                        Copyright &copy; by NMC Store
                 </footer>
                 <!-- ============================================================== -->
                 <!-- End footer -->

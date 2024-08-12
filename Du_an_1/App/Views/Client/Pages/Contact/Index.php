@@ -35,17 +35,20 @@ class Index extends BaseView
                         <div class="col-lg-12">
                             <div class="h-100 rounded">
                                 <iframe class="rounded w-100" 
-                                style="height: 400px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387191.33750346623!2d-73.97968099999999!3d40.6974881!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sbd!4v1694259649153!5m2!1sen!2sbd" 
+                                style="height: 400px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3603.293003820271!2d105.75558925338848!3d9.982228404443031!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31a08906415c355f%3A0x416815a99ebd841e!2zVHLGsOG7nW5nIENhbyDEkeG6s25nIEZQVCBQb2x5dGVjaG5pYw!5e0!3m2!1svi!2s!4v1723400196557!5m2!1svi!2s" 
                                 loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                             </div>
+                            
                         </div>
                         <div class="col-lg-7">
-                            <form action="" class="">
-                                <input type="text" class="w-100 form-control border-0 py-3 mb-4" placeholder="Tên liên hệ">
-                                <input type="email" class="w-100 form-control border-0 py-3 mb-4" placeholder="Địa chỉ email">
-                                <textarea class="w-100 form-control border-0 mb-4" rows="5" cols="10" placeholder="Lời nhắn"></textarea>
-                                <button class="w-100 btn form-control border-secondary py-3 bg-white text-primary " type="submit">GỬI</button>
-                            </form>
+                        <form action="/contact/send" method="POST" class="">
+                        <input type="hidden" name="method" id="" value="POST">
+                            <input type="text" id="name" name="name" class="w-100 form-control border-0 py-3 mb-4" placeholder="Tên liên hệ" required>
+                            <input type="email" id="email" name="email" class="w-100 form-control border-0 py-3 mb-4" placeholder="Email liên hệ" required>
+                            <textarea name="message" id="message" class="w-100 form-control border-0 mb-4" rows="5" cols="10" placeholder="Lời nhắn" required></textarea>
+                            <button class="w-100 btn form-control border-secondary bg-white text-primary" type="submit" style="font-size: larger; font-weight: bolder;"><i class="fa fa-paper-plane" aria-hidden="true"></i></button>
+                        </form>
+
                         </div>
                         <div class="col-lg-5">
                             <div class="d-flex p-4 rounded mb-4 bg-white">

@@ -67,24 +67,11 @@ class Header extends BaseView
                                 <!-- Logo text -->
                                 <span class="logo-text">
                                     <!-- dark Logo text -->
-                                    <img src="<?= APP_URL ?>/public/assets/admin/images/logo-text.png" alt="homepage" class="light-logo" />
+                                    <!-- <img src="<?= APP_URL ?>/public/assets/admin/images/logo-text.png" alt="homepage" class="light-logo" /> -->
+                                    <h3 style="padding-top: 0.7rem;" alt="homepage">NMC Store</h3>
 
                                 </span>
-                                <!-- Logo icon -->
-                                <!-- <b class="logo-icon"> -->
-                                <!--You can put here icon as well // <i class="wi wi-sunset"></i> //-->
-                                <!-- Dark Logo icon -->
-                                <!-- <img src="<?= APP_URL ?>/public/assets/admin/images/logo-text.png" alt="homepage" class="light-logo" /> -->
-
-                                <!-- </b> -->
-                                <!--End Logo icon -->
                             </a>
-                            <!-- ============================================================== -->
-                            <!-- End Logo -->
-                            <!-- ============================================================== -->
-                            <!-- ============================================================== -->
-                            <!-- Toggle which is visible on mobile only -->
-                            <!-- ============================================================== -->
                             <a class="nav-toggler waves-effect waves-light d-block d-md-none" href="javascript:void(0)"><i class="ti-menu ti-close"></i></a>
                         </div>
                         <!-- ============================================================== -->
@@ -98,13 +85,7 @@ class Header extends BaseView
                                 <li class="nav-item d-none d-lg-block"><a class="nav-link sidebartoggler waves-effect waves-light" href="javascript:void(0)" data-sidebartype="mini-sidebar"><i class="mdi mdi-menu font-24"></i></a></li>
                                 <!-- ============================================================== -->
                             </ul>
-                            <!-- ============================================================== -->
-                            <!-- Right side toggle and nav items -->
-                            <!-- ============================================================== -->
-                            <ul class="navbar-nav float-end">                
-                                <!-- ============================================================== -->
-                                <!-- User profile and search -->
-                                <!-- ============================================================== -->
+                            <ul class="navbar-nav float-end">
                                 <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle text-muted waves-effect waves-dark pro-pic" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                         <img src="<?= APP_URL ?>/public/assets/admin/images/users/1.jpg" alt="user" class="rounded-circle" width="31">
@@ -114,19 +95,10 @@ class Header extends BaseView
                                         <a class="dropdown-item" href="/logout"><i class="fa fa-power-off me-1 ms-1"></i> Đăng xuất</a>
                                     </ul>
                                 </li>
-                                <!-- ============================================================== -->
-                                <!-- User profile and search -->
-                                <!-- ============================================================== -->
                             </ul>
                         </div>
                     </nav>
                 </header>
-                <!-- ============================================================== -->
-                <!-- End Topbar header -->
-                <!-- ============================================================== -->
-                <!-- ============================================================== -->
-                <!-- Left Sidebar - style you can find in sidebar.scss  -->
-                <!-- ============================================================== -->
                 <aside class="left-sidebar" data-sidebarbg="skin5">
                     <!-- Sidebar scroll-->
                     <div class="scroll-sidebar">
@@ -176,26 +148,22 @@ class Header extends BaseView
                                     </ul>
                                 </li>
                                 <li class="sidebar-item">
+                                    <a class="sidebar-link has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false"><i class="mdi mdi-receipt"></i><span class="hide-menu">Liên hệ </span></a>
+                                    <ul aria-expanded="false" class="collapse  first-level">
+                                        <li class="sidebar-item">
+                                            <a href="/admin/contacts" class="sidebar-link"><i class="mdi mdi-note-outline"></i><span class="hide-menu"> Danh sách </span></a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="sidebar-item">
                                             <a href="/" class="sidebar-link"><i class="mdi mdi-note-outline"></i><span class="hide-menu"> Trở Lại Website </span></a>
                                 </li>
 
-                                <li class="sidebar-item p-3">
-                                    <a href="https://github.com/wrappixel/matrix-admin-lite" target="_blank" class="w-100 btn btn-cyan d-flex align-items-center text-white"><i class="mdi mdi-cloud-download font-20 me-2"></i>Theme</a>
-                                </li>
                             </ul>
                         </nav>
-                        <!-- End Sidebar navigation -->
                     </div>
-                    <!-- End Sidebar scroll-->
                 </aside>
-                <!-- ============================================================== -->
-                <!-- End Left Sidebar - style you can find in sidebar.scss  -->
-                <!-- ============================================================== -->
-                <!-- ============================================================== -->
-
         <?php
-
     }
 }
-
-        ?>
+?>

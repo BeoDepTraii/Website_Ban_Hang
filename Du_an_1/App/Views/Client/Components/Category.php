@@ -20,4 +20,19 @@ class Category extends BaseView
 
 <?php
     }
+
+    public static function filter($data = null)
+    {
+?>
+                  
+                    <?php
+            foreach ($data as $item) :
+            ?>
+                <option value="/products/categories/<?= $item['id'] ?>"><?= $item['name'] ?></option>
+            <?php
+            endforeach;
+            ?>
+
+<?php
+    }
 }

@@ -51,7 +51,7 @@ class Detail extends BaseView
                     <h6>Số Lượt Xem: <?= $data ['product']['view']?> </h6>
                     <h5>Danh mục: <?= $data ['product']['category_name']?></h5>
 
-                    <form action="#" method="post">
+                    <form action="/cart/add" method="post">
                         <input type="hidden" name="method" id="" value="POST">
                         <input type="hidden" name="id" id="" value="<?= $data['product']['id'] ?>" required>
                         <button type="submit" class="btn btn-sm btn-outline-success">Thêm vào giỏ hàng</button>

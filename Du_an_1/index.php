@@ -30,6 +30,8 @@ Route::get('/products/categories/{id}', 'App\Controllers\Client\ProductControlle
 Route::get('/products/categories/{id}', 'App\Controllers\Client\ProductController@getProductByCategory');
 
 Route::get('/contact', 'App\Controllers\Client\ContactController@index');
+Route::post('/contact/send', 'App\Controllers\Client\ContactController@send');
+
 
 Route::get('/cart', 'App\Controllers\Client\CartController@index');
 Route::post('/cart/add', 'App\Controllers\Client\CartController@addProduct');
@@ -151,5 +153,13 @@ Route::put('/admin/comments/{id}', 'App\Controllers\Admin\CommentController@upda
 // DELETE /comment/{id} (delete bình luận với id cụ thể)
 Route::delete('/admin/comments/{id}', 'App\Controllers\Admin\CommentController@delete');
 
+
+
+//  *** Contact
+// GET /contacts (lấy danh sách người dùng)
+Route::get('/admin/contacts', 'App\Controllers\Admin\ContactController@index');
+
+// DELETE /contacts/{id} (delete người dùng với id cụ thể)
+Route::delete('/admin/contacts/{id}', 'App\Controllers\Admin\ContactController@delete');
 
 Route::dispatch($_SERVER['REQUEST_URI']);

@@ -18,7 +18,7 @@ class Footer extends BaseView
                         <div class="col-lg-3">
                             <a href="#">
                                 <h1 class="text-primary mb-0">NMC Store</h1>
-                                <p class="text-secondary mb-0">Sản phẩm công nghệ</p>
+                                <p class="text-secondary mb-0">Trái cây tươi sạch</p>
                             </a>
                         </div>
                         <div class="col-lg-6">

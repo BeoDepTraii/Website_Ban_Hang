@@ -122,7 +122,7 @@ class Index extends BaseView
                     </div>
                 </form>
                 <?php else : ?>
-                <p style="text-align:center;">Giỏ hàng của bạn đang trống.</p>
+                <p class="text-danger" style="text-align:center; font-weight: bolder;">Giỏ hàng của bạn đang trống.</p>
                 <?php endif; ?>
             </div>
         </div>

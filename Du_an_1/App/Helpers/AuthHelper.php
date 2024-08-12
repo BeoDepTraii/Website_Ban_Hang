@@ -82,6 +82,7 @@ class AuthHelper {
 
     //Cập nhật cookie
     public static function updateCookie(int $id){
+        ob_start();
         $user=new User();
         $result=$user->getOneUser($id);
 
@@ -91,11 +92,11 @@ class AuthHelper {
                     
 
             //Lưu cookie
-            setcookie('user', $user_data, time() + 3600*24*30*12, '/');
+            setcookie('user', $user_data, time() + 3600*24*30*12, '/'); 
                      
 
             //Lưu session
-            $_SESSION['user']=$result;
+            $_SESSION['user'] = $result;
         }
     }
 

@@ -143,7 +143,7 @@ class Home extends BaseView
                             foreach ($data['products'] as $item) :
                             ?>
                             <!-- Product -->
-                            <div class="col-md-6 col-lg-6 col-xl-4">
+                            <div class="col-md-6 col-lg-6 col-xl-4" style="padding-bottom: 1rem;">
                                         <div class="rounded position-relative fruite-item">
                                             <div class="fruite-img">
                                             <img src="<?= APP_URL ?>/public/uploads/products/<?= $item['image'] ?>" class="img-fluid w-100 rounded-top" alt=""  data-holder-rendered="true">
@@ -173,7 +173,7 @@ class Home extends BaseView
                                             <div class="d-flex justify-content-between align-items-center">
                                                 <div class="btn-group">
                                                     <a href="/products/<?= $item['id'] ?>" type="button" class="btn btn-sm btn-outline-info rounded-pill">Chi tiết</a>
-                                                    <form action="/cart/add" method="post">
+                                                    <form action="/cart/add" method="post" style="padding-left: 1rem;">
                                                         <input type="hidden" name="method" id="" value="POST">
                                                         <input type="hidden" name="id" id="" value="<?= $item['id'] ?>" required>
                                                         <button type="submit" class="btn border border-secondary rounded-pill px-3 text-primary"><i class="fa fa-shopping-bag me-2 text-primary"></i>Thêm vào giỏ</button>
